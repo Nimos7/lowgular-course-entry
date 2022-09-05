@@ -15,6 +15,5 @@ export class EmployeeListComponent {
   data$: Observable<EmployeeModel[] | null> = this._httpClient.get<EmployeeModel[]>('assets/data/employees.json') ;
   data = [{ name: 'Paweł '}, {name: 'Michał'}] ;
   constructor(private _httpClient: HttpClient) {
-
   }
 }
