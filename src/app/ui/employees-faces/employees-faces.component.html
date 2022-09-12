@@ -2,7 +2,7 @@
 <ul *ngIf="data$ |async as data;">
   <li style="display: inline-block" *ngFor="let employee of data">
 
-    <img [src]="employee.image" width="400" height="450" >
+    <img [src]="employee.img" width="400" height="450" >
     <br>
     {{employee.name}}
 

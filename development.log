@@ -1760,3 +1760,611 @@
 	"level": "info",
 	"message": "[API] Response ok: injectable/inject"
 }
+[info] [API] Request for entity/actions: {
+	"action": "entity/actions",
+	"params": {
+		"clickedPath": "F:/lowgular tutorial/lowgular-course-entry/src/app/services/employee.service.ts",
+		"position": 324
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "F:/lowgular tutorial/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "CFQOJrafPJXVQIF624zHxyGs0Mo2",
+			"correlationId": "xhozB0lWBj",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for entity/actions"
+}
+[info] [CLI] Calling Query entity/actions: {
+	"funcParams": {
+		"clickedPath": "F:/lowgular tutorial/lowgular-course-entry/src/app/services/employee.service.ts",
+		"position": 324
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query entity/actions"
+}
+[info] [CLI] Called Query entity/actions: {
+	"result": [
+		{
+			"id": "ADD_RXJS",
+			"label": "Add RxJS",
+			"context": {
+				"parentMethod": "getAll"
+			}
+		},
+		{
+			"id": "ADD_METHOD",
+			"label": "Add method",
+			"context": {}
+		},
+		{
+			"id": "INJECT",
+			"label": "Inject",
+			"context": {}
+		}
+	],
+	"level": "info",
+	"message": "[CLI] Called Query entity/actions"
+}
+[info] [API] Response ok: entity/actions: {
+	"result": [
+		{
+			"id": "ADD_RXJS",
+			"label": "Add RxJS",
+			"context": {
+				"parentMethod": "getAll"
+			}
+		},
+		{
+			"id": "ADD_METHOD",
+			"label": "Add method",
+			"context": {}
+		},
+		{
+			"id": "INJECT",
+			"label": "Inject",
+			"context": {}
+		}
+	],
+	"level": "info",
+	"message": "[API] Response ok: entity/actions"
+}
+[info] [API] Request for injectable/list: {
+	"action": "injectable/list",
+	"params": {
+		"entityFilePath": "F:/lowgular tutorial/lowgular-course-entry/src/app/services/employee.service.ts"
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "F:/lowgular tutorial/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "CFQOJrafPJXVQIF624zHxyGs0Mo2",
+			"correlationId": "xhozB0lWBj",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for injectable/list"
+}
+[info] [CLI] Calling Query injectable/list: {
+	"funcParams": {
+		"entityFilePath": "F:/lowgular tutorial/lowgular-course-entry/src/app/services/employee.service.ts"
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query injectable/list"
+}
+[info] [CLI] Called Query injectable/list: {
+	"result": [
+		{
+			"id": "httpClient",
+			"dataType": "External",
+			"name": "HttpClient",
+			"relatedTypes": {}
+		}
+	],
+	"level": "info",
+	"message": "[CLI] Called Query injectable/list"
+}
+[info] [API] Response ok: injectable/list: {
+	"result": [
+		{
+			"id": "httpClient",
+			"dataType": "External",
+			"name": "HttpClient",
+			"relatedTypes": {}
+		}
+	],
+	"level": "info",
+	"message": "[API] Response ok: injectable/list"
+}
+[info] [API] Request for entity/actions: {
+	"action": "entity/actions",
+	"params": {
+		"clickedPath": "F:/lowgular tutorial/lowgular-course-entry/src/app/ui/employees-faces/employees-faces.component.ts",
+		"position": 674
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "F:/lowgular tutorial/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "CFQOJrafPJXVQIF624zHxyGs0Mo2",
+			"correlationId": "znwyHTlSj7",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for entity/actions"
+}
+[info] [CLI] Calling Query entity/actions: {
+	"funcParams": {
+		"clickedPath": "F:/lowgular tutorial/lowgular-course-entry/src/app/ui/employees-faces/employees-faces.component.ts",
+		"position": 674
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query entity/actions"
+}
+[info] [CLI] Called Query entity/actions: {
+	"result": [
+		{
+			"id": "INJECT",
+			"label": "Inject",
+			"context": {}
+		}
+	],
+	"level": "info",
+	"message": "[CLI] Called Query entity/actions"
+}
+[info] [API] Response ok: entity/actions: {
+	"result": [
+		{
+			"id": "INJECT",
+			"label": "Inject",
+			"context": {}
+		}
+	],
+	"level": "info",
+	"message": "[API] Response ok: entity/actions"
+}
+[info] [API] Request for injectable/list: {
+	"action": "injectable/list",
+	"params": {
+		"entityFilePath": "F:/lowgular tutorial/lowgular-course-entry/src/app/ui/employees-faces/employees-faces.component.ts"
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "F:/lowgular tutorial/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "CFQOJrafPJXVQIF624zHxyGs0Mo2",
+			"correlationId": "znwyHTlSj7",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for injectable/list"
+}
+[info] [CLI] Calling Query injectable/list: {
+	"funcParams": {
+		"entityFilePath": "F:/lowgular tutorial/lowgular-course-entry/src/app/ui/employees-faces/employees-faces.component.ts"
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query injectable/list"
+}
+[info] [CLI] Called Query injectable/list: {
+	"result": [
+		{
+			"id": "httpClient",
+			"dataType": "External",
+			"name": "HttpClient",
+			"relatedTypes": {}
+		}
+	],
+	"level": "info",
+	"message": "[CLI] Called Query injectable/list"
+}
+[info] [API] Response ok: injectable/list: {
+	"result": [
+		{
+			"id": "httpClient",
+			"dataType": "External",
+			"name": "HttpClient",
+			"relatedTypes": {}
+		}
+	],
+	"level": "info",
+	"message": "[API] Response ok: injectable/list"
+}
+[info] [API] Request for projects/list: {
+	"action": "projects/list",
+	"params": {
+		"clickedPath": "F:/lowgular tutorial/lowgular-course-entry/src/app/ui/employee-list"
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "F:/lowgular tutorial/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "CFQOJrafPJXVQIF624zHxyGs0Mo2",
+			"correlationId": "V5NS_634jx",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for projects/list"
+}
+[info] [CLI] Calling Query projects/list: {
+	"funcParams": {
+		"clickedPath": "F:/lowgular tutorial/lowgular-course-entry/src/app/ui/employee-list"
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query projects/list"
+}
+[info] [CLI] Called Query projects/list: {
+	"result": {
+		"clickedProject": {
+			"name": "lowgular-course-entry",
+			"path": "F:/lowgular tutorial/lowgular-course-entry/src/app"
+		},
+		"otherProjects": []
+	},
+	"level": "info",
+	"message": "[CLI] Called Query projects/list"
+}
+[info] [API] Response ok: projects/list: {
+	"result": {
+		"clickedProject": {
+			"name": "lowgular-course-entry",
+			"path": "F:/lowgular tutorial/lowgular-course-entry/src/app"
+		},
+		"otherProjects": []
+	},
+	"level": "info",
+	"message": "[API] Response ok: projects/list"
+}
+[info] [API] Request for entity/list: {
+	"action": "entity/list",
+	"params": {
+		"clickedPath": "F:/lowgular tutorial/lowgular-course-entry/src/app"
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "F:/lowgular tutorial/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "CFQOJrafPJXVQIF624zHxyGs0Mo2",
+			"correlationId": "V5NS_634jx",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for entity/list"
+}
+[info] [CLI] Calling Query entity/list: {
+	"funcParams": {
+		"clickedPath": "F:/lowgular tutorial/lowgular-course-entry/src/app"
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query entity/list"
+}
+[info] [CLI] Called Query entity/list: {
+	"result": [
+		{
+			"id": "component",
+			"type": "ANGULAR_COMPONENT",
+			"suffix": "Component",
+			"folder": "ui/$name$",
+			"insideOf": "App",
+			"config": {
+				"stylesExtension": "none",
+				"viewEncapsulation": "Emulated",
+				"selector": "generated",
+				"changeDetectionStrategy": "OnPush"
+			}
+		},
+		{
+			"id": "dataService",
+			"type": "SERVICE",
+			"suffix": "Service",
+			"folder": "services",
+			"insideOf": "App"
+		},
+		{
+			"id": "model",
+			"type": "DATA_STRUCTURE",
+			"suffix": "Model",
+			"folder": "model",
+			"insideOf": "App"
+		},
+		{
+			"id": "response",
+			"type": "DATA_STRUCTURE",
+			"suffix": "Response",
+			"folder": "services",
+			"insideOf": "App"
+		}
+	],
+	"level": "info",
+	"message": "[CLI] Called Query entity/list"
+}
+[info] [API] Response ok: entity/list: {
+	"result": [
+		{
+			"id": "component",
+			"type": "ANGULAR_COMPONENT",
+			"suffix": "Component",
+			"folder": "ui/$name$",
+			"insideOf": "App",
+			"config": {
+				"stylesExtension": "none",
+				"viewEncapsulation": "Emulated",
+				"selector": "generated",
+				"changeDetectionStrategy": "OnPush"
+			}
+		},
+		{
+			"id": "dataService",
+			"type": "SERVICE",
+			"suffix": "Service",
+			"folder": "services",
+			"insideOf": "App"
+		},
+		{
+			"id": "model",
+			"type": "DATA_STRUCTURE",
+			"suffix": "Model",
+			"folder": "model",
+			"insideOf": "App"
+		},
+		{
+			"id": "response",
+			"type": "DATA_STRUCTURE",
+			"suffix": "Response",
+			"folder": "services",
+			"insideOf": "App"
+		}
+	],
+	"level": "info",
+	"message": "[API] Response ok: entity/list"
+}
+[info] [API] Request for projects/list: {
+	"action": "projects/list",
+	"params": {
+		"clickedPath": "F:/lowgular tutorial/lowgular-course-entry/src/app/model"
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "F:/lowgular tutorial/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "CFQOJrafPJXVQIF624zHxyGs0Mo2",
+			"correlationId": "1z5yayGLq1",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for projects/list"
+}
+[info] [CLI] Calling Query projects/list: {
+	"funcParams": {
+		"clickedPath": "F:/lowgular tutorial/lowgular-course-entry/src/app/model"
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query projects/list"
+}
+[info] [CLI] Called Query projects/list: {
+	"result": {
+		"clickedProject": {
+			"name": "lowgular-course-entry",
+			"path": "F:/lowgular tutorial/lowgular-course-entry/src/app"
+		},
+		"otherProjects": []
+	},
+	"level": "info",
+	"message": "[CLI] Called Query projects/list"
+}
+[info] [API] Response ok: projects/list: {
+	"result": {
+		"clickedProject": {
+			"name": "lowgular-course-entry",
+			"path": "F:/lowgular tutorial/lowgular-course-entry/src/app"
+		},
+		"otherProjects": []
+	},
+	"level": "info",
+	"message": "[API] Response ok: projects/list"
+}
+[info] [API] Request for entity/list: {
+	"action": "entity/list",
+	"params": {
+		"clickedPath": "F:/lowgular tutorial/lowgular-course-entry/src/app"
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "F:/lowgular tutorial/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "CFQOJrafPJXVQIF624zHxyGs0Mo2",
+			"correlationId": "1z5yayGLq1",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for entity/list"
+}
+[info] [CLI] Calling Query entity/list: {
+	"funcParams": {
+		"clickedPath": "F:/lowgular tutorial/lowgular-course-entry/src/app"
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query entity/list"
+}
+[info] [CLI] Called Query entity/list: {
+	"result": [
+		{
+			"id": "component",
+			"type": "ANGULAR_COMPONENT",
+			"suffix": "Component",
+			"folder": "ui/$name$",
+			"insideOf": "App",
+			"config": {
+				"stylesExtension": "none",
+				"viewEncapsulation": "Emulated",
+				"selector": "generated",
+				"changeDetectionStrategy": "OnPush"
+			}
+		},
+		{
+			"id": "dataService",
+			"type": "SERVICE",
+			"suffix": "Service",
+			"folder": "services",
+			"insideOf": "App"
+		},
+		{
+			"id": "model",
+			"type": "DATA_STRUCTURE",
+			"suffix": "Model",
+			"folder": "model",
+			"insideOf": "App"
+		},
+		{
+			"id": "response",
+			"type": "DATA_STRUCTURE",
+			"suffix": "Response",
+			"folder": "services",
+			"insideOf": "App"
+		}
+	],
+	"level": "info",
+	"message": "[CLI] Called Query entity/list"
+}
+[info] [API] Response ok: entity/list: {
+	"result": [
+		{
+			"id": "component",
+			"type": "ANGULAR_COMPONENT",
+			"suffix": "Component",
+			"folder": "ui/$name$",
+			"insideOf": "App",
+			"config": {
+				"stylesExtension": "none",
+				"viewEncapsulation": "Emulated",
+				"selector": "generated",
+				"changeDetectionStrategy": "OnPush"
+			}
+		},
+		{
+			"id": "dataService",
+			"type": "SERVICE",
+			"suffix": "Service",
+			"folder": "services",
+			"insideOf": "App"
+		},
+		{
+			"id": "model",
+			"type": "DATA_STRUCTURE",
+			"suffix": "Model",
+			"folder": "model",
+			"insideOf": "App"
+		},
+		{
+			"id": "response",
+			"type": "DATA_STRUCTURE",
+			"suffix": "Response",
+			"folder": "services",
+			"insideOf": "App"
+		}
+	],
+	"level": "info",
+	"message": "[API] Response ok: entity/list"
+}
+[info] [API] Request for data-structure/create: {
+	"action": "data-structure/create",
+	"params": {
+		"name": "Person",
+		"clickedPath": "F:/lowgular tutorial/lowgular-course-entry/src/app/model",
+		"entityId": "model",
+		"properties": {
+			"personalNumber": "string",
+			"name": "string",
+			"mail": "string",
+			"img": "string"
+		}
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "F:/lowgular tutorial/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "CFQOJrafPJXVQIF624zHxyGs0Mo2",
+			"correlationId": "1z5yayGLq1",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for data-structure/create"
+}
+[info] [CLI] Calling Command data-structure/create: {
+	"funcParams": {
+		"name": "Person",
+		"clickedPath": "F:/lowgular tutorial/lowgular-course-entry/src/app/model",
+		"entityId": "model",
+		"properties": {
+			"personalNumber": "string",
+			"name": "string",
+			"mail": "string",
+			"img": "string"
+		}
+	},
+	"level": "info",
+	"message": "[CLI] Calling Command data-structure/create"
+}
+[info] [CommandBus]: Dispatching command CREATE_DATA_STRUCTURE: {
+	"commandName": "CREATE_DATA_STRUCTURE",
+	"payload": {
+		"folderPath": "F:/lowgular tutorial/lowgular-course-entry/src/app/model",
+		"name": "Person",
+		"suffix": "Model",
+		"properties": {
+			"personalNumber": "string",
+			"name": "string",
+			"mail": "string",
+			"img": "string"
+		}
+	},
+	"level": "info",
+	"message": "[CommandBus]: Dispatching command CREATE_DATA_STRUCTURE"
+}
+[info] [CommandBus]: Handled  CREATE_DATA_STRUCTURE: {
+	"commandName": "CREATE_DATA_STRUCTURE",
+	"payload": {
+		"folderPath": "F:/lowgular tutorial/lowgular-course-entry/src/app/model",
+		"name": "Person",
+		"suffix": "Model",
+		"properties": {
+			"personalNumber": "string",
+			"name": "string",
+			"mail": "string",
+			"img": "string"
+		}
+	},
+	"level": "info",
+	"message": "[CommandBus]: Handled  CREATE_DATA_STRUCTURE"
+}
+[info] [CLI] Called Command data-structure/create: {
+	"message": "[CLI] Called Command data-structure/create",
+	"level": "info"
+}
+[info] [API] Response ok: data-structure/create: {
+	"result": {
+		"filePath": "F:/lowgular tutorial/lowgular-course-entry/src/app/model/person.model.ts"
+	},
+	"level": "info",
+	"message": "[API] Response ok: data-structure/create"
+}
