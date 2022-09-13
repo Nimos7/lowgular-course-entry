@@ -2368,3 +2368,5698 @@
 	"level": "info",
 	"message": "[API] Response ok: data-structure/create"
 }
+[info] [API] Request for projects/list: {
+	"action": "projects/list",
+	"params": {
+		"clickedPath": "F:/lowgular tutorial/lowgular-course-entry/src/app/model"
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "F:/lowgular tutorial/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "CFQOJrafPJXVQIF624zHxyGs0Mo2",
+			"correlationId": "Yke-BGd49R",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for projects/list"
+}
+[info] [CLI] Calling Query projects/list: {
+	"funcParams": {
+		"clickedPath": "F:/lowgular tutorial/lowgular-course-entry/src/app/model"
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query projects/list"
+}
+[info] [CLI] Called Query projects/list: {
+	"result": {
+		"clickedProject": {
+			"name": "lowgular-course-entry",
+			"path": "F:/lowgular tutorial/lowgular-course-entry/src/app"
+		},
+		"otherProjects": []
+	},
+	"level": "info",
+	"message": "[CLI] Called Query projects/list"
+}
+[info] [API] Response ok: projects/list: {
+	"result": {
+		"clickedProject": {
+			"name": "lowgular-course-entry",
+			"path": "F:/lowgular tutorial/lowgular-course-entry/src/app"
+		},
+		"otherProjects": []
+	},
+	"level": "info",
+	"message": "[API] Response ok: projects/list"
+}
+[info] [API] Request for entity/list: {
+	"action": "entity/list",
+	"params": {
+		"clickedPath": "F:/lowgular tutorial/lowgular-course-entry/src/app"
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "F:/lowgular tutorial/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "CFQOJrafPJXVQIF624zHxyGs0Mo2",
+			"correlationId": "Yke-BGd49R",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for entity/list"
+}
+[info] [CLI] Calling Query entity/list: {
+	"funcParams": {
+		"clickedPath": "F:/lowgular tutorial/lowgular-course-entry/src/app"
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query entity/list"
+}
+[info] [CLI] Called Query entity/list: {
+	"result": [
+		{
+			"id": "component",
+			"type": "ANGULAR_COMPONENT",
+			"suffix": "Component",
+			"folder": "ui/$name$",
+			"insideOf": "App",
+			"config": {
+				"stylesExtension": "none",
+				"viewEncapsulation": "Emulated",
+				"selector": "generated",
+				"changeDetectionStrategy": "OnPush"
+			}
+		},
+		{
+			"id": "dataService",
+			"type": "SERVICE",
+			"suffix": "Service",
+			"folder": "services",
+			"insideOf": "App"
+		},
+		{
+			"id": "model",
+			"type": "DATA_STRUCTURE",
+			"suffix": "Model",
+			"folder": "model",
+			"insideOf": "App"
+		},
+		{
+			"id": "response",
+			"type": "DATA_STRUCTURE",
+			"suffix": "Response",
+			"folder": "services",
+			"insideOf": "App"
+		}
+	],
+	"level": "info",
+	"message": "[CLI] Called Query entity/list"
+}
+[info] [API] Response ok: entity/list: {
+	"result": [
+		{
+			"id": "component",
+			"type": "ANGULAR_COMPONENT",
+			"suffix": "Component",
+			"folder": "ui/$name$",
+			"insideOf": "App",
+			"config": {
+				"stylesExtension": "none",
+				"viewEncapsulation": "Emulated",
+				"selector": "generated",
+				"changeDetectionStrategy": "OnPush"
+			}
+		},
+		{
+			"id": "dataService",
+			"type": "SERVICE",
+			"suffix": "Service",
+			"folder": "services",
+			"insideOf": "App"
+		},
+		{
+			"id": "model",
+			"type": "DATA_STRUCTURE",
+			"suffix": "Model",
+			"folder": "model",
+			"insideOf": "App"
+		},
+		{
+			"id": "response",
+			"type": "DATA_STRUCTURE",
+			"suffix": "Response",
+			"folder": "services",
+			"insideOf": "App"
+		}
+	],
+	"level": "info",
+	"message": "[API] Response ok: entity/list"
+}
+[info] [API] Request for library/create: {
+	"action": "library/create",
+	"params": {
+		"name": "ProjectModel"
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "F:/lowgular tutorial/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "CFQOJrafPJXVQIF624zHxyGs0Mo2",
+			"correlationId": "ajKSZgJ-Jz",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for library/create"
+}
+[warn] [TsMorphFileAdapter]: File Not Found, creating...: {
+	"filePath": "F:/lowgular tutorial/lowgular-course-entry/projects/project-model/tsconfig.json",
+	"level": "warn",
+	"message": "[TsMorphFileAdapter]: File Not Found, creating..."
+}
+[info] [CLI] Calling Command library/create: {
+	"funcParams": {
+		"name": "ProjectModel"
+	},
+	"level": "info",
+	"message": "[CLI] Calling Command library/create"
+}
+[info] [CommandBus]: Dispatching command LIBRARY_CREATE: {
+	"commandName": "LIBRARY_CREATE",
+	"payload": {
+		"workspaceRoot": "F:/lowgular tutorial/lowgular-course-entry",
+		"libsFolder": "projects",
+		"libName": "project-model",
+		"libSubPath": "",
+		"projectConfigPath": "F:/lowgular tutorial/lowgular-course-entry/angular.json",
+		"tsConfigFile": "F:/lowgular tutorial/lowgular-course-entry/tsconfig.json"
+	},
+	"level": "info",
+	"message": "[CommandBus]: Dispatching command LIBRARY_CREATE"
+}
+[warn] [TsMorphFileAdapter]: File Not Found, creating...: {
+	"filePath": "F:/lowgular tutorial/lowgular-course-entry/projects/project-model/tsconfig.lib.json",
+	"level": "warn",
+	"message": "[TsMorphFileAdapter]: File Not Found, creating..."
+}
+[warn] [TsMorphFileAdapter]: File Not Found, creating...: {
+	"filePath": "F:/lowgular tutorial/lowgular-course-entry/projects/project-model/src/index.ts",
+	"level": "warn",
+	"message": "[TsMorphFileAdapter]: File Not Found, creating..."
+}
+[info] [CommandBus]: Handled  LIBRARY_CREATE: {
+	"commandName": "LIBRARY_CREATE",
+	"payload": {
+		"workspaceRoot": "F:/lowgular tutorial/lowgular-course-entry",
+		"libsFolder": "projects",
+		"libName": "project-model",
+		"libSubPath": "",
+		"projectConfigPath": "F:/lowgular tutorial/lowgular-course-entry/angular.json",
+		"tsConfigFile": "F:/lowgular tutorial/lowgular-course-entry/tsconfig.json"
+	},
+	"level": "info",
+	"message": "[CommandBus]: Handled  LIBRARY_CREATE"
+}
+[info] [CLI] Called Command library/create: {
+	"message": "[CLI] Called Command library/create",
+	"level": "info"
+}
+[info] [API] Response ok: library/create: {
+	"result": {
+		"filePath": "F:/lowgular tutorial/lowgular-course-entry/projects/project-model/src/index.ts"
+	},
+	"level": "info",
+	"message": "[API] Response ok: library/create"
+}
+[warn] [TsMorphFileAdapter]: File Not Found, creating...: {
+	"filePath": "F:/lowgular tutorial/lowgular-course-entry/projects/project-model/jest.config.js",
+	"level": "warn",
+	"message": "[TsMorphFileAdapter]: File Not Found, creating..."
+}
+[info] [EventBus]: Broadcasting event LIBRARY_CREATED: {
+	"type": "LIBRARY_CREATED",
+	"payload": {
+		"libraryRoot": "F:/lowgular tutorial/lowgular-course-entry/projects/project-model",
+		"publicApiFilePath": "F:/lowgular tutorial/lowgular-course-entry/projects/project-model/src/index.ts",
+		"libName": "project-model",
+		"projectConfigPath": "F:/lowgular tutorial/lowgular-course-entry/angular.json",
+		"tsConfigFile": "F:/lowgular tutorial/lowgular-course-entry/tsconfig.json",
+		"libPrefix": "lib"
+	},
+	"level": "info",
+	"message": "[EventBus]: Broadcasting event LIBRARY_CREATED"
+}
+[info] [CommandBus]: Dispatching command ADD_TEST_TARGET: {
+	"commandName": "ADD_TEST_TARGET",
+	"payload": {
+		"workspaceRoot": "F:/lowgular tutorial/lowgular-course-entry",
+		"libraryRoot": "F:/lowgular tutorial/lowgular-course-entry/projects/project-model",
+		"libraryName": "project-model",
+		"projectConfigFile": "F:/lowgular tutorial/lowgular-course-entry/angular.json"
+	},
+	"level": "info",
+	"message": "[CommandBus]: Dispatching command ADD_TEST_TARGET"
+}
+[warn] [TsMorphFileAdapter]: File Not Found, creating...: {
+	"filePath": "F:/lowgular tutorial/lowgular-course-entry/projects/project-model/tsconfig.spec.json",
+	"level": "warn",
+	"message": "[TsMorphFileAdapter]: File Not Found, creating..."
+}
+[warn] [TsMorphFileAdapter]: File Not Found, creating...: {
+	"filePath": "F:/lowgular tutorial/lowgular-course-entry/projects/project-model/src/test-setup.ts",
+	"level": "warn",
+	"message": "[TsMorphFileAdapter]: File Not Found, creating..."
+}
+[info] [EventBus]: Broadcasted LIBRARY_CREATED: {
+	"event": {
+		"libraryRoot": "F:/lowgular tutorial/lowgular-course-entry/projects/project-model",
+		"publicApiFilePath": "F:/lowgular tutorial/lowgular-course-entry/projects/project-model/src/index.ts",
+		"libName": "project-model",
+		"projectConfigPath": "F:/lowgular tutorial/lowgular-course-entry/angular.json",
+		"tsConfigFile": "F:/lowgular tutorial/lowgular-course-entry/tsconfig.json",
+		"libPrefix": "lib"
+	},
+	"level": "info",
+	"message": "[EventBus]: Broadcasted LIBRARY_CREATED"
+}
+[warn] [TsMorphFileAdapter]: File Not Found, creating...: {
+	"filePath": "F:/lowgular tutorial/lowgular-course-entry/jest.config.js",
+	"level": "warn",
+	"message": "[TsMorphFileAdapter]: File Not Found, creating..."
+}
+[info] [CommandBus]: Handled  ADD_TEST_TARGET: {
+	"commandName": "ADD_TEST_TARGET",
+	"payload": {
+		"workspaceRoot": "F:/lowgular tutorial/lowgular-course-entry",
+		"libraryRoot": "F:/lowgular tutorial/lowgular-course-entry/projects/project-model",
+		"libraryName": "project-model",
+		"projectConfigFile": "F:/lowgular tutorial/lowgular-course-entry/angular.json"
+	},
+	"level": "info",
+	"message": "[CommandBus]: Handled  ADD_TEST_TARGET"
+}
+[warn] [TsMorphFileAdapter]: File Not Found, creating...: {
+	"filePath": "F:/lowgular tutorial/lowgular-course-entry/jest.preset.js",
+	"level": "warn",
+	"message": "[TsMorphFileAdapter]: File Not Found, creating..."
+}
+[warn] [TsMorphFileAdapter]: File Not Found, creating...: {
+	"filePath": "F:/lowgular tutorial/lowgular-course-entry/.eslintrc.json",
+	"level": "warn",
+	"message": "[TsMorphFileAdapter]: File Not Found, creating..."
+}
+[warn] [TsMorphFileAdapter]: File Not Found, creating...: {
+	"filePath": "F:/lowgular tutorial/lowgular-course-entry/projects/project-model/.eslintrc.json",
+	"level": "warn",
+	"message": "[TsMorphFileAdapter]: File Not Found, creating..."
+}
+[info] [CommandBus]: Dispatching command ADD_LINT_TARGET: {
+	"commandName": "ADD_LINT_TARGET",
+	"payload": {
+		"workspaceRoot": "F:/lowgular tutorial/lowgular-course-entry",
+		"angularConfigPath": "F:/lowgular tutorial/lowgular-course-entry/angular.json",
+		"libraryRoot": "F:/lowgular tutorial/lowgular-course-entry/projects/project-model",
+		"libraryName": "project-model",
+		"libPrefix": "lib"
+	},
+	"level": "info",
+	"message": "[CommandBus]: Dispatching command ADD_LINT_TARGET"
+}
+[info] [CommandBus]: Handled  ADD_LINT_TARGET: {
+	"commandName": "ADD_LINT_TARGET",
+	"payload": {
+		"workspaceRoot": "F:/lowgular tutorial/lowgular-course-entry",
+		"angularConfigPath": "F:/lowgular tutorial/lowgular-course-entry/angular.json",
+		"libraryRoot": "F:/lowgular tutorial/lowgular-course-entry/projects/project-model",
+		"libraryName": "project-model",
+		"libPrefix": "lib"
+	},
+	"level": "info",
+	"message": "[CommandBus]: Handled  ADD_LINT_TARGET"
+}
+[info] [API] Request for projects/list: {
+	"action": "projects/list",
+	"params": {
+		"clickedPath": "F:/lowgular tutorial/lowgular-course-entry/src/app/model"
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "F:/lowgular tutorial/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "CFQOJrafPJXVQIF624zHxyGs0Mo2",
+			"correlationId": "1B5wVjZlKX",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for projects/list"
+}
+[info] [CLI] Calling Query projects/list: {
+	"funcParams": {
+		"clickedPath": "F:/lowgular tutorial/lowgular-course-entry/src/app/model"
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query projects/list"
+}
+[info] [CLI] Called Query projects/list: {
+	"result": {
+		"clickedProject": {
+			"name": "lowgular-course-entry",
+			"path": "F:/lowgular tutorial/lowgular-course-entry/src/app"
+		},
+		"otherProjects": [
+			{
+				"name": "project-model",
+				"path": "F:/lowgular tutorial/lowgular-course-entry/projects/project-model/src/lib"
+			}
+		]
+	},
+	"level": "info",
+	"message": "[CLI] Called Query projects/list"
+}
+[info] [API] Response ok: projects/list: {
+	"result": {
+		"clickedProject": {
+			"name": "lowgular-course-entry",
+			"path": "F:/lowgular tutorial/lowgular-course-entry/src/app"
+		},
+		"otherProjects": [
+			{
+				"name": "project-model",
+				"path": "F:/lowgular tutorial/lowgular-course-entry/projects/project-model/src/lib"
+			}
+		]
+	},
+	"level": "info",
+	"message": "[API] Response ok: projects/list"
+}
+[info] [API] Request for entity/list: {
+	"action": "entity/list",
+	"params": {
+		"clickedPath": "F:/lowgular tutorial/lowgular-course-entry/src/app"
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "F:/lowgular tutorial/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "CFQOJrafPJXVQIF624zHxyGs0Mo2",
+			"correlationId": "1B5wVjZlKX",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for entity/list"
+}
+[info] [CLI] Calling Query entity/list: {
+	"funcParams": {
+		"clickedPath": "F:/lowgular tutorial/lowgular-course-entry/src/app"
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query entity/list"
+}
+[info] [CLI] Called Query entity/list: {
+	"result": [
+		{
+			"id": "component",
+			"type": "ANGULAR_COMPONENT",
+			"suffix": "Component",
+			"folder": "ui/$name$",
+			"insideOf": "App",
+			"config": {
+				"stylesExtension": "none",
+				"viewEncapsulation": "Emulated",
+				"selector": "generated",
+				"changeDetectionStrategy": "OnPush"
+			}
+		},
+		{
+			"id": "dataService",
+			"type": "SERVICE",
+			"suffix": "Service",
+			"folder": "services",
+			"insideOf": "App"
+		},
+		{
+			"id": "model",
+			"type": "DATA_STRUCTURE",
+			"suffix": "Model",
+			"folder": "model",
+			"insideOf": "App"
+		},
+		{
+			"id": "response",
+			"type": "DATA_STRUCTURE",
+			"suffix": "Response",
+			"folder": "services",
+			"insideOf": "App"
+		}
+	],
+	"level": "info",
+	"message": "[CLI] Called Query entity/list"
+}
+[info] [API] Response ok: entity/list: {
+	"result": [
+		{
+			"id": "component",
+			"type": "ANGULAR_COMPONENT",
+			"suffix": "Component",
+			"folder": "ui/$name$",
+			"insideOf": "App",
+			"config": {
+				"stylesExtension": "none",
+				"viewEncapsulation": "Emulated",
+				"selector": "generated",
+				"changeDetectionStrategy": "OnPush"
+			}
+		},
+		{
+			"id": "dataService",
+			"type": "SERVICE",
+			"suffix": "Service",
+			"folder": "services",
+			"insideOf": "App"
+		},
+		{
+			"id": "model",
+			"type": "DATA_STRUCTURE",
+			"suffix": "Model",
+			"folder": "model",
+			"insideOf": "App"
+		},
+		{
+			"id": "response",
+			"type": "DATA_STRUCTURE",
+			"suffix": "Response",
+			"folder": "services",
+			"insideOf": "App"
+		}
+	],
+	"level": "info",
+	"message": "[API] Response ok: entity/list"
+}
+[info] [API] Request for data-structure/create: {
+	"action": "data-structure/create",
+	"params": {
+		"name": "ProjectModel",
+		"clickedPath": "F:/lowgular tutorial/lowgular-course-entry/src/app/model",
+		"entityId": "model",
+		"properties": {
+			"id": "number",
+			"name": "string",
+			"owner": "string",
+			"description": "string"
+		}
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "F:/lowgular tutorial/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "CFQOJrafPJXVQIF624zHxyGs0Mo2",
+			"correlationId": "1B5wVjZlKX",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for data-structure/create"
+}
+[info] [CLI] Calling Command data-structure/create: {
+	"funcParams": {
+		"name": "ProjectModel",
+		"clickedPath": "F:/lowgular tutorial/lowgular-course-entry/src/app/model",
+		"entityId": "model",
+		"properties": {
+			"id": "number",
+			"name": "string",
+			"owner": "string",
+			"description": "string"
+		}
+	},
+	"level": "info",
+	"message": "[CLI] Calling Command data-structure/create"
+}
+[info] [CommandBus]: Dispatching command CREATE_DATA_STRUCTURE: {
+	"commandName": "CREATE_DATA_STRUCTURE",
+	"payload": {
+		"folderPath": "F:/lowgular tutorial/lowgular-course-entry/src/app/model",
+		"name": "ProjectModel",
+		"suffix": "Model",
+		"properties": {
+			"id": "number",
+			"name": "string",
+			"owner": "string",
+			"description": "string"
+		}
+	},
+	"level": "info",
+	"message": "[CommandBus]: Dispatching command CREATE_DATA_STRUCTURE"
+}
+[info] [CommandBus]: Handled  CREATE_DATA_STRUCTURE: {
+	"commandName": "CREATE_DATA_STRUCTURE",
+	"payload": {
+		"folderPath": "F:/lowgular tutorial/lowgular-course-entry/src/app/model",
+		"name": "ProjectModel",
+		"suffix": "Model",
+		"properties": {
+			"id": "number",
+			"name": "string",
+			"owner": "string",
+			"description": "string"
+		}
+	},
+	"level": "info",
+	"message": "[CommandBus]: Handled  CREATE_DATA_STRUCTURE"
+}
+[info] [CLI] Called Command data-structure/create: {
+	"message": "[CLI] Called Command data-structure/create",
+	"level": "info"
+}
+[info] [API] Response ok: data-structure/create: {
+	"result": {
+		"filePath": "F:/lowgular tutorial/lowgular-course-entry/src/app/model/project.model.ts"
+	},
+	"level": "info",
+	"message": "[API] Response ok: data-structure/create"
+}
+[info] [API] Request for projects/list: {
+	"action": "projects/list",
+	"params": {
+		"clickedPath": "F:/lowgular tutorial/lowgular-course-entry/src/app/services"
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "F:/lowgular tutorial/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "CFQOJrafPJXVQIF624zHxyGs0Mo2",
+			"correlationId": "u6LQx8P1us",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for projects/list"
+}
+[info] [CLI] Calling Query projects/list: {
+	"funcParams": {
+		"clickedPath": "F:/lowgular tutorial/lowgular-course-entry/src/app/services"
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query projects/list"
+}
+[info] [CLI] Called Query projects/list: {
+	"result": {
+		"clickedProject": {
+			"name": "lowgular-course-entry",
+			"path": "F:/lowgular tutorial/lowgular-course-entry/src/app"
+		},
+		"otherProjects": [
+			{
+				"name": "project-model",
+				"path": "F:/lowgular tutorial/lowgular-course-entry/projects/project-model/src/lib"
+			}
+		]
+	},
+	"level": "info",
+	"message": "[CLI] Called Query projects/list"
+}
+[info] [API] Response ok: projects/list: {
+	"result": {
+		"clickedProject": {
+			"name": "lowgular-course-entry",
+			"path": "F:/lowgular tutorial/lowgular-course-entry/src/app"
+		},
+		"otherProjects": [
+			{
+				"name": "project-model",
+				"path": "F:/lowgular tutorial/lowgular-course-entry/projects/project-model/src/lib"
+			}
+		]
+	},
+	"level": "info",
+	"message": "[API] Response ok: projects/list"
+}
+[info] [API] Request for entity/list: {
+	"action": "entity/list",
+	"params": {
+		"clickedPath": "F:/lowgular tutorial/lowgular-course-entry/src/app"
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "F:/lowgular tutorial/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "CFQOJrafPJXVQIF624zHxyGs0Mo2",
+			"correlationId": "u6LQx8P1us",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for entity/list"
+}
+[info] [CLI] Calling Query entity/list: {
+	"funcParams": {
+		"clickedPath": "F:/lowgular tutorial/lowgular-course-entry/src/app"
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query entity/list"
+}
+[info] [CLI] Called Query entity/list: {
+	"result": [
+		{
+			"id": "component",
+			"type": "ANGULAR_COMPONENT",
+			"suffix": "Component",
+			"folder": "ui/$name$",
+			"insideOf": "App",
+			"config": {
+				"stylesExtension": "none",
+				"viewEncapsulation": "Emulated",
+				"selector": "generated",
+				"changeDetectionStrategy": "OnPush"
+			}
+		},
+		{
+			"id": "dataService",
+			"type": "SERVICE",
+			"suffix": "Service",
+			"folder": "services",
+			"insideOf": "App"
+		},
+		{
+			"id": "model",
+			"type": "DATA_STRUCTURE",
+			"suffix": "Model",
+			"folder": "model",
+			"insideOf": "App"
+		},
+		{
+			"id": "response",
+			"type": "DATA_STRUCTURE",
+			"suffix": "Response",
+			"folder": "services",
+			"insideOf": "App"
+		}
+	],
+	"level": "info",
+	"message": "[CLI] Called Query entity/list"
+}
+[info] [API] Response ok: entity/list: {
+	"result": [
+		{
+			"id": "component",
+			"type": "ANGULAR_COMPONENT",
+			"suffix": "Component",
+			"folder": "ui/$name$",
+			"insideOf": "App",
+			"config": {
+				"stylesExtension": "none",
+				"viewEncapsulation": "Emulated",
+				"selector": "generated",
+				"changeDetectionStrategy": "OnPush"
+			}
+		},
+		{
+			"id": "dataService",
+			"type": "SERVICE",
+			"suffix": "Service",
+			"folder": "services",
+			"insideOf": "App"
+		},
+		{
+			"id": "model",
+			"type": "DATA_STRUCTURE",
+			"suffix": "Model",
+			"folder": "model",
+			"insideOf": "App"
+		},
+		{
+			"id": "response",
+			"type": "DATA_STRUCTURE",
+			"suffix": "Response",
+			"folder": "services",
+			"insideOf": "App"
+		}
+	],
+	"level": "info",
+	"message": "[API] Response ok: entity/list"
+}
+[info] [API] Request for service/create: {
+	"action": "service/create",
+	"params": {
+		"name": "project",
+		"clickedPath": "F:/lowgular tutorial/lowgular-course-entry/src/app/services",
+		"entityId": "dataService"
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "F:/lowgular tutorial/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "CFQOJrafPJXVQIF624zHxyGs0Mo2",
+			"correlationId": "u6LQx8P1us",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for service/create"
+}
+[info] [CLI] Calling Command service/create: {
+	"funcParams": {
+		"name": "project",
+		"clickedPath": "F:/lowgular tutorial/lowgular-course-entry/src/app/services",
+		"entityId": "dataService"
+	},
+	"level": "info",
+	"message": "[CLI] Calling Command service/create"
+}
+[info] [CommandBus]: Dispatching command CREATE_SERVICE: {
+	"commandName": "CREATE_SERVICE",
+	"payload": {
+		"folderPath": "F:/lowgular tutorial/lowgular-course-entry/src/app/services",
+		"name": "project",
+		"suffix": "Service"
+	},
+	"level": "info",
+	"message": "[CommandBus]: Dispatching command CREATE_SERVICE"
+}
+[info] [EventBus]: Broadcasting event SERVICE_CREATED: {
+	"type": "SERVICE_CREATED",
+	"payload": {
+		"createdFile": "F:/lowgular tutorial/lowgular-course-entry/src/app/services/project.service.ts"
+	},
+	"level": "info",
+	"message": "[EventBus]: Broadcasting event SERVICE_CREATED"
+}
+[info] [CommandBus]: Dispatching command MODULE_CREATE_MODULE: {
+	"commandName": "MODULE_CREATE_MODULE",
+	"payload": {
+		"filePath": "F:/lowgular tutorial/lowgular-course-entry/src/app/services/project.service.ts"
+	},
+	"level": "info",
+	"message": "[CommandBus]: Dispatching command MODULE_CREATE_MODULE"
+}
+[info] [EventBus]: Broadcasted SERVICE_CREATED: {
+	"event": {
+		"createdFile": "F:/lowgular tutorial/lowgular-course-entry/src/app/services/project.service.ts"
+	},
+	"level": "info",
+	"message": "[EventBus]: Broadcasted SERVICE_CREATED"
+}
+[info] [EventBus]: Broadcasting event MODULE_MODULE_CREATED: {
+	"type": "MODULE_MODULE_CREATED",
+	"payload": {
+		"moduleFile": "F:/lowgular tutorial/lowgular-course-entry/src/app/services/project.service-module.ts"
+	},
+	"level": "info",
+	"message": "[EventBus]: Broadcasting event MODULE_MODULE_CREATED"
+}
+[info] [EventBus]: Broadcasted MODULE_MODULE_CREATED: {
+	"event": {
+		"moduleFile": "F:/lowgular tutorial/lowgular-course-entry/src/app/services/project.service-module.ts"
+	},
+	"level": "info",
+	"message": "[EventBus]: Broadcasted MODULE_MODULE_CREATED"
+}
+[info] [CommandBus]: Handled  MODULE_CREATE_MODULE: {
+	"commandName": "MODULE_CREATE_MODULE",
+	"payload": {
+		"filePath": "F:/lowgular tutorial/lowgular-course-entry/src/app/services/project.service.ts"
+	},
+	"level": "info",
+	"message": "[CommandBus]: Handled  MODULE_CREATE_MODULE"
+}
+[info] [CommandBus]: Handled  CREATE_SERVICE: {
+	"commandName": "CREATE_SERVICE",
+	"payload": {
+		"folderPath": "F:/lowgular tutorial/lowgular-course-entry/src/app/services",
+		"name": "project",
+		"suffix": "Service"
+	},
+	"level": "info",
+	"message": "[CommandBus]: Handled  CREATE_SERVICE"
+}
+[info] [CLI] Called Command service/create: {
+	"message": "[CLI] Called Command service/create",
+	"level": "info"
+}
+[info] [API] Response ok: service/create: {
+	"result": {
+		"filePath": "F:/lowgular tutorial/lowgular-course-entry/src/app/services/project.service.ts"
+	},
+	"level": "info",
+	"message": "[API] Response ok: service/create"
+}
+[info] [API] Request for projects/list: {
+	"action": "projects/list",
+	"params": {
+		"clickedPath": "F:/lowgular tutorial/lowgular-course-entry/src/app/ui"
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "F:/lowgular tutorial/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "CFQOJrafPJXVQIF624zHxyGs0Mo2",
+			"correlationId": "CEFA9N5ZP7",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for projects/list"
+}
+[info] [CLI] Calling Query projects/list: {
+	"funcParams": {
+		"clickedPath": "F:/lowgular tutorial/lowgular-course-entry/src/app/ui"
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query projects/list"
+}
+[info] [CLI] Called Query projects/list: {
+	"result": {
+		"clickedProject": {
+			"name": "lowgular-course-entry",
+			"path": "F:/lowgular tutorial/lowgular-course-entry/src/app"
+		},
+		"otherProjects": [
+			{
+				"name": "project-model",
+				"path": "F:/lowgular tutorial/lowgular-course-entry/projects/project-model/src/lib"
+			}
+		]
+	},
+	"level": "info",
+	"message": "[CLI] Called Query projects/list"
+}
+[info] [API] Response ok: projects/list: {
+	"result": {
+		"clickedProject": {
+			"name": "lowgular-course-entry",
+			"path": "F:/lowgular tutorial/lowgular-course-entry/src/app"
+		},
+		"otherProjects": [
+			{
+				"name": "project-model",
+				"path": "F:/lowgular tutorial/lowgular-course-entry/projects/project-model/src/lib"
+			}
+		]
+	},
+	"level": "info",
+	"message": "[API] Response ok: projects/list"
+}
+[info] [API] Request for entity/list: {
+	"action": "entity/list",
+	"params": {
+		"clickedPath": "F:/lowgular tutorial/lowgular-course-entry/src/app"
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "F:/lowgular tutorial/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "CFQOJrafPJXVQIF624zHxyGs0Mo2",
+			"correlationId": "CEFA9N5ZP7",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for entity/list"
+}
+[info] [CLI] Calling Query entity/list: {
+	"funcParams": {
+		"clickedPath": "F:/lowgular tutorial/lowgular-course-entry/src/app"
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query entity/list"
+}
+[info] [CLI] Called Query entity/list: {
+	"result": [
+		{
+			"id": "component",
+			"type": "ANGULAR_COMPONENT",
+			"suffix": "Component",
+			"folder": "ui/$name$",
+			"insideOf": "App",
+			"config": {
+				"stylesExtension": "none",
+				"viewEncapsulation": "Emulated",
+				"selector": "generated",
+				"changeDetectionStrategy": "OnPush"
+			}
+		},
+		{
+			"id": "dataService",
+			"type": "SERVICE",
+			"suffix": "Service",
+			"folder": "services",
+			"insideOf": "App"
+		},
+		{
+			"id": "model",
+			"type": "DATA_STRUCTURE",
+			"suffix": "Model",
+			"folder": "model",
+			"insideOf": "App"
+		},
+		{
+			"id": "response",
+			"type": "DATA_STRUCTURE",
+			"suffix": "Response",
+			"folder": "services",
+			"insideOf": "App"
+		}
+	],
+	"level": "info",
+	"message": "[CLI] Called Query entity/list"
+}
+[info] [API] Response ok: entity/list: {
+	"result": [
+		{
+			"id": "component",
+			"type": "ANGULAR_COMPONENT",
+			"suffix": "Component",
+			"folder": "ui/$name$",
+			"insideOf": "App",
+			"config": {
+				"stylesExtension": "none",
+				"viewEncapsulation": "Emulated",
+				"selector": "generated",
+				"changeDetectionStrategy": "OnPush"
+			}
+		},
+		{
+			"id": "dataService",
+			"type": "SERVICE",
+			"suffix": "Service",
+			"folder": "services",
+			"insideOf": "App"
+		},
+		{
+			"id": "model",
+			"type": "DATA_STRUCTURE",
+			"suffix": "Model",
+			"folder": "model",
+			"insideOf": "App"
+		},
+		{
+			"id": "response",
+			"type": "DATA_STRUCTURE",
+			"suffix": "Response",
+			"folder": "services",
+			"insideOf": "App"
+		}
+	],
+	"level": "info",
+	"message": "[API] Response ok: entity/list"
+}
+[info] [API] Request for angular-component/create: {
+	"action": "angular-component/create",
+	"params": {
+		"name": "project-list",
+		"clickedPath": "F:/lowgular tutorial/lowgular-course-entry/src/app/ui",
+		"entityId": "component"
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "F:/lowgular tutorial/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "CFQOJrafPJXVQIF624zHxyGs0Mo2",
+			"correlationId": "CEFA9N5ZP7",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for angular-component/create"
+}
+[info] [CLI] Calling Command angular-component/create: {
+	"funcParams": {
+		"name": "project-list",
+		"clickedPath": "F:/lowgular tutorial/lowgular-course-entry/src/app/ui",
+		"entityId": "component"
+	},
+	"level": "info",
+	"message": "[CLI] Calling Command angular-component/create"
+}
+[info] [CommandBus]: Dispatching command COMPONENT_CREATE_SMART_COMPONENT: {
+	"commandName": "COMPONENT_CREATE_SMART_COMPONENT",
+	"payload": {
+		"name": "project-list",
+		"prefix": "app",
+		"suffix": "Component",
+		"absoluteFolderPath": "F:/lowgular tutorial/lowgular-course-entry/src/app/ui/project-list",
+		"config": {
+			"stylesExtension": "none",
+			"viewEncapsulation": "Emulated",
+			"selector": "generated",
+			"changeDetectionStrategy": "OnPush"
+		}
+	},
+	"level": "info",
+	"message": "[CommandBus]: Dispatching command COMPONENT_CREATE_SMART_COMPONENT"
+}
+[warn] [TsMorphFileAdapter]: File Not Found, creating...: {
+	"filePath": "F:/lowgular tutorial/lowgular-course-entry/src/app/ui/project-list/project-list.component.html",
+	"level": "warn",
+	"message": "[TsMorphFileAdapter]: File Not Found, creating..."
+}
+[info] [EventBus]: Broadcasting event COMPONENT_SMART_COMPONENT_CREATED: {
+	"type": "COMPONENT_SMART_COMPONENT_CREATED",
+	"payload": {
+		"createdFile": "F:/lowgular tutorial/lowgular-course-entry/src/app/ui/project-list/project-list.component.ts"
+	},
+	"level": "info",
+	"message": "[EventBus]: Broadcasting event COMPONENT_SMART_COMPONENT_CREATED"
+}
+[info] [CommandBus]: Dispatching command CREATE_COMPONENT_MODULE: {
+	"commandName": "CREATE_COMPONENT_MODULE",
+	"payload": {
+		"moduleFilePath": "F:/lowgular tutorial/lowgular-course-entry/src/app/ui/project-list/project-list.component-module.ts"
+	},
+	"level": "info",
+	"message": "[CommandBus]: Dispatching command CREATE_COMPONENT_MODULE"
+}
+[info] [EventBus]: Broadcasted COMPONENT_SMART_COMPONENT_CREATED: {
+	"event": {
+		"createdFile": "F:/lowgular tutorial/lowgular-course-entry/src/app/ui/project-list/project-list.component.ts"
+	},
+	"level": "info",
+	"message": "[EventBus]: Broadcasted COMPONENT_SMART_COMPONENT_CREATED"
+}
+[info] [EventBus]: Broadcasting event MODULE_MODULE_CREATED: {
+	"type": "MODULE_MODULE_CREATED",
+	"payload": {
+		"moduleFile": "F:/lowgular tutorial/lowgular-course-entry/src/app/ui/project-list/project-list.component-module.ts"
+	},
+	"level": "info",
+	"message": "[EventBus]: Broadcasting event MODULE_MODULE_CREATED"
+}
+[info] [EventBus]: Broadcasted MODULE_MODULE_CREATED: {
+	"event": {
+		"moduleFile": "F:/lowgular tutorial/lowgular-course-entry/src/app/ui/project-list/project-list.component-module.ts"
+	},
+	"level": "info",
+	"message": "[EventBus]: Broadcasted MODULE_MODULE_CREATED"
+}
+[info] [CommandBus]: Handled  CREATE_COMPONENT_MODULE: {
+	"commandName": "CREATE_COMPONENT_MODULE",
+	"payload": {
+		"moduleFilePath": "F:/lowgular tutorial/lowgular-course-entry/src/app/ui/project-list/project-list.component-module.ts"
+	},
+	"level": "info",
+	"message": "[CommandBus]: Handled  CREATE_COMPONENT_MODULE"
+}
+[info] [CommandBus]: Handled  COMPONENT_CREATE_SMART_COMPONENT: {
+	"commandName": "COMPONENT_CREATE_SMART_COMPONENT",
+	"payload": {
+		"name": "project-list",
+		"prefix": "app",
+		"suffix": "Component",
+		"absoluteFolderPath": "F:/lowgular tutorial/lowgular-course-entry/src/app/ui/project-list",
+		"config": {
+			"stylesExtension": "none",
+			"viewEncapsulation": "Emulated",
+			"selector": "generated",
+			"changeDetectionStrategy": "OnPush"
+		}
+	},
+	"level": "info",
+	"message": "[CommandBus]: Handled  COMPONENT_CREATE_SMART_COMPONENT"
+}
+[info] [CLI] Called Command angular-component/create: {
+	"message": "[CLI] Called Command angular-component/create",
+	"level": "info"
+}
+[info] [API] Response ok: angular-component/create: {
+	"result": {
+		"filePath": "F:/lowgular tutorial/lowgular-course-entry/src/app/ui/project-list/project-list.component.ts"
+	},
+	"level": "info",
+	"message": "[API] Response ok: angular-component/create"
+}
+[info] [API] Request for entity/actions: {
+	"action": "entity/actions",
+	"params": {
+		"clickedPath": "F:/lowgular tutorial/lowgular-course-entry/src/app/services/project.service.ts",
+		"position": 91
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "F:/lowgular tutorial/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "CFQOJrafPJXVQIF624zHxyGs0Mo2",
+			"correlationId": "C1Mp_NvKSp",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for entity/actions"
+}
+[info] [CLI] Calling Query entity/actions: {
+	"funcParams": {
+		"clickedPath": "F:/lowgular tutorial/lowgular-course-entry/src/app/services/project.service.ts",
+		"position": 91
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query entity/actions"
+}
+[info] [CLI] Called Query entity/actions: {
+	"result": [
+		{
+			"id": "ADD_METHOD",
+			"label": "Add method",
+			"context": {}
+		},
+		{
+			"id": "INJECT",
+			"label": "Inject",
+			"context": {}
+		}
+	],
+	"level": "info",
+	"message": "[CLI] Called Query entity/actions"
+}
+[info] [API] Response ok: entity/actions: {
+	"result": [
+		{
+			"id": "ADD_METHOD",
+			"label": "Add method",
+			"context": {}
+		},
+		{
+			"id": "INJECT",
+			"label": "Inject",
+			"context": {}
+		}
+	],
+	"level": "info",
+	"message": "[API] Response ok: entity/actions"
+}
+[info] [API] Request for injectable/list: {
+	"action": "injectable/list",
+	"params": {
+		"entityFilePath": "F:/lowgular tutorial/lowgular-course-entry/src/app/services/project.service.ts"
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "F:/lowgular tutorial/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "CFQOJrafPJXVQIF624zHxyGs0Mo2",
+			"correlationId": "C1Mp_NvKSp",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for injectable/list"
+}
+[info] [CLI] Calling Query injectable/list: {
+	"funcParams": {
+		"entityFilePath": "F:/lowgular tutorial/lowgular-course-entry/src/app/services/project.service.ts"
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query injectable/list"
+}
+[info] [CLI] Called Query injectable/list: {
+	"result": [
+		{
+			"id": "httpClient",
+			"dataType": "External",
+			"name": "HttpClient",
+			"relatedTypes": {}
+		}
+	],
+	"level": "info",
+	"message": "[CLI] Called Query injectable/list"
+}
+[info] [API] Response ok: injectable/list: {
+	"result": [
+		{
+			"id": "httpClient",
+			"dataType": "External",
+			"name": "HttpClient",
+			"relatedTypes": {}
+		}
+	],
+	"level": "info",
+	"message": "[API] Response ok: injectable/list"
+}
+[info] [API] Request for injectable/inject-external: {
+	"action": "injectable/inject-external",
+	"params": {
+		"entityFilePath": "F:/lowgular tutorial/lowgular-course-entry/src/app/services/project.service.ts",
+		"externalId": "httpClient"
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "F:/lowgular tutorial/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "CFQOJrafPJXVQIF624zHxyGs0Mo2",
+			"correlationId": "C1Mp_NvKSp",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for injectable/inject-external"
+}
+[info] [CLI] Calling Command injectable/inject-external: {
+	"funcParams": {
+		"entityFilePath": "F:/lowgular tutorial/lowgular-course-entry/src/app/services/project.service.ts",
+		"externalId": "httpClient"
+	},
+	"level": "info",
+	"message": "[CLI] Calling Command injectable/inject-external"
+}
+[info] [CommandBus]: Dispatching command INJECT_EXTERNAL_DEPENDENCY: {
+	"commandName": "INJECT_EXTERNAL_DEPENDENCY",
+	"payload": {
+		"entityFilePath": "F:/lowgular tutorial/lowgular-course-entry/src/app/services/project.service.ts",
+		"externalType": "HttpClient",
+		"genericFilePaths": []
+	},
+	"level": "info",
+	"message": "[CommandBus]: Dispatching command INJECT_EXTERNAL_DEPENDENCY"
+}
+[info] [CommandBus]: Handled  INJECT_EXTERNAL_DEPENDENCY: {
+	"commandName": "INJECT_EXTERNAL_DEPENDENCY",
+	"payload": {
+		"entityFilePath": "F:/lowgular tutorial/lowgular-course-entry/src/app/services/project.service.ts",
+		"externalType": "HttpClient",
+		"genericFilePaths": []
+	},
+	"level": "info",
+	"message": "[CommandBus]: Handled  INJECT_EXTERNAL_DEPENDENCY"
+}
+[info] [CLI] Called Command injectable/inject-external: {
+	"message": "[CLI] Called Command injectable/inject-external",
+	"level": "info"
+}
+[info] [API] Response ok: injectable/inject-external: {
+	"result": {
+		"filePath": "F:/lowgular tutorial/lowgular-course-entry/src/app/services/project.service.ts"
+	},
+	"level": "info",
+	"message": "[API] Response ok: injectable/inject-external"
+}
+[info] [API] Request for entity/actions: {
+	"action": "entity/actions",
+	"params": {
+		"clickedPath": "F:/lowgular tutorial/lowgular-course-entry/src/app/services/project.service.ts",
+		"position": 188
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "F:/lowgular tutorial/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "CFQOJrafPJXVQIF624zHxyGs0Mo2",
+			"correlationId": "4ovqKfaouD",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for entity/actions"
+}
+[info] [CLI] Calling Query entity/actions: {
+	"funcParams": {
+		"clickedPath": "F:/lowgular tutorial/lowgular-course-entry/src/app/services/project.service.ts",
+		"position": 188
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query entity/actions"
+}
+[info] [CLI] Called Query entity/actions: {
+	"result": [
+		{
+			"id": "ADD_METHOD",
+			"label": "Add method",
+			"context": {}
+		},
+		{
+			"id": "INJECT",
+			"label": "Inject",
+			"context": {}
+		}
+	],
+	"level": "info",
+	"message": "[CLI] Called Query entity/actions"
+}
+[info] [API] Response ok: entity/actions: {
+	"result": [
+		{
+			"id": "ADD_METHOD",
+			"label": "Add method",
+			"context": {}
+		},
+		{
+			"id": "INJECT",
+			"label": "Inject",
+			"context": {}
+		}
+	],
+	"level": "info",
+	"message": "[API] Response ok: entity/actions"
+}
+[info] [API] Request for injectable/list: {
+	"action": "injectable/list",
+	"params": {
+		"entityFilePath": "F:/lowgular tutorial/lowgular-course-entry/src/app/services/project.service.ts"
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "F:/lowgular tutorial/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "CFQOJrafPJXVQIF624zHxyGs0Mo2",
+			"correlationId": "4ovqKfaouD",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for injectable/list"
+}
+[info] [CLI] Calling Query injectable/list: {
+	"funcParams": {
+		"entityFilePath": "F:/lowgular tutorial/lowgular-course-entry/src/app/services/project.service.ts"
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query injectable/list"
+}
+[info] [CLI] Called Query injectable/list: {
+	"result": [
+		{
+			"id": "httpClient",
+			"dataType": "External",
+			"name": "HttpClient",
+			"relatedTypes": {}
+		}
+	],
+	"level": "info",
+	"message": "[CLI] Called Query injectable/list"
+}
+[info] [API] Response ok: injectable/list: {
+	"result": [
+		{
+			"id": "httpClient",
+			"dataType": "External",
+			"name": "HttpClient",
+			"relatedTypes": {}
+		}
+	],
+	"level": "info",
+	"message": "[API] Response ok: injectable/list"
+}
+[info] [API] Request for entity/actions: {
+	"action": "entity/actions",
+	"params": {
+		"clickedPath": "F:/lowgular tutorial/lowgular-course-entry/src/app/services/project.service.ts",
+		"position": 195
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "F:/lowgular tutorial/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "CFQOJrafPJXVQIF624zHxyGs0Mo2",
+			"correlationId": "xpVY0yIA7P",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for entity/actions"
+}
+[info] [CLI] Calling Query entity/actions: {
+	"funcParams": {
+		"clickedPath": "F:/lowgular tutorial/lowgular-course-entry/src/app/services/project.service.ts",
+		"position": 195
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query entity/actions"
+}
+[info] [CLI] Called Query entity/actions: {
+	"result": [
+		{
+			"id": "ADD_METHOD",
+			"label": "Add method",
+			"context": {}
+		},
+		{
+			"id": "INJECT",
+			"label": "Inject",
+			"context": {}
+		}
+	],
+	"level": "info",
+	"message": "[CLI] Called Query entity/actions"
+}
+[info] [API] Response ok: entity/actions: {
+	"result": [
+		{
+			"id": "ADD_METHOD",
+			"label": "Add method",
+			"context": {}
+		},
+		{
+			"id": "INJECT",
+			"label": "Inject",
+			"context": {}
+		}
+	],
+	"level": "info",
+	"message": "[API] Response ok: entity/actions"
+}
+[info] [API] Request for injectable/list: {
+	"action": "injectable/list",
+	"params": {
+		"entityFilePath": "F:/lowgular tutorial/lowgular-course-entry/src/app/services/project.service.ts"
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "F:/lowgular tutorial/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "CFQOJrafPJXVQIF624zHxyGs0Mo2",
+			"correlationId": "xpVY0yIA7P",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for injectable/list"
+}
+[info] [CLI] Calling Query injectable/list: {
+	"funcParams": {
+		"entityFilePath": "F:/lowgular tutorial/lowgular-course-entry/src/app/services/project.service.ts"
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query injectable/list"
+}
+[info] [CLI] Called Query injectable/list: {
+	"result": [
+		{
+			"id": "httpClient",
+			"dataType": "External",
+			"name": "HttpClient",
+			"relatedTypes": {}
+		}
+	],
+	"level": "info",
+	"message": "[CLI] Called Query injectable/list"
+}
+[info] [API] Response ok: injectable/list: {
+	"result": [
+		{
+			"id": "httpClient",
+			"dataType": "External",
+			"name": "HttpClient",
+			"relatedTypes": {}
+		}
+	],
+	"level": "info",
+	"message": "[API] Response ok: injectable/list"
+}
+[info] [API] Request for entity/actions: {
+	"action": "entity/actions",
+	"params": {
+		"clickedPath": "F:/lowgular tutorial/lowgular-course-entry/src/app/services/employee.service.ts",
+		"position": 278
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "F:/lowgular tutorial/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "CFQOJrafPJXVQIF624zHxyGs0Mo2",
+			"correlationId": "nErAnxXXmp",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for entity/actions"
+}
+[info] [CLI] Calling Query entity/actions: {
+	"funcParams": {
+		"clickedPath": "F:/lowgular tutorial/lowgular-course-entry/src/app/services/employee.service.ts",
+		"position": 278
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query entity/actions"
+}
+[info] [CLI] Called Query entity/actions: {
+	"result": [
+		{
+			"id": "ADD_METHOD",
+			"label": "Add method",
+			"context": {}
+		},
+		{
+			"id": "INJECT",
+			"label": "Inject",
+			"context": {}
+		}
+	],
+	"level": "info",
+	"message": "[CLI] Called Query entity/actions"
+}
+[info] [API] Response ok: entity/actions: {
+	"result": [
+		{
+			"id": "ADD_METHOD",
+			"label": "Add method",
+			"context": {}
+		},
+		{
+			"id": "INJECT",
+			"label": "Inject",
+			"context": {}
+		}
+	],
+	"level": "info",
+	"message": "[API] Response ok: entity/actions"
+}
+[info] [API] Request for injectable/list: {
+	"action": "injectable/list",
+	"params": {
+		"entityFilePath": "F:/lowgular tutorial/lowgular-course-entry/src/app/services/employee.service.ts"
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "F:/lowgular tutorial/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "CFQOJrafPJXVQIF624zHxyGs0Mo2",
+			"correlationId": "nErAnxXXmp",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for injectable/list"
+}
+[info] [CLI] Calling Query injectable/list: {
+	"funcParams": {
+		"entityFilePath": "F:/lowgular tutorial/lowgular-course-entry/src/app/services/employee.service.ts"
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query injectable/list"
+}
+[info] [CLI] Called Query injectable/list: {
+	"result": [
+		{
+			"id": "httpClient",
+			"dataType": "External",
+			"name": "HttpClient",
+			"relatedTypes": {}
+		}
+	],
+	"level": "info",
+	"message": "[CLI] Called Query injectable/list"
+}
+[info] [API] Response ok: injectable/list: {
+	"result": [
+		{
+			"id": "httpClient",
+			"dataType": "External",
+			"name": "HttpClient",
+			"relatedTypes": {}
+		}
+	],
+	"level": "info",
+	"message": "[API] Response ok: injectable/list"
+}
+[info] [API] Request for entity/actions: {
+	"action": "entity/actions",
+	"params": {
+		"clickedPath": "F:/lowgular tutorial/lowgular-course-entry/src/app/services/employee.service.ts",
+		"position": 392
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "F:/lowgular tutorial/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "CFQOJrafPJXVQIF624zHxyGs0Mo2",
+			"correlationId": "fEcWQ6ezYG",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for entity/actions"
+}
+[info] [CLI] Calling Query entity/actions: {
+	"funcParams": {
+		"clickedPath": "F:/lowgular tutorial/lowgular-course-entry/src/app/services/employee.service.ts",
+		"position": 392
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query entity/actions"
+}
+[info] [CLI] Called Query entity/actions: {
+	"result": [
+		{
+			"id": "ADD_RXJS",
+			"label": "Add RxJS",
+			"context": {
+				"parentMethod": "getAll"
+			}
+		},
+		{
+			"id": "ADD_METHOD",
+			"label": "Add method",
+			"context": {}
+		},
+		{
+			"id": "INJECT",
+			"label": "Inject",
+			"context": {}
+		}
+	],
+	"level": "info",
+	"message": "[CLI] Called Query entity/actions"
+}
+[info] [API] Response ok: entity/actions: {
+	"result": [
+		{
+			"id": "ADD_RXJS",
+			"label": "Add RxJS",
+			"context": {
+				"parentMethod": "getAll"
+			}
+		},
+		{
+			"id": "ADD_METHOD",
+			"label": "Add method",
+			"context": {}
+		},
+		{
+			"id": "INJECT",
+			"label": "Inject",
+			"context": {}
+		}
+	],
+	"level": "info",
+	"message": "[API] Response ok: entity/actions"
+}
+[info] [API] Request for injectable/list: {
+	"action": "injectable/list",
+	"params": {
+		"entityFilePath": "F:/lowgular tutorial/lowgular-course-entry/src/app/services/employee.service.ts"
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "F:/lowgular tutorial/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "CFQOJrafPJXVQIF624zHxyGs0Mo2",
+			"correlationId": "fEcWQ6ezYG",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for injectable/list"
+}
+[info] [CLI] Calling Query injectable/list: {
+	"funcParams": {
+		"entityFilePath": "F:/lowgular tutorial/lowgular-course-entry/src/app/services/employee.service.ts"
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query injectable/list"
+}
+[info] [CLI] Called Query injectable/list: {
+	"result": [
+		{
+			"id": "httpClient",
+			"dataType": "External",
+			"name": "HttpClient",
+			"relatedTypes": {}
+		}
+	],
+	"level": "info",
+	"message": "[CLI] Called Query injectable/list"
+}
+[info] [API] Response ok: injectable/list: {
+	"result": [
+		{
+			"id": "httpClient",
+			"dataType": "External",
+			"name": "HttpClient",
+			"relatedTypes": {}
+		}
+	],
+	"level": "info",
+	"message": "[API] Response ok: injectable/list"
+}
+[info] [API] Request for entity/actions: {
+	"action": "entity/actions",
+	"params": {
+		"clickedPath": "F:/lowgular tutorial/lowgular-course-entry/src/app/services/project.service.ts",
+		"position": 195
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "F:/lowgular tutorial/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "CFQOJrafPJXVQIF624zHxyGs0Mo2",
+			"correlationId": "JArlRW-mLv",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for entity/actions"
+}
+[info] [CLI] Calling Query entity/actions: {
+	"funcParams": {
+		"clickedPath": "F:/lowgular tutorial/lowgular-course-entry/src/app/services/project.service.ts",
+		"position": 195
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query entity/actions"
+}
+[info] [CLI] Called Query entity/actions: {
+	"result": [
+		{
+			"id": "ADD_METHOD",
+			"label": "Add method",
+			"context": {}
+		},
+		{
+			"id": "INJECT",
+			"label": "Inject",
+			"context": {}
+		}
+	],
+	"level": "info",
+	"message": "[CLI] Called Query entity/actions"
+}
+[info] [API] Response ok: entity/actions: {
+	"result": [
+		{
+			"id": "ADD_METHOD",
+			"label": "Add method",
+			"context": {}
+		},
+		{
+			"id": "INJECT",
+			"label": "Inject",
+			"context": {}
+		}
+	],
+	"level": "info",
+	"message": "[API] Response ok: entity/actions"
+}
+[info] [API] Request for injectable/list: {
+	"action": "injectable/list",
+	"params": {
+		"entityFilePath": "F:/lowgular tutorial/lowgular-course-entry/src/app/services/project.service.ts"
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "F:/lowgular tutorial/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "CFQOJrafPJXVQIF624zHxyGs0Mo2",
+			"correlationId": "JArlRW-mLv",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for injectable/list"
+}
+[info] [CLI] Calling Query injectable/list: {
+	"funcParams": {
+		"entityFilePath": "F:/lowgular tutorial/lowgular-course-entry/src/app/services/project.service.ts"
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query injectable/list"
+}
+[info] [CLI] Called Query injectable/list: {
+	"result": [
+		{
+			"id": "httpClient",
+			"dataType": "External",
+			"name": "HttpClient",
+			"relatedTypes": {}
+		}
+	],
+	"level": "info",
+	"message": "[CLI] Called Query injectable/list"
+}
+[info] [API] Response ok: injectable/list: {
+	"result": [
+		{
+			"id": "httpClient",
+			"dataType": "External",
+			"name": "HttpClient",
+			"relatedTypes": {}
+		}
+	],
+	"level": "info",
+	"message": "[API] Response ok: injectable/list"
+}
+[info] [API] Request for entity/actions: {
+	"action": "entity/actions",
+	"params": {
+		"clickedPath": "F:/lowgular tutorial/lowgular-course-entry/src/app/services/project.service.ts",
+		"position": 204
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "F:/lowgular tutorial/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "CFQOJrafPJXVQIF624zHxyGs0Mo2",
+			"correlationId": "8XYRhKnli-",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for entity/actions"
+}
+[info] [CLI] Calling Query entity/actions: {
+	"funcParams": {
+		"clickedPath": "F:/lowgular tutorial/lowgular-course-entry/src/app/services/project.service.ts",
+		"position": 204
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query entity/actions"
+}
+[info] [CLI] Called Query entity/actions: {
+	"result": [
+		{
+			"id": "ADD_METHOD",
+			"label": "Add method",
+			"context": {}
+		},
+		{
+			"id": "INJECT",
+			"label": "Inject",
+			"context": {}
+		}
+	],
+	"level": "info",
+	"message": "[CLI] Called Query entity/actions"
+}
+[info] [API] Response ok: entity/actions: {
+	"result": [
+		{
+			"id": "ADD_METHOD",
+			"label": "Add method",
+			"context": {}
+		},
+		{
+			"id": "INJECT",
+			"label": "Inject",
+			"context": {}
+		}
+	],
+	"level": "info",
+	"message": "[API] Response ok: entity/actions"
+}
+[info] [API] Request for injectable/list: {
+	"action": "injectable/list",
+	"params": {
+		"entityFilePath": "F:/lowgular tutorial/lowgular-course-entry/src/app/services/project.service.ts"
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "F:/lowgular tutorial/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "CFQOJrafPJXVQIF624zHxyGs0Mo2",
+			"correlationId": "8XYRhKnli-",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for injectable/list"
+}
+[info] [CLI] Calling Query injectable/list: {
+	"funcParams": {
+		"entityFilePath": "F:/lowgular tutorial/lowgular-course-entry/src/app/services/project.service.ts"
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query injectable/list"
+}
+[info] [CLI] Called Query injectable/list: {
+	"result": [
+		{
+			"id": "httpClient",
+			"dataType": "External",
+			"name": "HttpClient",
+			"relatedTypes": {}
+		}
+	],
+	"level": "info",
+	"message": "[CLI] Called Query injectable/list"
+}
+[info] [API] Response ok: injectable/list: {
+	"result": [
+		{
+			"id": "httpClient",
+			"dataType": "External",
+			"name": "HttpClient",
+			"relatedTypes": {}
+		}
+	],
+	"level": "info",
+	"message": "[API] Response ok: injectable/list"
+}
+[info] [API] Request for entity/actions: {
+	"action": "entity/actions",
+	"params": {
+		"clickedPath": "F:/lowgular tutorial/lowgular-course-entry/src/app/ui/project-list/project-list.component.ts",
+		"position": 462
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "F:/lowgular tutorial/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "CFQOJrafPJXVQIF624zHxyGs0Mo2",
+			"correlationId": "bgANK2XwkT",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for entity/actions"
+}
+[info] [CLI] Calling Query entity/actions: {
+	"funcParams": {
+		"clickedPath": "F:/lowgular tutorial/lowgular-course-entry/src/app/ui/project-list/project-list.component.ts",
+		"position": 462
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query entity/actions"
+}
+[info] [CLI] Called Query entity/actions: {
+	"result": [
+		{
+			"id": "INJECT",
+			"label": "Inject",
+			"context": {}
+		}
+	],
+	"level": "info",
+	"message": "[CLI] Called Query entity/actions"
+}
+[info] [API] Response ok: entity/actions: {
+	"result": [
+		{
+			"id": "INJECT",
+			"label": "Inject",
+			"context": {}
+		}
+	],
+	"level": "info",
+	"message": "[API] Response ok: entity/actions"
+}
+[info] [API] Request for injectable/list: {
+	"action": "injectable/list",
+	"params": {
+		"entityFilePath": "F:/lowgular tutorial/lowgular-course-entry/src/app/ui/project-list/project-list.component.ts"
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "F:/lowgular tutorial/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "CFQOJrafPJXVQIF624zHxyGs0Mo2",
+			"correlationId": "bgANK2XwkT",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for injectable/list"
+}
+[info] [CLI] Calling Query injectable/list: {
+	"funcParams": {
+		"entityFilePath": "F:/lowgular tutorial/lowgular-course-entry/src/app/ui/project-list/project-list.component.ts"
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query injectable/list"
+}
+[info] [CLI] Called Query injectable/list: {
+	"result": [
+		{
+			"file": "F:/lowgular tutorial/lowgular-course-entry/src/app/services/employee.service.ts",
+			"name": "EmployeeService",
+			"type": "SERVICE",
+			"dataType": "Internal"
+		},
+		{
+			"file": "F:/lowgular tutorial/lowgular-course-entry/src/app/services/project.service.ts",
+			"name": "ProjectService",
+			"type": "SERVICE",
+			"dataType": "Internal"
+		},
+		{
+			"id": "httpClient",
+			"dataType": "External",
+			"name": "HttpClient",
+			"relatedTypes": {}
+		}
+	],
+	"level": "info",
+	"message": "[CLI] Called Query injectable/list"
+}
+[info] [API] Response ok: injectable/list: {
+	"result": [
+		{
+			"file": "F:/lowgular tutorial/lowgular-course-entry/src/app/services/employee.service.ts",
+			"name": "EmployeeService",
+			"type": "SERVICE",
+			"dataType": "Internal"
+		},
+		{
+			"file": "F:/lowgular tutorial/lowgular-course-entry/src/app/services/project.service.ts",
+			"name": "ProjectService",
+			"type": "SERVICE",
+			"dataType": "Internal"
+		},
+		{
+			"id": "httpClient",
+			"dataType": "External",
+			"name": "HttpClient",
+			"relatedTypes": {}
+		}
+	],
+	"level": "info",
+	"message": "[API] Response ok: injectable/list"
+}
+[info] [API] Request for injectable/inject: {
+	"action": "injectable/inject",
+	"params": {
+		"entityFilePath": "F:/lowgular tutorial/lowgular-course-entry/src/app/ui/project-list/project-list.component.ts",
+		"injectingPath": "F:/lowgular tutorial/lowgular-course-entry/src/app/services/project.service.ts",
+		"type": "SERVICE"
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "F:/lowgular tutorial/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "CFQOJrafPJXVQIF624zHxyGs0Mo2",
+			"correlationId": "bgANK2XwkT",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for injectable/inject"
+}
+[info] [CLI] Calling Command injectable/inject: {
+	"funcParams": {
+		"entityFilePath": "F:/lowgular tutorial/lowgular-course-entry/src/app/ui/project-list/project-list.component.ts",
+		"injectingPath": "F:/lowgular tutorial/lowgular-course-entry/src/app/services/project.service.ts",
+		"type": "SERVICE"
+	},
+	"level": "info",
+	"message": "[CLI] Calling Command injectable/inject"
+}
+[info] [CommandBus]: Dispatching command INJECT_SERVICE_DEPENDENCY: {
+	"commandName": "INJECT_SERVICE_DEPENDENCY",
+	"payload": {
+		"entityFilePath": "F:/lowgular tutorial/lowgular-course-entry/src/app/ui/project-list/project-list.component.ts",
+		"injectingFilePath": "F:/lowgular tutorial/lowgular-course-entry/src/app/services/project.service.ts"
+	},
+	"level": "info",
+	"message": "[CommandBus]: Dispatching command INJECT_SERVICE_DEPENDENCY"
+}
+[info] [CommandBus]: Handled  INJECT_SERVICE_DEPENDENCY: {
+	"commandName": "INJECT_SERVICE_DEPENDENCY",
+	"payload": {
+		"entityFilePath": "F:/lowgular tutorial/lowgular-course-entry/src/app/ui/project-list/project-list.component.ts",
+		"injectingFilePath": "F:/lowgular tutorial/lowgular-course-entry/src/app/services/project.service.ts"
+	},
+	"level": "info",
+	"message": "[CommandBus]: Handled  INJECT_SERVICE_DEPENDENCY"
+}
+[info] [CLI] Called Command injectable/inject: {
+	"message": "[CLI] Called Command injectable/inject",
+	"level": "info"
+}
+[info] [API] Response ok: injectable/inject: {
+	"result": {
+		"filePath": "F:/lowgular tutorial/lowgular-course-entry/src/app/ui/project-list/project-list.component.ts"
+	},
+	"level": "info",
+	"message": "[API] Response ok: injectable/inject"
+}
+[info] [API] Request for entity/actions: {
+	"action": "entity/actions",
+	"params": {
+		"clickedPath": "F:/lowgular tutorial/lowgular-course-entry/src/app/ui/project-list/project-list.component.ts",
+		"position": 413
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "F:/lowgular tutorial/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "CFQOJrafPJXVQIF624zHxyGs0Mo2",
+			"correlationId": "pjn3fkuBfa",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for entity/actions"
+}
+[info] [CLI] Calling Query entity/actions: {
+	"funcParams": {
+		"clickedPath": "F:/lowgular tutorial/lowgular-course-entry/src/app/ui/project-list/project-list.component.ts",
+		"position": 413
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query entity/actions"
+}
+[info] [CLI] Called Query entity/actions: {
+	"result": [
+		{
+			"id": "INJECT",
+			"label": "Inject",
+			"context": {}
+		}
+	],
+	"level": "info",
+	"message": "[CLI] Called Query entity/actions"
+}
+[info] [API] Response ok: entity/actions: {
+	"result": [
+		{
+			"id": "INJECT",
+			"label": "Inject",
+			"context": {}
+		}
+	],
+	"level": "info",
+	"message": "[API] Response ok: entity/actions"
+}
+[info] [API] Request for injectable/list: {
+	"action": "injectable/list",
+	"params": {
+		"entityFilePath": "F:/lowgular tutorial/lowgular-course-entry/src/app/ui/project-list/project-list.component.ts"
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "F:/lowgular tutorial/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "CFQOJrafPJXVQIF624zHxyGs0Mo2",
+			"correlationId": "pjn3fkuBfa",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for injectable/list"
+}
+[info] [CLI] Calling Query injectable/list: {
+	"funcParams": {
+		"entityFilePath": "F:/lowgular tutorial/lowgular-course-entry/src/app/ui/project-list/project-list.component.ts"
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query injectable/list"
+}
+[info] [CLI] Called Query injectable/list: {
+	"result": [
+		{
+			"file": "F:/lowgular tutorial/lowgular-course-entry/src/app/services/employee.service.ts",
+			"name": "EmployeeService",
+			"type": "SERVICE",
+			"dataType": "Internal"
+		},
+		{
+			"id": "httpClient",
+			"dataType": "External",
+			"name": "HttpClient",
+			"relatedTypes": {}
+		}
+	],
+	"level": "info",
+	"message": "[CLI] Called Query injectable/list"
+}
+[info] [API] Response ok: injectable/list: {
+	"result": [
+		{
+			"file": "F:/lowgular tutorial/lowgular-course-entry/src/app/services/employee.service.ts",
+			"name": "EmployeeService",
+			"type": "SERVICE",
+			"dataType": "Internal"
+		},
+		{
+			"id": "httpClient",
+			"dataType": "External",
+			"name": "HttpClient",
+			"relatedTypes": {}
+		}
+	],
+	"level": "info",
+	"message": "[API] Response ok: injectable/list"
+}
+[info] [API] Request for entity/actions: {
+	"action": "entity/actions",
+	"params": {
+		"clickedPath": "F:/lowgular tutorial/lowgular-course-entry/src/app/ui/project-list/project-list.component.ts",
+		"position": 410
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "F:/lowgular tutorial/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "CFQOJrafPJXVQIF624zHxyGs0Mo2",
+			"correlationId": "ou3dHyotbY",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for entity/actions"
+}
+[info] [CLI] Calling Query entity/actions: {
+	"funcParams": {
+		"clickedPath": "F:/lowgular tutorial/lowgular-course-entry/src/app/ui/project-list/project-list.component.ts",
+		"position": 410
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query entity/actions"
+}
+[info] [CLI] Called Query entity/actions: {
+	"result": [
+		{
+			"id": "INJECT",
+			"label": "Inject",
+			"context": {}
+		}
+	],
+	"level": "info",
+	"message": "[CLI] Called Query entity/actions"
+}
+[info] [API] Response ok: entity/actions: {
+	"result": [
+		{
+			"id": "INJECT",
+			"label": "Inject",
+			"context": {}
+		}
+	],
+	"level": "info",
+	"message": "[API] Response ok: entity/actions"
+}
+[info] [API] Request for injectable/list: {
+	"action": "injectable/list",
+	"params": {
+		"entityFilePath": "F:/lowgular tutorial/lowgular-course-entry/src/app/ui/project-list/project-list.component.ts"
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "F:/lowgular tutorial/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "CFQOJrafPJXVQIF624zHxyGs0Mo2",
+			"correlationId": "ou3dHyotbY",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for injectable/list"
+}
+[info] [CLI] Calling Query injectable/list: {
+	"funcParams": {
+		"entityFilePath": "F:/lowgular tutorial/lowgular-course-entry/src/app/ui/project-list/project-list.component.ts"
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query injectable/list"
+}
+[info] [CLI] Called Query injectable/list: {
+	"result": [
+		{
+			"file": "F:/lowgular tutorial/lowgular-course-entry/src/app/services/employee.service.ts",
+			"name": "EmployeeService",
+			"type": "SERVICE",
+			"dataType": "Internal"
+		},
+		{
+			"id": "httpClient",
+			"dataType": "External",
+			"name": "HttpClient",
+			"relatedTypes": {}
+		}
+	],
+	"level": "info",
+	"message": "[CLI] Called Query injectable/list"
+}
+[info] [API] Response ok: injectable/list: {
+	"result": [
+		{
+			"file": "F:/lowgular tutorial/lowgular-course-entry/src/app/services/employee.service.ts",
+			"name": "EmployeeService",
+			"type": "SERVICE",
+			"dataType": "Internal"
+		},
+		{
+			"id": "httpClient",
+			"dataType": "External",
+			"name": "HttpClient",
+			"relatedTypes": {}
+		}
+	],
+	"level": "info",
+	"message": "[API] Response ok: injectable/list"
+}
+[info] [API] Request for entity/actions: {
+	"action": "entity/actions",
+	"params": {
+		"clickedPath": "F:/lowgular tutorial/lowgular-course-entry/src/app/ui/project-list/project-list.component.ts",
+		"position": 463
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "F:/lowgular tutorial/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "CFQOJrafPJXVQIF624zHxyGs0Mo2",
+			"correlationId": "w3h1TOKJcn",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for entity/actions"
+}
+[info] [CLI] Calling Query entity/actions: {
+	"funcParams": {
+		"clickedPath": "F:/lowgular tutorial/lowgular-course-entry/src/app/ui/project-list/project-list.component.ts",
+		"position": 463
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query entity/actions"
+}
+[info] [CLI] Called Query entity/actions: {
+	"result": [
+		{
+			"id": "INJECT",
+			"label": "Inject",
+			"context": {}
+		}
+	],
+	"level": "info",
+	"message": "[CLI] Called Query entity/actions"
+}
+[info] [API] Response ok: entity/actions: {
+	"result": [
+		{
+			"id": "INJECT",
+			"label": "Inject",
+			"context": {}
+		}
+	],
+	"level": "info",
+	"message": "[API] Response ok: entity/actions"
+}
+[info] [API] Request for injectable/list: {
+	"action": "injectable/list",
+	"params": {
+		"entityFilePath": "F:/lowgular tutorial/lowgular-course-entry/src/app/ui/project-list/project-list.component.ts"
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "F:/lowgular tutorial/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "CFQOJrafPJXVQIF624zHxyGs0Mo2",
+			"correlationId": "w3h1TOKJcn",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for injectable/list"
+}
+[info] [CLI] Calling Query injectable/list: {
+	"funcParams": {
+		"entityFilePath": "F:/lowgular tutorial/lowgular-course-entry/src/app/ui/project-list/project-list.component.ts"
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query injectable/list"
+}
+[info] [CLI] Called Query injectable/list: {
+	"result": [
+		{
+			"file": "F:/lowgular tutorial/lowgular-course-entry/src/app/services/employee.service.ts",
+			"name": "EmployeeService",
+			"type": "SERVICE",
+			"dataType": "Internal"
+		},
+		{
+			"id": "httpClient",
+			"dataType": "External",
+			"name": "HttpClient",
+			"relatedTypes": {}
+		}
+	],
+	"level": "info",
+	"message": "[CLI] Called Query injectable/list"
+}
+[info] [API] Response ok: injectable/list: {
+	"result": [
+		{
+			"file": "F:/lowgular tutorial/lowgular-course-entry/src/app/services/employee.service.ts",
+			"name": "EmployeeService",
+			"type": "SERVICE",
+			"dataType": "Internal"
+		},
+		{
+			"id": "httpClient",
+			"dataType": "External",
+			"name": "HttpClient",
+			"relatedTypes": {}
+		}
+	],
+	"level": "info",
+	"message": "[API] Response ok: injectable/list"
+}
+[info] [API] Request for entity/actions: {
+	"action": "entity/actions",
+	"params": {
+		"clickedPath": "F:/lowgular tutorial/lowgular-course-entry/src/app/ui/project-list/project-list.component.ts",
+		"position": 462
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "F:/lowgular tutorial/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "CFQOJrafPJXVQIF624zHxyGs0Mo2",
+			"correlationId": "Vgo9JJvquU",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for entity/actions"
+}
+[info] [CLI] Calling Query entity/actions: {
+	"funcParams": {
+		"clickedPath": "F:/lowgular tutorial/lowgular-course-entry/src/app/ui/project-list/project-list.component.ts",
+		"position": 462
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query entity/actions"
+}
+[info] [CLI] Called Query entity/actions: {
+	"result": [
+		{
+			"id": "INJECT",
+			"label": "Inject",
+			"context": {}
+		}
+	],
+	"level": "info",
+	"message": "[CLI] Called Query entity/actions"
+}
+[info] [API] Response ok: entity/actions: {
+	"result": [
+		{
+			"id": "INJECT",
+			"label": "Inject",
+			"context": {}
+		}
+	],
+	"level": "info",
+	"message": "[API] Response ok: entity/actions"
+}
+[info] [API] Request for injectable/list: {
+	"action": "injectable/list",
+	"params": {
+		"entityFilePath": "F:/lowgular tutorial/lowgular-course-entry/src/app/ui/project-list/project-list.component.ts"
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "F:/lowgular tutorial/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "CFQOJrafPJXVQIF624zHxyGs0Mo2",
+			"correlationId": "Vgo9JJvquU",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for injectable/list"
+}
+[info] [CLI] Calling Query injectable/list: {
+	"funcParams": {
+		"entityFilePath": "F:/lowgular tutorial/lowgular-course-entry/src/app/ui/project-list/project-list.component.ts"
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query injectable/list"
+}
+[info] [CLI] Called Query injectable/list: {
+	"result": [
+		{
+			"file": "F:/lowgular tutorial/lowgular-course-entry/src/app/services/employee.service.ts",
+			"name": "EmployeeService",
+			"type": "SERVICE",
+			"dataType": "Internal"
+		},
+		{
+			"id": "httpClient",
+			"dataType": "External",
+			"name": "HttpClient",
+			"relatedTypes": {}
+		}
+	],
+	"level": "info",
+	"message": "[CLI] Called Query injectable/list"
+}
+[info] [API] Response ok: injectable/list: {
+	"result": [
+		{
+			"file": "F:/lowgular tutorial/lowgular-course-entry/src/app/services/employee.service.ts",
+			"name": "EmployeeService",
+			"type": "SERVICE",
+			"dataType": "Internal"
+		},
+		{
+			"id": "httpClient",
+			"dataType": "External",
+			"name": "HttpClient",
+			"relatedTypes": {}
+		}
+	],
+	"level": "info",
+	"message": "[API] Response ok: injectable/list"
+}
+[info] [API] Request for entity/actions: {
+	"action": "entity/actions",
+	"params": {
+		"clickedPath": "F:/lowgular tutorial/lowgular-course-entry/src/app/services/project.service.ts",
+		"position": 178
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "F:/lowgular tutorial/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "CFQOJrafPJXVQIF624zHxyGs0Mo2",
+			"correlationId": "PUkPuTPhEY",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for entity/actions"
+}
+[info] [CLI] Calling Query entity/actions: {
+	"funcParams": {
+		"clickedPath": "F:/lowgular tutorial/lowgular-course-entry/src/app/services/project.service.ts",
+		"position": 178
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query entity/actions"
+}
+[info] [CLI] Called Query entity/actions: {
+	"result": [
+		{
+			"id": "ADD_METHOD",
+			"label": "Add method",
+			"context": {}
+		},
+		{
+			"id": "INJECT",
+			"label": "Inject",
+			"context": {}
+		}
+	],
+	"level": "info",
+	"message": "[CLI] Called Query entity/actions"
+}
+[info] [API] Response ok: entity/actions: {
+	"result": [
+		{
+			"id": "ADD_METHOD",
+			"label": "Add method",
+			"context": {}
+		},
+		{
+			"id": "INJECT",
+			"label": "Inject",
+			"context": {}
+		}
+	],
+	"level": "info",
+	"message": "[API] Response ok: entity/actions"
+}
+[info] [API] Request for injectable/list: {
+	"action": "injectable/list",
+	"params": {
+		"entityFilePath": "F:/lowgular tutorial/lowgular-course-entry/src/app/services/project.service.ts"
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "F:/lowgular tutorial/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "CFQOJrafPJXVQIF624zHxyGs0Mo2",
+			"correlationId": "PUkPuTPhEY",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for injectable/list"
+}
+[info] [CLI] Calling Query injectable/list: {
+	"funcParams": {
+		"entityFilePath": "F:/lowgular tutorial/lowgular-course-entry/src/app/services/project.service.ts"
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query injectable/list"
+}
+[info] [CLI] Called Query injectable/list: {
+	"result": [
+		{
+			"id": "httpClient",
+			"dataType": "External",
+			"name": "HttpClient",
+			"relatedTypes": {}
+		}
+	],
+	"level": "info",
+	"message": "[CLI] Called Query injectable/list"
+}
+[info] [API] Response ok: injectable/list: {
+	"result": [
+		{
+			"id": "httpClient",
+			"dataType": "External",
+			"name": "HttpClient",
+			"relatedTypes": {}
+		}
+	],
+	"level": "info",
+	"message": "[API] Response ok: injectable/list"
+}
+[info] [API] Request for injectable/inject-external: {
+	"action": "injectable/inject-external",
+	"params": {
+		"entityFilePath": "F:/lowgular tutorial/lowgular-course-entry/src/app/services/project.service.ts",
+		"externalId": "httpClient"
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "F:/lowgular tutorial/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "CFQOJrafPJXVQIF624zHxyGs0Mo2",
+			"correlationId": "PUkPuTPhEY",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for injectable/inject-external"
+}
+[info] [CLI] Calling Command injectable/inject-external: {
+	"funcParams": {
+		"entityFilePath": "F:/lowgular tutorial/lowgular-course-entry/src/app/services/project.service.ts",
+		"externalId": "httpClient"
+	},
+	"level": "info",
+	"message": "[CLI] Calling Command injectable/inject-external"
+}
+[info] [CLI] Called Command injectable/inject-external: {
+	"message": "[CLI] Called Command injectable/inject-external",
+	"level": "info"
+}
+[info] [API] Response ok: injectable/inject-external: {
+	"result": {
+		"filePath": "F:/lowgular tutorial/lowgular-course-entry/src/app/services/project.service.ts"
+	},
+	"level": "info",
+	"message": "[API] Response ok: injectable/inject-external"
+}
+[info] [CommandBus]: Dispatching command INJECT_EXTERNAL_DEPENDENCY: {
+	"commandName": "INJECT_EXTERNAL_DEPENDENCY",
+	"payload": {
+		"entityFilePath": "F:/lowgular tutorial/lowgular-course-entry/src/app/services/project.service.ts",
+		"externalType": "HttpClient",
+		"genericFilePaths": []
+	},
+	"level": "info",
+	"message": "[CommandBus]: Dispatching command INJECT_EXTERNAL_DEPENDENCY"
+}
+[info] [CommandBus]: Handled  INJECT_EXTERNAL_DEPENDENCY: {
+	"commandName": "INJECT_EXTERNAL_DEPENDENCY",
+	"payload": {
+		"entityFilePath": "F:/lowgular tutorial/lowgular-course-entry/src/app/services/project.service.ts",
+		"externalType": "HttpClient",
+		"genericFilePaths": []
+	},
+	"level": "info",
+	"message": "[CommandBus]: Handled  INJECT_EXTERNAL_DEPENDENCY"
+}
+[info] [API] Request for entity/actions: {
+	"action": "entity/actions",
+	"params": {
+		"clickedPath": "F:/lowgular tutorial/lowgular-course-entry/src/app/services/project.service.ts",
+		"position": 178
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "F:/lowgular tutorial/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "CFQOJrafPJXVQIF624zHxyGs0Mo2",
+			"correlationId": "9984Qshu7F",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for entity/actions"
+}
+[info] [CLI] Calling Query entity/actions: {
+	"funcParams": {
+		"clickedPath": "F:/lowgular tutorial/lowgular-course-entry/src/app/services/project.service.ts",
+		"position": 178
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query entity/actions"
+}
+[info] [CLI] Called Query entity/actions: {
+	"result": [
+		{
+			"id": "ADD_METHOD",
+			"label": "Add method",
+			"context": {}
+		},
+		{
+			"id": "INJECT",
+			"label": "Inject",
+			"context": {}
+		}
+	],
+	"level": "info",
+	"message": "[CLI] Called Query entity/actions"
+}
+[info] [API] Response ok: entity/actions: {
+	"result": [
+		{
+			"id": "ADD_METHOD",
+			"label": "Add method",
+			"context": {}
+		},
+		{
+			"id": "INJECT",
+			"label": "Inject",
+			"context": {}
+		}
+	],
+	"level": "info",
+	"message": "[API] Response ok: entity/actions"
+}
+[info] [API] Request for injectable/list: {
+	"action": "injectable/list",
+	"params": {
+		"entityFilePath": "F:/lowgular tutorial/lowgular-course-entry/src/app/services/project.service.ts"
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "F:/lowgular tutorial/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "CFQOJrafPJXVQIF624zHxyGs0Mo2",
+			"correlationId": "9984Qshu7F",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for injectable/list"
+}
+[info] [CLI] Calling Query injectable/list: {
+	"funcParams": {
+		"entityFilePath": "F:/lowgular tutorial/lowgular-course-entry/src/app/services/project.service.ts"
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query injectable/list"
+}
+[info] [CLI] Called Query injectable/list: {
+	"result": [
+		{
+			"id": "httpClient",
+			"dataType": "External",
+			"name": "HttpClient",
+			"relatedTypes": {}
+		}
+	],
+	"level": "info",
+	"message": "[CLI] Called Query injectable/list"
+}
+[info] [API] Response ok: injectable/list: {
+	"result": [
+		{
+			"id": "httpClient",
+			"dataType": "External",
+			"name": "HttpClient",
+			"relatedTypes": {}
+		}
+	],
+	"level": "info",
+	"message": "[API] Response ok: injectable/list"
+}
+[info] [API] Request for injectable/inject-external: {
+	"action": "injectable/inject-external",
+	"params": {
+		"entityFilePath": "F:/lowgular tutorial/lowgular-course-entry/src/app/services/project.service.ts",
+		"externalId": "httpClient"
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "F:/lowgular tutorial/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "CFQOJrafPJXVQIF624zHxyGs0Mo2",
+			"correlationId": "9984Qshu7F",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for injectable/inject-external"
+}
+[info] [CLI] Calling Command injectable/inject-external: {
+	"funcParams": {
+		"entityFilePath": "F:/lowgular tutorial/lowgular-course-entry/src/app/services/project.service.ts",
+		"externalId": "httpClient"
+	},
+	"level": "info",
+	"message": "[CLI] Calling Command injectable/inject-external"
+}
+[info] [CLI] Called Command injectable/inject-external: {
+	"message": "[CLI] Called Command injectable/inject-external",
+	"level": "info"
+}
+[info] [API] Response ok: injectable/inject-external: {
+	"result": {
+		"filePath": "F:/lowgular tutorial/lowgular-course-entry/src/app/services/project.service.ts"
+	},
+	"level": "info",
+	"message": "[API] Response ok: injectable/inject-external"
+}
+[info] [CommandBus]: Dispatching command INJECT_EXTERNAL_DEPENDENCY: {
+	"commandName": "INJECT_EXTERNAL_DEPENDENCY",
+	"payload": {
+		"entityFilePath": "F:/lowgular tutorial/lowgular-course-entry/src/app/services/project.service.ts",
+		"externalType": "HttpClient",
+		"genericFilePaths": []
+	},
+	"level": "info",
+	"message": "[CommandBus]: Dispatching command INJECT_EXTERNAL_DEPENDENCY"
+}
+[info] [CommandBus]: Handled  INJECT_EXTERNAL_DEPENDENCY: {
+	"commandName": "INJECT_EXTERNAL_DEPENDENCY",
+	"payload": {
+		"entityFilePath": "F:/lowgular tutorial/lowgular-course-entry/src/app/services/project.service.ts",
+		"externalType": "HttpClient",
+		"genericFilePaths": []
+	},
+	"level": "info",
+	"message": "[CommandBus]: Handled  INJECT_EXTERNAL_DEPENDENCY"
+}
+[info] [API] Request for entity/actions: {
+	"action": "entity/actions",
+	"params": {
+		"clickedPath": "F:/lowgular tutorial/lowgular-course-entry/src/app/services/project.service.ts",
+		"position": 179
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "F:/lowgular tutorial/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "CFQOJrafPJXVQIF624zHxyGs0Mo2",
+			"correlationId": "XgaXX84jvV",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for entity/actions"
+}
+[info] [CLI] Calling Query entity/actions: {
+	"funcParams": {
+		"clickedPath": "F:/lowgular tutorial/lowgular-course-entry/src/app/services/project.service.ts",
+		"position": 179
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query entity/actions"
+}
+[info] [CLI] Called Query entity/actions: {
+	"result": [
+		{
+			"id": "ADD_METHOD",
+			"label": "Add method",
+			"context": {}
+		},
+		{
+			"id": "INJECT",
+			"label": "Inject",
+			"context": {}
+		}
+	],
+	"level": "info",
+	"message": "[CLI] Called Query entity/actions"
+}
+[info] [API] Response ok: entity/actions: {
+	"result": [
+		{
+			"id": "ADD_METHOD",
+			"label": "Add method",
+			"context": {}
+		},
+		{
+			"id": "INJECT",
+			"label": "Inject",
+			"context": {}
+		}
+	],
+	"level": "info",
+	"message": "[API] Response ok: entity/actions"
+}
+[info] [API] Request for entity/actions: {
+	"action": "entity/actions",
+	"params": {
+		"clickedPath": "F:/lowgular tutorial/lowgular-course-entry/src/app/services/project.service.ts",
+		"position": 179
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "F:/lowgular tutorial/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "CFQOJrafPJXVQIF624zHxyGs0Mo2",
+			"correlationId": "Y--5RX1bEM",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for entity/actions"
+}
+[info] [CLI] Calling Query entity/actions: {
+	"funcParams": {
+		"clickedPath": "F:/lowgular tutorial/lowgular-course-entry/src/app/services/project.service.ts",
+		"position": 179
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query entity/actions"
+}
+[info] [CLI] Called Query entity/actions: {
+	"result": [
+		{
+			"id": "ADD_METHOD",
+			"label": "Add method",
+			"context": {}
+		},
+		{
+			"id": "INJECT",
+			"label": "Inject",
+			"context": {}
+		}
+	],
+	"level": "info",
+	"message": "[CLI] Called Query entity/actions"
+}
+[info] [API] Response ok: entity/actions: {
+	"result": [
+		{
+			"id": "ADD_METHOD",
+			"label": "Add method",
+			"context": {}
+		},
+		{
+			"id": "INJECT",
+			"label": "Inject",
+			"context": {}
+		}
+	],
+	"level": "info",
+	"message": "[API] Response ok: entity/actions"
+}
+[info] [API] Request for injectable/list: {
+	"action": "injectable/list",
+	"params": {
+		"entityFilePath": "F:/lowgular tutorial/lowgular-course-entry/src/app/services/project.service.ts"
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "F:/lowgular tutorial/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "CFQOJrafPJXVQIF624zHxyGs0Mo2",
+			"correlationId": "Y--5RX1bEM",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for injectable/list"
+}
+[info] [CLI] Calling Query injectable/list: {
+	"funcParams": {
+		"entityFilePath": "F:/lowgular tutorial/lowgular-course-entry/src/app/services/project.service.ts"
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query injectable/list"
+}
+[info] [CLI] Called Query injectable/list: {
+	"result": [
+		{
+			"id": "httpClient",
+			"dataType": "External",
+			"name": "HttpClient",
+			"relatedTypes": {}
+		}
+	],
+	"level": "info",
+	"message": "[CLI] Called Query injectable/list"
+}
+[info] [API] Response ok: injectable/list: {
+	"result": [
+		{
+			"id": "httpClient",
+			"dataType": "External",
+			"name": "HttpClient",
+			"relatedTypes": {}
+		}
+	],
+	"level": "info",
+	"message": "[API] Response ok: injectable/list"
+}
+[info] [API] Request for injectable/inject-external: {
+	"action": "injectable/inject-external",
+	"params": {
+		"entityFilePath": "F:/lowgular tutorial/lowgular-course-entry/src/app/services/project.service.ts",
+		"externalId": "httpClient"
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "F:/lowgular tutorial/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "CFQOJrafPJXVQIF624zHxyGs0Mo2",
+			"correlationId": "Y--5RX1bEM",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for injectable/inject-external"
+}
+[info] [CLI] Calling Command injectable/inject-external: {
+	"funcParams": {
+		"entityFilePath": "F:/lowgular tutorial/lowgular-course-entry/src/app/services/project.service.ts",
+		"externalId": "httpClient"
+	},
+	"level": "info",
+	"message": "[CLI] Calling Command injectable/inject-external"
+}
+[info] [CLI] Called Command injectable/inject-external: {
+	"message": "[CLI] Called Command injectable/inject-external",
+	"level": "info"
+}
+[info] [API] Response ok: injectable/inject-external: {
+	"result": {
+		"filePath": "F:/lowgular tutorial/lowgular-course-entry/src/app/services/project.service.ts"
+	},
+	"level": "info",
+	"message": "[API] Response ok: injectable/inject-external"
+}
+[info] [CommandBus]: Dispatching command INJECT_EXTERNAL_DEPENDENCY: {
+	"commandName": "INJECT_EXTERNAL_DEPENDENCY",
+	"payload": {
+		"entityFilePath": "F:/lowgular tutorial/lowgular-course-entry/src/app/services/project.service.ts",
+		"externalType": "HttpClient",
+		"genericFilePaths": []
+	},
+	"level": "info",
+	"message": "[CommandBus]: Dispatching command INJECT_EXTERNAL_DEPENDENCY"
+}
+[info] [CommandBus]: Handled  INJECT_EXTERNAL_DEPENDENCY: {
+	"commandName": "INJECT_EXTERNAL_DEPENDENCY",
+	"payload": {
+		"entityFilePath": "F:/lowgular tutorial/lowgular-course-entry/src/app/services/project.service.ts",
+		"externalType": "HttpClient",
+		"genericFilePaths": []
+	},
+	"level": "info",
+	"message": "[CommandBus]: Handled  INJECT_EXTERNAL_DEPENDENCY"
+}
+[info] [API] Request for entity/actions: {
+	"action": "entity/actions",
+	"params": {
+		"clickedPath": "F:/lowgular tutorial/lowgular-course-entry/src/app/ui/project-list/project-list.component.ts",
+		"position": 464
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "F:/lowgular tutorial/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "CFQOJrafPJXVQIF624zHxyGs0Mo2",
+			"correlationId": "-OaR8DAMlt",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for entity/actions"
+}
+[info] [CLI] Calling Query entity/actions: {
+	"funcParams": {
+		"clickedPath": "F:/lowgular tutorial/lowgular-course-entry/src/app/ui/project-list/project-list.component.ts",
+		"position": 464
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query entity/actions"
+}
+[info] [CLI] Called Query entity/actions: {
+	"result": [
+		{
+			"id": "INJECT",
+			"label": "Inject",
+			"context": {}
+		}
+	],
+	"level": "info",
+	"message": "[CLI] Called Query entity/actions"
+}
+[info] [API] Response ok: entity/actions: {
+	"result": [
+		{
+			"id": "INJECT",
+			"label": "Inject",
+			"context": {}
+		}
+	],
+	"level": "info",
+	"message": "[API] Response ok: entity/actions"
+}
+[info] [API] Request for injectable/list: {
+	"action": "injectable/list",
+	"params": {
+		"entityFilePath": "F:/lowgular tutorial/lowgular-course-entry/src/app/ui/project-list/project-list.component.ts"
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "F:/lowgular tutorial/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "CFQOJrafPJXVQIF624zHxyGs0Mo2",
+			"correlationId": "-OaR8DAMlt",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for injectable/list"
+}
+[info] [CLI] Calling Query injectable/list: {
+	"funcParams": {
+		"entityFilePath": "F:/lowgular tutorial/lowgular-course-entry/src/app/ui/project-list/project-list.component.ts"
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query injectable/list"
+}
+[info] [CLI] Called Query injectable/list: {
+	"result": [
+		{
+			"file": "F:/lowgular tutorial/lowgular-course-entry/src/app/services/employee.service.ts",
+			"name": "EmployeeService",
+			"type": "SERVICE",
+			"dataType": "Internal"
+		},
+		{
+			"file": "F:/lowgular tutorial/lowgular-course-entry/src/app/services/project.service.ts",
+			"name": "ProjectService",
+			"type": "SERVICE",
+			"dataType": "Internal"
+		},
+		{
+			"id": "httpClient",
+			"dataType": "External",
+			"name": "HttpClient",
+			"relatedTypes": {}
+		}
+	],
+	"level": "info",
+	"message": "[CLI] Called Query injectable/list"
+}
+[info] [API] Response ok: injectable/list: {
+	"result": [
+		{
+			"file": "F:/lowgular tutorial/lowgular-course-entry/src/app/services/employee.service.ts",
+			"name": "EmployeeService",
+			"type": "SERVICE",
+			"dataType": "Internal"
+		},
+		{
+			"file": "F:/lowgular tutorial/lowgular-course-entry/src/app/services/project.service.ts",
+			"name": "ProjectService",
+			"type": "SERVICE",
+			"dataType": "Internal"
+		},
+		{
+			"id": "httpClient",
+			"dataType": "External",
+			"name": "HttpClient",
+			"relatedTypes": {}
+		}
+	],
+	"level": "info",
+	"message": "[API] Response ok: injectable/list"
+}
+[info] [API] Request for injectable/inject: {
+	"action": "injectable/inject",
+	"params": {
+		"entityFilePath": "F:/lowgular tutorial/lowgular-course-entry/src/app/ui/project-list/project-list.component.ts",
+		"injectingPath": "F:/lowgular tutorial/lowgular-course-entry/src/app/services/project.service.ts",
+		"type": "SERVICE"
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "F:/lowgular tutorial/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "CFQOJrafPJXVQIF624zHxyGs0Mo2",
+			"correlationId": "-OaR8DAMlt",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for injectable/inject"
+}
+[info] [CLI] Calling Command injectable/inject: {
+	"funcParams": {
+		"entityFilePath": "F:/lowgular tutorial/lowgular-course-entry/src/app/ui/project-list/project-list.component.ts",
+		"injectingPath": "F:/lowgular tutorial/lowgular-course-entry/src/app/services/project.service.ts",
+		"type": "SERVICE"
+	},
+	"level": "info",
+	"message": "[CLI] Calling Command injectable/inject"
+}
+[info] [CommandBus]: Dispatching command INJECT_SERVICE_DEPENDENCY: {
+	"commandName": "INJECT_SERVICE_DEPENDENCY",
+	"payload": {
+		"entityFilePath": "F:/lowgular tutorial/lowgular-course-entry/src/app/ui/project-list/project-list.component.ts",
+		"injectingFilePath": "F:/lowgular tutorial/lowgular-course-entry/src/app/services/project.service.ts"
+	},
+	"level": "info",
+	"message": "[CommandBus]: Dispatching command INJECT_SERVICE_DEPENDENCY"
+}
+[error] [CommandBus]: Error INJECT_SERVICE_DEPENDENCY: {
+	"commandName": "INJECT_SERVICE_DEPENDENCY",
+	"payload": {
+		"entityFilePath": "F:/lowgular tutorial/lowgular-course-entry/src/app/ui/project-list/project-list.component.ts",
+		"injectingFilePath": "F:/lowgular tutorial/lowgular-course-entry/src/app/services/project.service.ts"
+	},
+	"error": {},
+	"level": "error",
+	"message": "[CommandBus]: Error INJECT_SERVICE_DEPENDENCY"
+}
+[error] [API]: Error Cannot read properties of undefined (reading 'toUpperCase'): {
+	"loggerData": {
+		"action": "injectable/inject",
+		"params": {
+			"entityFilePath": "F:/lowgular tutorial/lowgular-course-entry/src/app/ui/project-list/project-list.component.ts",
+			"injectingPath": "F:/lowgular tutorial/lowgular-course-entry/src/app/services/project.service.ts",
+			"type": "SERVICE"
+		},
+		"context": {
+			"workspace": {
+				"rootPath": "F:/lowgular tutorial/lowgular-course-entry"
+			},
+			"userContext": {
+				"id": "CFQOJrafPJXVQIF624zHxyGs0Mo2",
+				"correlationId": "-OaR8DAMlt",
+				"logEnvId": "development"
+			}
+		}
+	},
+	"error": {},
+	"stack": "TypeError: Cannot read properties of undefined (reading 'toUpperCase')\n    at C:\\Users\\jakub\\AppData\\Roaming\\JetBrains\\WebStorm2022.2\\plugins\\LowgularJPlugin\\cli\\main.js:11779:55\n    at Array.filter (<anonymous>)\n    at filterLowgularTypes (C:\\Users\\jakub\\AppData\\Roaming\\JetBrains\\WebStorm2022.2\\plugins\\LowgularJPlugin\\cli\\main.js:11779:18)\n    at Imports.addByType (C:\\Users\\jakub\\AppData\\Roaming\\JetBrains\\WebStorm2022.2\\plugins\\LowgularJPlugin\\cli\\main.js:11847:52)\n    at importSourceService (C:\\Users\\jakub\\AppData\\Roaming\\JetBrains\\WebStorm2022.2\\plugins\\LowgularJPlugin\\cli\\main.js:11582:15)\n    at syncImports (C:\\Users\\jakub\\AppData\\Roaming\\JetBrains\\WebStorm2022.2\\plugins\\LowgularJPlugin\\cli\\main.js:11491:96)\n    at C:\\Users\\jakub\\AppData\\Roaming\\JetBrains\\WebStorm2022.2\\plugins\\LowgularJPlugin\\cli\\main.js:2102:45\n    at async TsMorphClassAdapter.write (C:\\Users\\jakub\\AppData\\Roaming\\JetBrains\\WebStorm2022.2\\plugins\\LowgularJPlugin\\cli\\main.js:10497:9)\n    at async injectServiceDependencyCommandHandler (C:\\Users\\jakub\\AppData\\Roaming\\JetBrains\\WebStorm2022.2\\plugins\\LowgularJPlugin\\cli\\main.js:12223:9)\n    at async dispatchCommand (C:\\Users\\jakub\\AppData\\Roaming\\JetBrains\\WebStorm2022.2\\plugins\\LowgularJPlugin\\cli\\main.js:10090:26)",
+	"level": "error",
+	"message": "[API]: Error Cannot read properties of undefined (reading 'toUpperCase')"
+}
+[info] [API] Request for entity/actions: {
+	"action": "entity/actions",
+	"params": {
+		"clickedPath": "F:/lowgular tutorial/lowgular-course-entry/src/app/ui/project-list/project-list.component.ts",
+		"position": 413
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "F:/lowgular tutorial/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "CFQOJrafPJXVQIF624zHxyGs0Mo2",
+			"correlationId": "d7vkBdqOER",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for entity/actions"
+}
+[info] [CLI] Calling Query entity/actions: {
+	"funcParams": {
+		"clickedPath": "F:/lowgular tutorial/lowgular-course-entry/src/app/ui/project-list/project-list.component.ts",
+		"position": 413
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query entity/actions"
+}
+[info] [CLI] Called Query entity/actions: {
+	"result": [
+		{
+			"id": "INJECT",
+			"label": "Inject",
+			"context": {}
+		}
+	],
+	"level": "info",
+	"message": "[CLI] Called Query entity/actions"
+}
+[info] [API] Response ok: entity/actions: {
+	"result": [
+		{
+			"id": "INJECT",
+			"label": "Inject",
+			"context": {}
+		}
+	],
+	"level": "info",
+	"message": "[API] Response ok: entity/actions"
+}
+[info] [API] Request for injectable/list: {
+	"action": "injectable/list",
+	"params": {
+		"entityFilePath": "F:/lowgular tutorial/lowgular-course-entry/src/app/ui/project-list/project-list.component.ts"
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "F:/lowgular tutorial/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "CFQOJrafPJXVQIF624zHxyGs0Mo2",
+			"correlationId": "d7vkBdqOER",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for injectable/list"
+}
+[info] [CLI] Calling Query injectable/list: {
+	"funcParams": {
+		"entityFilePath": "F:/lowgular tutorial/lowgular-course-entry/src/app/ui/project-list/project-list.component.ts"
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query injectable/list"
+}
+[info] [CLI] Called Query injectable/list: {
+	"result": [
+		{
+			"file": "F:/lowgular tutorial/lowgular-course-entry/src/app/services/employee.service.ts",
+			"name": "EmployeeService",
+			"type": "SERVICE",
+			"dataType": "Internal"
+		},
+		{
+			"file": "F:/lowgular tutorial/lowgular-course-entry/src/app/services/project.service.ts",
+			"name": "ProjectService",
+			"type": "SERVICE",
+			"dataType": "Internal"
+		},
+		{
+			"id": "httpClient",
+			"dataType": "External",
+			"name": "HttpClient",
+			"relatedTypes": {}
+		}
+	],
+	"level": "info",
+	"message": "[CLI] Called Query injectable/list"
+}
+[info] [API] Response ok: injectable/list: {
+	"result": [
+		{
+			"file": "F:/lowgular tutorial/lowgular-course-entry/src/app/services/employee.service.ts",
+			"name": "EmployeeService",
+			"type": "SERVICE",
+			"dataType": "Internal"
+		},
+		{
+			"file": "F:/lowgular tutorial/lowgular-course-entry/src/app/services/project.service.ts",
+			"name": "ProjectService",
+			"type": "SERVICE",
+			"dataType": "Internal"
+		},
+		{
+			"id": "httpClient",
+			"dataType": "External",
+			"name": "HttpClient",
+			"relatedTypes": {}
+		}
+	],
+	"level": "info",
+	"message": "[API] Response ok: injectable/list"
+}
+[info] [API] Request for injectable/inject: {
+	"action": "injectable/inject",
+	"params": {
+		"entityFilePath": "F:/lowgular tutorial/lowgular-course-entry/src/app/ui/project-list/project-list.component.ts",
+		"injectingPath": "F:/lowgular tutorial/lowgular-course-entry/src/app/services/project.service.ts",
+		"type": "SERVICE"
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "F:/lowgular tutorial/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "CFQOJrafPJXVQIF624zHxyGs0Mo2",
+			"correlationId": "d7vkBdqOER",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for injectable/inject"
+}
+[info] [CLI] Calling Command injectable/inject: {
+	"funcParams": {
+		"entityFilePath": "F:/lowgular tutorial/lowgular-course-entry/src/app/ui/project-list/project-list.component.ts",
+		"injectingPath": "F:/lowgular tutorial/lowgular-course-entry/src/app/services/project.service.ts",
+		"type": "SERVICE"
+	},
+	"level": "info",
+	"message": "[CLI] Calling Command injectable/inject"
+}
+[info] [CommandBus]: Dispatching command INJECT_SERVICE_DEPENDENCY: {
+	"commandName": "INJECT_SERVICE_DEPENDENCY",
+	"payload": {
+		"entityFilePath": "F:/lowgular tutorial/lowgular-course-entry/src/app/ui/project-list/project-list.component.ts",
+		"injectingFilePath": "F:/lowgular tutorial/lowgular-course-entry/src/app/services/project.service.ts"
+	},
+	"level": "info",
+	"message": "[CommandBus]: Dispatching command INJECT_SERVICE_DEPENDENCY"
+}
+[error] [CommandBus]: Error INJECT_SERVICE_DEPENDENCY: {
+	"commandName": "INJECT_SERVICE_DEPENDENCY",
+	"payload": {
+		"entityFilePath": "F:/lowgular tutorial/lowgular-course-entry/src/app/ui/project-list/project-list.component.ts",
+		"injectingFilePath": "F:/lowgular tutorial/lowgular-course-entry/src/app/services/project.service.ts"
+	},
+	"error": {},
+	"level": "error",
+	"message": "[CommandBus]: Error INJECT_SERVICE_DEPENDENCY"
+}
+[error] [API]: Error Cannot read properties of undefined (reading 'toUpperCase'): {
+	"loggerData": {
+		"action": "injectable/inject",
+		"params": {
+			"entityFilePath": "F:/lowgular tutorial/lowgular-course-entry/src/app/ui/project-list/project-list.component.ts",
+			"injectingPath": "F:/lowgular tutorial/lowgular-course-entry/src/app/services/project.service.ts",
+			"type": "SERVICE"
+		},
+		"context": {
+			"workspace": {
+				"rootPath": "F:/lowgular tutorial/lowgular-course-entry"
+			},
+			"userContext": {
+				"id": "CFQOJrafPJXVQIF624zHxyGs0Mo2",
+				"correlationId": "d7vkBdqOER",
+				"logEnvId": "development"
+			}
+		}
+	},
+	"error": {},
+	"stack": "TypeError: Cannot read properties of undefined (reading 'toUpperCase')\n    at C:\\Users\\jakub\\AppData\\Roaming\\JetBrains\\WebStorm2022.2\\plugins\\LowgularJPlugin\\cli\\main.js:11779:55\n    at Array.filter (<anonymous>)\n    at filterLowgularTypes (C:\\Users\\jakub\\AppData\\Roaming\\JetBrains\\WebStorm2022.2\\plugins\\LowgularJPlugin\\cli\\main.js:11779:18)\n    at Imports.addByType (C:\\Users\\jakub\\AppData\\Roaming\\JetBrains\\WebStorm2022.2\\plugins\\LowgularJPlugin\\cli\\main.js:11847:52)\n    at importSourceService (C:\\Users\\jakub\\AppData\\Roaming\\JetBrains\\WebStorm2022.2\\plugins\\LowgularJPlugin\\cli\\main.js:11582:15)\n    at syncImports (C:\\Users\\jakub\\AppData\\Roaming\\JetBrains\\WebStorm2022.2\\plugins\\LowgularJPlugin\\cli\\main.js:11491:96)\n    at C:\\Users\\jakub\\AppData\\Roaming\\JetBrains\\WebStorm2022.2\\plugins\\LowgularJPlugin\\cli\\main.js:2102:45\n    at async TsMorphClassAdapter.write (C:\\Users\\jakub\\AppData\\Roaming\\JetBrains\\WebStorm2022.2\\plugins\\LowgularJPlugin\\cli\\main.js:10497:9)\n    at async injectServiceDependencyCommandHandler (C:\\Users\\jakub\\AppData\\Roaming\\JetBrains\\WebStorm2022.2\\plugins\\LowgularJPlugin\\cli\\main.js:12223:9)\n    at async dispatchCommand (C:\\Users\\jakub\\AppData\\Roaming\\JetBrains\\WebStorm2022.2\\plugins\\LowgularJPlugin\\cli\\main.js:10090:26)",
+	"level": "error",
+	"message": "[API]: Error Cannot read properties of undefined (reading 'toUpperCase')"
+}
+[info] [API] Request for entity/actions: {
+	"action": "entity/actions",
+	"params": {
+		"clickedPath": "F:/lowgular tutorial/lowgular-course-entry/src/app/ui/project-list/project-list.component.ts",
+		"position": 408
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "F:/lowgular tutorial/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "CFQOJrafPJXVQIF624zHxyGs0Mo2",
+			"correlationId": "Lo2-TSHMYq",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for entity/actions"
+}
+[info] [CLI] Calling Query entity/actions: {
+	"funcParams": {
+		"clickedPath": "F:/lowgular tutorial/lowgular-course-entry/src/app/ui/project-list/project-list.component.ts",
+		"position": 408
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query entity/actions"
+}
+[info] [CLI] Called Query entity/actions: {
+	"result": [
+		{
+			"id": "INJECT",
+			"label": "Inject",
+			"context": {}
+		}
+	],
+	"level": "info",
+	"message": "[CLI] Called Query entity/actions"
+}
+[info] [API] Response ok: entity/actions: {
+	"result": [
+		{
+			"id": "INJECT",
+			"label": "Inject",
+			"context": {}
+		}
+	],
+	"level": "info",
+	"message": "[API] Response ok: entity/actions"
+}
+[info] [API] Request for injectable/list: {
+	"action": "injectable/list",
+	"params": {
+		"entityFilePath": "F:/lowgular tutorial/lowgular-course-entry/src/app/ui/project-list/project-list.component.ts"
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "F:/lowgular tutorial/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "CFQOJrafPJXVQIF624zHxyGs0Mo2",
+			"correlationId": "Lo2-TSHMYq",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for injectable/list"
+}
+[info] [CLI] Calling Query injectable/list: {
+	"funcParams": {
+		"entityFilePath": "F:/lowgular tutorial/lowgular-course-entry/src/app/ui/project-list/project-list.component.ts"
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query injectable/list"
+}
+[info] [CLI] Called Query injectable/list: {
+	"result": [
+		{
+			"file": "F:/lowgular tutorial/lowgular-course-entry/src/app/services/employee.service.ts",
+			"name": "EmployeeService",
+			"type": "SERVICE",
+			"dataType": "Internal"
+		},
+		{
+			"file": "F:/lowgular tutorial/lowgular-course-entry/src/app/services/project.service.ts",
+			"name": "ProjectService",
+			"type": "SERVICE",
+			"dataType": "Internal"
+		},
+		{
+			"id": "httpClient",
+			"dataType": "External",
+			"name": "HttpClient",
+			"relatedTypes": {}
+		}
+	],
+	"level": "info",
+	"message": "[CLI] Called Query injectable/list"
+}
+[info] [API] Response ok: injectable/list: {
+	"result": [
+		{
+			"file": "F:/lowgular tutorial/lowgular-course-entry/src/app/services/employee.service.ts",
+			"name": "EmployeeService",
+			"type": "SERVICE",
+			"dataType": "Internal"
+		},
+		{
+			"file": "F:/lowgular tutorial/lowgular-course-entry/src/app/services/project.service.ts",
+			"name": "ProjectService",
+			"type": "SERVICE",
+			"dataType": "Internal"
+		},
+		{
+			"id": "httpClient",
+			"dataType": "External",
+			"name": "HttpClient",
+			"relatedTypes": {}
+		}
+	],
+	"level": "info",
+	"message": "[API] Response ok: injectable/list"
+}
+[info] [API] Request for injectable/inject: {
+	"action": "injectable/inject",
+	"params": {
+		"entityFilePath": "F:/lowgular tutorial/lowgular-course-entry/src/app/ui/project-list/project-list.component.ts",
+		"injectingPath": "F:/lowgular tutorial/lowgular-course-entry/src/app/services/project.service.ts",
+		"type": "SERVICE"
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "F:/lowgular tutorial/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "CFQOJrafPJXVQIF624zHxyGs0Mo2",
+			"correlationId": "Lo2-TSHMYq",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for injectable/inject"
+}
+[info] [CLI] Calling Command injectable/inject: {
+	"funcParams": {
+		"entityFilePath": "F:/lowgular tutorial/lowgular-course-entry/src/app/ui/project-list/project-list.component.ts",
+		"injectingPath": "F:/lowgular tutorial/lowgular-course-entry/src/app/services/project.service.ts",
+		"type": "SERVICE"
+	},
+	"level": "info",
+	"message": "[CLI] Calling Command injectable/inject"
+}
+[info] [CommandBus]: Dispatching command INJECT_SERVICE_DEPENDENCY: {
+	"commandName": "INJECT_SERVICE_DEPENDENCY",
+	"payload": {
+		"entityFilePath": "F:/lowgular tutorial/lowgular-course-entry/src/app/ui/project-list/project-list.component.ts",
+		"injectingFilePath": "F:/lowgular tutorial/lowgular-course-entry/src/app/services/project.service.ts"
+	},
+	"level": "info",
+	"message": "[CommandBus]: Dispatching command INJECT_SERVICE_DEPENDENCY"
+}
+[error] [CommandBus]: Error INJECT_SERVICE_DEPENDENCY: {
+	"commandName": "INJECT_SERVICE_DEPENDENCY",
+	"payload": {
+		"entityFilePath": "F:/lowgular tutorial/lowgular-course-entry/src/app/ui/project-list/project-list.component.ts",
+		"injectingFilePath": "F:/lowgular tutorial/lowgular-course-entry/src/app/services/project.service.ts"
+	},
+	"error": {},
+	"level": "error",
+	"message": "[CommandBus]: Error INJECT_SERVICE_DEPENDENCY"
+}
+[error] [API]: Error Cannot read properties of undefined (reading 'toUpperCase'): {
+	"loggerData": {
+		"action": "injectable/inject",
+		"params": {
+			"entityFilePath": "F:/lowgular tutorial/lowgular-course-entry/src/app/ui/project-list/project-list.component.ts",
+			"injectingPath": "F:/lowgular tutorial/lowgular-course-entry/src/app/services/project.service.ts",
+			"type": "SERVICE"
+		},
+		"context": {
+			"workspace": {
+				"rootPath": "F:/lowgular tutorial/lowgular-course-entry"
+			},
+			"userContext": {
+				"id": "CFQOJrafPJXVQIF624zHxyGs0Mo2",
+				"correlationId": "Lo2-TSHMYq",
+				"logEnvId": "development"
+			}
+		}
+	},
+	"error": {},
+	"stack": "TypeError: Cannot read properties of undefined (reading 'toUpperCase')\n    at C:\\Users\\jakub\\AppData\\Roaming\\JetBrains\\WebStorm2022.2\\plugins\\LowgularJPlugin\\cli\\main.js:11779:55\n    at Array.filter (<anonymous>)\n    at filterLowgularTypes (C:\\Users\\jakub\\AppData\\Roaming\\JetBrains\\WebStorm2022.2\\plugins\\LowgularJPlugin\\cli\\main.js:11779:18)\n    at Imports.addByType (C:\\Users\\jakub\\AppData\\Roaming\\JetBrains\\WebStorm2022.2\\plugins\\LowgularJPlugin\\cli\\main.js:11847:52)\n    at importSourceService (C:\\Users\\jakub\\AppData\\Roaming\\JetBrains\\WebStorm2022.2\\plugins\\LowgularJPlugin\\cli\\main.js:11582:15)\n    at syncImports (C:\\Users\\jakub\\AppData\\Roaming\\JetBrains\\WebStorm2022.2\\plugins\\LowgularJPlugin\\cli\\main.js:11491:96)\n    at C:\\Users\\jakub\\AppData\\Roaming\\JetBrains\\WebStorm2022.2\\plugins\\LowgularJPlugin\\cli\\main.js:2102:45\n    at async TsMorphClassAdapter.write (C:\\Users\\jakub\\AppData\\Roaming\\JetBrains\\WebStorm2022.2\\plugins\\LowgularJPlugin\\cli\\main.js:10497:9)\n    at async injectServiceDependencyCommandHandler (C:\\Users\\jakub\\AppData\\Roaming\\JetBrains\\WebStorm2022.2\\plugins\\LowgularJPlugin\\cli\\main.js:12223:9)\n    at async dispatchCommand (C:\\Users\\jakub\\AppData\\Roaming\\JetBrains\\WebStorm2022.2\\plugins\\LowgularJPlugin\\cli\\main.js:10090:26)",
+	"level": "error",
+	"message": "[API]: Error Cannot read properties of undefined (reading 'toUpperCase')"
+}
+[info] [API] Request for entity/actions: {
+	"action": "entity/actions",
+	"params": {
+		"clickedPath": "F:/lowgular tutorial/lowgular-course-entry/src/app/ui/project-list/project-list.component.ts",
+		"position": 411
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "F:/lowgular tutorial/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "CFQOJrafPJXVQIF624zHxyGs0Mo2",
+			"correlationId": "5xB2tPgsXC",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for entity/actions"
+}
+[info] [CLI] Calling Query entity/actions: {
+	"funcParams": {
+		"clickedPath": "F:/lowgular tutorial/lowgular-course-entry/src/app/ui/project-list/project-list.component.ts",
+		"position": 411
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query entity/actions"
+}
+[info] [CLI] Called Query entity/actions: {
+	"result": [
+		{
+			"id": "INJECT",
+			"label": "Inject",
+			"context": {}
+		}
+	],
+	"level": "info",
+	"message": "[CLI] Called Query entity/actions"
+}
+[info] [API] Response ok: entity/actions: {
+	"result": [
+		{
+			"id": "INJECT",
+			"label": "Inject",
+			"context": {}
+		}
+	],
+	"level": "info",
+	"message": "[API] Response ok: entity/actions"
+}
+[info] [API] Request for injectable/list: {
+	"action": "injectable/list",
+	"params": {
+		"entityFilePath": "F:/lowgular tutorial/lowgular-course-entry/src/app/ui/project-list/project-list.component.ts"
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "F:/lowgular tutorial/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "CFQOJrafPJXVQIF624zHxyGs0Mo2",
+			"correlationId": "5xB2tPgsXC",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for injectable/list"
+}
+[info] [CLI] Calling Query injectable/list: {
+	"funcParams": {
+		"entityFilePath": "F:/lowgular tutorial/lowgular-course-entry/src/app/ui/project-list/project-list.component.ts"
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query injectable/list"
+}
+[info] [CLI] Called Query injectable/list: {
+	"result": [
+		{
+			"file": "F:/lowgular tutorial/lowgular-course-entry/src/app/services/employee.service.ts",
+			"name": "EmployeeService",
+			"type": "SERVICE",
+			"dataType": "Internal"
+		},
+		{
+			"file": "F:/lowgular tutorial/lowgular-course-entry/src/app/services/project.service.ts",
+			"name": "ProjectService",
+			"type": "SERVICE",
+			"dataType": "Internal"
+		},
+		{
+			"id": "httpClient",
+			"dataType": "External",
+			"name": "HttpClient",
+			"relatedTypes": {}
+		}
+	],
+	"level": "info",
+	"message": "[CLI] Called Query injectable/list"
+}
+[info] [API] Response ok: injectable/list: {
+	"result": [
+		{
+			"file": "F:/lowgular tutorial/lowgular-course-entry/src/app/services/employee.service.ts",
+			"name": "EmployeeService",
+			"type": "SERVICE",
+			"dataType": "Internal"
+		},
+		{
+			"file": "F:/lowgular tutorial/lowgular-course-entry/src/app/services/project.service.ts",
+			"name": "ProjectService",
+			"type": "SERVICE",
+			"dataType": "Internal"
+		},
+		{
+			"id": "httpClient",
+			"dataType": "External",
+			"name": "HttpClient",
+			"relatedTypes": {}
+		}
+	],
+	"level": "info",
+	"message": "[API] Response ok: injectable/list"
+}
+[info] [API] Request for injectable/inject: {
+	"action": "injectable/inject",
+	"params": {
+		"entityFilePath": "F:/lowgular tutorial/lowgular-course-entry/src/app/ui/project-list/project-list.component.ts",
+		"injectingPath": "F:/lowgular tutorial/lowgular-course-entry/src/app/services/project.service.ts",
+		"type": "SERVICE"
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "F:/lowgular tutorial/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "CFQOJrafPJXVQIF624zHxyGs0Mo2",
+			"correlationId": "5xB2tPgsXC",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for injectable/inject"
+}
+[info] [CLI] Calling Command injectable/inject: {
+	"funcParams": {
+		"entityFilePath": "F:/lowgular tutorial/lowgular-course-entry/src/app/ui/project-list/project-list.component.ts",
+		"injectingPath": "F:/lowgular tutorial/lowgular-course-entry/src/app/services/project.service.ts",
+		"type": "SERVICE"
+	},
+	"level": "info",
+	"message": "[CLI] Calling Command injectable/inject"
+}
+[info] [CommandBus]: Dispatching command INJECT_SERVICE_DEPENDENCY: {
+	"commandName": "INJECT_SERVICE_DEPENDENCY",
+	"payload": {
+		"entityFilePath": "F:/lowgular tutorial/lowgular-course-entry/src/app/ui/project-list/project-list.component.ts",
+		"injectingFilePath": "F:/lowgular tutorial/lowgular-course-entry/src/app/services/project.service.ts"
+	},
+	"level": "info",
+	"message": "[CommandBus]: Dispatching command INJECT_SERVICE_DEPENDENCY"
+}
+[error] [CommandBus]: Error INJECT_SERVICE_DEPENDENCY: {
+	"commandName": "INJECT_SERVICE_DEPENDENCY",
+	"payload": {
+		"entityFilePath": "F:/lowgular tutorial/lowgular-course-entry/src/app/ui/project-list/project-list.component.ts",
+		"injectingFilePath": "F:/lowgular tutorial/lowgular-course-entry/src/app/services/project.service.ts"
+	},
+	"error": {},
+	"level": "error",
+	"message": "[CommandBus]: Error INJECT_SERVICE_DEPENDENCY"
+}
+[error] [API]: Error Cannot read properties of undefined (reading 'toUpperCase'): {
+	"loggerData": {
+		"action": "injectable/inject",
+		"params": {
+			"entityFilePath": "F:/lowgular tutorial/lowgular-course-entry/src/app/ui/project-list/project-list.component.ts",
+			"injectingPath": "F:/lowgular tutorial/lowgular-course-entry/src/app/services/project.service.ts",
+			"type": "SERVICE"
+		},
+		"context": {
+			"workspace": {
+				"rootPath": "F:/lowgular tutorial/lowgular-course-entry"
+			},
+			"userContext": {
+				"id": "CFQOJrafPJXVQIF624zHxyGs0Mo2",
+				"correlationId": "5xB2tPgsXC",
+				"logEnvId": "development"
+			}
+		}
+	},
+	"error": {},
+	"stack": "TypeError: Cannot read properties of undefined (reading 'toUpperCase')\n    at C:\\Users\\jakub\\AppData\\Roaming\\JetBrains\\WebStorm2022.2\\plugins\\LowgularJPlugin\\cli\\main.js:11779:55\n    at Array.filter (<anonymous>)\n    at filterLowgularTypes (C:\\Users\\jakub\\AppData\\Roaming\\JetBrains\\WebStorm2022.2\\plugins\\LowgularJPlugin\\cli\\main.js:11779:18)\n    at Imports.addByType (C:\\Users\\jakub\\AppData\\Roaming\\JetBrains\\WebStorm2022.2\\plugins\\LowgularJPlugin\\cli\\main.js:11847:52)\n    at importSourceService (C:\\Users\\jakub\\AppData\\Roaming\\JetBrains\\WebStorm2022.2\\plugins\\LowgularJPlugin\\cli\\main.js:11582:15)\n    at syncImports (C:\\Users\\jakub\\AppData\\Roaming\\JetBrains\\WebStorm2022.2\\plugins\\LowgularJPlugin\\cli\\main.js:11491:96)\n    at C:\\Users\\jakub\\AppData\\Roaming\\JetBrains\\WebStorm2022.2\\plugins\\LowgularJPlugin\\cli\\main.js:2102:45\n    at async TsMorphClassAdapter.write (C:\\Users\\jakub\\AppData\\Roaming\\JetBrains\\WebStorm2022.2\\plugins\\LowgularJPlugin\\cli\\main.js:10497:9)\n    at async injectServiceDependencyCommandHandler (C:\\Users\\jakub\\AppData\\Roaming\\JetBrains\\WebStorm2022.2\\plugins\\LowgularJPlugin\\cli\\main.js:12223:9)\n    at async dispatchCommand (C:\\Users\\jakub\\AppData\\Roaming\\JetBrains\\WebStorm2022.2\\plugins\\LowgularJPlugin\\cli\\main.js:10090:26)",
+	"level": "error",
+	"message": "[API]: Error Cannot read properties of undefined (reading 'toUpperCase')"
+}
+[info] [API] Request for entity/actions: {
+	"action": "entity/actions",
+	"params": {
+		"clickedPath": "F:/lowgular tutorial/lowgular-course-entry/src/app/ui/project-list/project-list.component.ts",
+		"position": 463
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "F:/lowgular tutorial/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "CFQOJrafPJXVQIF624zHxyGs0Mo2",
+			"correlationId": "dqgTitkSVE",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for entity/actions"
+}
+[info] [CLI] Calling Query entity/actions: {
+	"funcParams": {
+		"clickedPath": "F:/lowgular tutorial/lowgular-course-entry/src/app/ui/project-list/project-list.component.ts",
+		"position": 463
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query entity/actions"
+}
+[info] [CLI] Called Query entity/actions: {
+	"result": [
+		{
+			"id": "INJECT",
+			"label": "Inject",
+			"context": {}
+		}
+	],
+	"level": "info",
+	"message": "[CLI] Called Query entity/actions"
+}
+[info] [API] Response ok: entity/actions: {
+	"result": [
+		{
+			"id": "INJECT",
+			"label": "Inject",
+			"context": {}
+		}
+	],
+	"level": "info",
+	"message": "[API] Response ok: entity/actions"
+}
+[info] [API] Request for injectable/list: {
+	"action": "injectable/list",
+	"params": {
+		"entityFilePath": "F:/lowgular tutorial/lowgular-course-entry/src/app/ui/project-list/project-list.component.ts"
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "F:/lowgular tutorial/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "CFQOJrafPJXVQIF624zHxyGs0Mo2",
+			"correlationId": "dqgTitkSVE",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for injectable/list"
+}
+[info] [CLI] Calling Query injectable/list: {
+	"funcParams": {
+		"entityFilePath": "F:/lowgular tutorial/lowgular-course-entry/src/app/ui/project-list/project-list.component.ts"
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query injectable/list"
+}
+[info] [CLI] Called Query injectable/list: {
+	"result": [
+		{
+			"file": "F:/lowgular tutorial/lowgular-course-entry/src/app/services/employee.service.ts",
+			"name": "EmployeeService",
+			"type": "SERVICE",
+			"dataType": "Internal"
+		},
+		{
+			"file": "F:/lowgular tutorial/lowgular-course-entry/src/app/services/project.service.ts",
+			"name": "ProjectService",
+			"type": "SERVICE",
+			"dataType": "Internal"
+		},
+		{
+			"id": "httpClient",
+			"dataType": "External",
+			"name": "HttpClient",
+			"relatedTypes": {}
+		}
+	],
+	"level": "info",
+	"message": "[CLI] Called Query injectable/list"
+}
+[info] [API] Response ok: injectable/list: {
+	"result": [
+		{
+			"file": "F:/lowgular tutorial/lowgular-course-entry/src/app/services/employee.service.ts",
+			"name": "EmployeeService",
+			"type": "SERVICE",
+			"dataType": "Internal"
+		},
+		{
+			"file": "F:/lowgular tutorial/lowgular-course-entry/src/app/services/project.service.ts",
+			"name": "ProjectService",
+			"type": "SERVICE",
+			"dataType": "Internal"
+		},
+		{
+			"id": "httpClient",
+			"dataType": "External",
+			"name": "HttpClient",
+			"relatedTypes": {}
+		}
+	],
+	"level": "info",
+	"message": "[API] Response ok: injectable/list"
+}
+[info] [API] Request for injectable/inject: {
+	"action": "injectable/inject",
+	"params": {
+		"entityFilePath": "F:/lowgular tutorial/lowgular-course-entry/src/app/ui/project-list/project-list.component.ts",
+		"injectingPath": "F:/lowgular tutorial/lowgular-course-entry/src/app/services/project.service.ts",
+		"type": "SERVICE"
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "F:/lowgular tutorial/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "CFQOJrafPJXVQIF624zHxyGs0Mo2",
+			"correlationId": "dqgTitkSVE",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for injectable/inject"
+}
+[info] [CLI] Calling Command injectable/inject: {
+	"funcParams": {
+		"entityFilePath": "F:/lowgular tutorial/lowgular-course-entry/src/app/ui/project-list/project-list.component.ts",
+		"injectingPath": "F:/lowgular tutorial/lowgular-course-entry/src/app/services/project.service.ts",
+		"type": "SERVICE"
+	},
+	"level": "info",
+	"message": "[CLI] Calling Command injectable/inject"
+}
+[info] [CommandBus]: Dispatching command INJECT_SERVICE_DEPENDENCY: {
+	"commandName": "INJECT_SERVICE_DEPENDENCY",
+	"payload": {
+		"entityFilePath": "F:/lowgular tutorial/lowgular-course-entry/src/app/ui/project-list/project-list.component.ts",
+		"injectingFilePath": "F:/lowgular tutorial/lowgular-course-entry/src/app/services/project.service.ts"
+	},
+	"level": "info",
+	"message": "[CommandBus]: Dispatching command INJECT_SERVICE_DEPENDENCY"
+}
+[error] [CommandBus]: Error INJECT_SERVICE_DEPENDENCY: {
+	"commandName": "INJECT_SERVICE_DEPENDENCY",
+	"payload": {
+		"entityFilePath": "F:/lowgular tutorial/lowgular-course-entry/src/app/ui/project-list/project-list.component.ts",
+		"injectingFilePath": "F:/lowgular tutorial/lowgular-course-entry/src/app/services/project.service.ts"
+	},
+	"error": {},
+	"level": "error",
+	"message": "[CommandBus]: Error INJECT_SERVICE_DEPENDENCY"
+}
+[error] [API]: Error Cannot read properties of undefined (reading 'toUpperCase'): {
+	"loggerData": {
+		"action": "injectable/inject",
+		"params": {
+			"entityFilePath": "F:/lowgular tutorial/lowgular-course-entry/src/app/ui/project-list/project-list.component.ts",
+			"injectingPath": "F:/lowgular tutorial/lowgular-course-entry/src/app/services/project.service.ts",
+			"type": "SERVICE"
+		},
+		"context": {
+			"workspace": {
+				"rootPath": "F:/lowgular tutorial/lowgular-course-entry"
+			},
+			"userContext": {
+				"id": "CFQOJrafPJXVQIF624zHxyGs0Mo2",
+				"correlationId": "dqgTitkSVE",
+				"logEnvId": "development"
+			}
+		}
+	},
+	"error": {},
+	"stack": "TypeError: Cannot read properties of undefined (reading 'toUpperCase')\n    at C:\\Users\\jakub\\AppData\\Roaming\\JetBrains\\WebStorm2022.2\\plugins\\LowgularJPlugin\\cli\\main.js:11779:55\n    at Array.filter (<anonymous>)\n    at filterLowgularTypes (C:\\Users\\jakub\\AppData\\Roaming\\JetBrains\\WebStorm2022.2\\plugins\\LowgularJPlugin\\cli\\main.js:11779:18)\n    at Imports.addByType (C:\\Users\\jakub\\AppData\\Roaming\\JetBrains\\WebStorm2022.2\\plugins\\LowgularJPlugin\\cli\\main.js:11847:52)\n    at importSourceService (C:\\Users\\jakub\\AppData\\Roaming\\JetBrains\\WebStorm2022.2\\plugins\\LowgularJPlugin\\cli\\main.js:11582:15)\n    at syncImports (C:\\Users\\jakub\\AppData\\Roaming\\JetBrains\\WebStorm2022.2\\plugins\\LowgularJPlugin\\cli\\main.js:11491:96)\n    at C:\\Users\\jakub\\AppData\\Roaming\\JetBrains\\WebStorm2022.2\\plugins\\LowgularJPlugin\\cli\\main.js:2102:45\n    at async TsMorphClassAdapter.write (C:\\Users\\jakub\\AppData\\Roaming\\JetBrains\\WebStorm2022.2\\plugins\\LowgularJPlugin\\cli\\main.js:10497:9)\n    at async injectServiceDependencyCommandHandler (C:\\Users\\jakub\\AppData\\Roaming\\JetBrains\\WebStorm2022.2\\plugins\\LowgularJPlugin\\cli\\main.js:12223:9)\n    at async dispatchCommand (C:\\Users\\jakub\\AppData\\Roaming\\JetBrains\\WebStorm2022.2\\plugins\\LowgularJPlugin\\cli\\main.js:10090:26)",
+	"level": "error",
+	"message": "[API]: Error Cannot read properties of undefined (reading 'toUpperCase')"
+}
+[info] [API] Request for entity/actions: {
+	"action": "entity/actions",
+	"params": {
+		"clickedPath": "F:/lowgular tutorial/lowgular-course-entry/src/app/ui/project-list/project-list.component.ts",
+		"position": 463
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "F:/lowgular tutorial/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "CFQOJrafPJXVQIF624zHxyGs0Mo2",
+			"correlationId": "EQ31uQ8dYd",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for entity/actions"
+}
+[info] [CLI] Calling Query entity/actions: {
+	"funcParams": {
+		"clickedPath": "F:/lowgular tutorial/lowgular-course-entry/src/app/ui/project-list/project-list.component.ts",
+		"position": 463
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query entity/actions"
+}
+[info] [CLI] Called Query entity/actions: {
+	"result": [
+		{
+			"id": "INJECT",
+			"label": "Inject",
+			"context": {}
+		}
+	],
+	"level": "info",
+	"message": "[CLI] Called Query entity/actions"
+}
+[info] [API] Response ok: entity/actions: {
+	"result": [
+		{
+			"id": "INJECT",
+			"label": "Inject",
+			"context": {}
+		}
+	],
+	"level": "info",
+	"message": "[API] Response ok: entity/actions"
+}
+[info] [API] Request for injectable/list: {
+	"action": "injectable/list",
+	"params": {
+		"entityFilePath": "F:/lowgular tutorial/lowgular-course-entry/src/app/ui/project-list/project-list.component.ts"
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "F:/lowgular tutorial/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "CFQOJrafPJXVQIF624zHxyGs0Mo2",
+			"correlationId": "EQ31uQ8dYd",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for injectable/list"
+}
+[info] [CLI] Calling Query injectable/list: {
+	"funcParams": {
+		"entityFilePath": "F:/lowgular tutorial/lowgular-course-entry/src/app/ui/project-list/project-list.component.ts"
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query injectable/list"
+}
+[info] [CLI] Called Query injectable/list: {
+	"result": [
+		{
+			"file": "F:/lowgular tutorial/lowgular-course-entry/src/app/services/employee.service.ts",
+			"name": "EmployeeService",
+			"type": "SERVICE",
+			"dataType": "Internal"
+		},
+		{
+			"file": "F:/lowgular tutorial/lowgular-course-entry/src/app/services/project.service.ts",
+			"name": "ProjectService",
+			"type": "SERVICE",
+			"dataType": "Internal"
+		},
+		{
+			"id": "httpClient",
+			"dataType": "External",
+			"name": "HttpClient",
+			"relatedTypes": {}
+		}
+	],
+	"level": "info",
+	"message": "[CLI] Called Query injectable/list"
+}
+[info] [API] Response ok: injectable/list: {
+	"result": [
+		{
+			"file": "F:/lowgular tutorial/lowgular-course-entry/src/app/services/employee.service.ts",
+			"name": "EmployeeService",
+			"type": "SERVICE",
+			"dataType": "Internal"
+		},
+		{
+			"file": "F:/lowgular tutorial/lowgular-course-entry/src/app/services/project.service.ts",
+			"name": "ProjectService",
+			"type": "SERVICE",
+			"dataType": "Internal"
+		},
+		{
+			"id": "httpClient",
+			"dataType": "External",
+			"name": "HttpClient",
+			"relatedTypes": {}
+		}
+	],
+	"level": "info",
+	"message": "[API] Response ok: injectable/list"
+}
+[info] [API] Request for injectable/inject: {
+	"action": "injectable/inject",
+	"params": {
+		"entityFilePath": "F:/lowgular tutorial/lowgular-course-entry/src/app/ui/project-list/project-list.component.ts",
+		"injectingPath": "F:/lowgular tutorial/lowgular-course-entry/src/app/services/employee.service.ts",
+		"type": "SERVICE"
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "F:/lowgular tutorial/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "CFQOJrafPJXVQIF624zHxyGs0Mo2",
+			"correlationId": "EQ31uQ8dYd",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for injectable/inject"
+}
+[info] [CLI] Calling Command injectable/inject: {
+	"funcParams": {
+		"entityFilePath": "F:/lowgular tutorial/lowgular-course-entry/src/app/ui/project-list/project-list.component.ts",
+		"injectingPath": "F:/lowgular tutorial/lowgular-course-entry/src/app/services/employee.service.ts",
+		"type": "SERVICE"
+	},
+	"level": "info",
+	"message": "[CLI] Calling Command injectable/inject"
+}
+[info] [CommandBus]: Dispatching command INJECT_SERVICE_DEPENDENCY: {
+	"commandName": "INJECT_SERVICE_DEPENDENCY",
+	"payload": {
+		"entityFilePath": "F:/lowgular tutorial/lowgular-course-entry/src/app/ui/project-list/project-list.component.ts",
+		"injectingFilePath": "F:/lowgular tutorial/lowgular-course-entry/src/app/services/employee.service.ts"
+	},
+	"level": "info",
+	"message": "[CommandBus]: Dispatching command INJECT_SERVICE_DEPENDENCY"
+}
+[error] [CommandBus]: Error INJECT_SERVICE_DEPENDENCY: {
+	"commandName": "INJECT_SERVICE_DEPENDENCY",
+	"payload": {
+		"entityFilePath": "F:/lowgular tutorial/lowgular-course-entry/src/app/ui/project-list/project-list.component.ts",
+		"injectingFilePath": "F:/lowgular tutorial/lowgular-course-entry/src/app/services/employee.service.ts"
+	},
+	"error": {},
+	"level": "error",
+	"message": "[CommandBus]: Error INJECT_SERVICE_DEPENDENCY"
+}
+[error] [API]: Error Cannot read properties of undefined (reading 'toUpperCase'): {
+	"loggerData": {
+		"action": "injectable/inject",
+		"params": {
+			"entityFilePath": "F:/lowgular tutorial/lowgular-course-entry/src/app/ui/project-list/project-list.component.ts",
+			"injectingPath": "F:/lowgular tutorial/lowgular-course-entry/src/app/services/employee.service.ts",
+			"type": "SERVICE"
+		},
+		"context": {
+			"workspace": {
+				"rootPath": "F:/lowgular tutorial/lowgular-course-entry"
+			},
+			"userContext": {
+				"id": "CFQOJrafPJXVQIF624zHxyGs0Mo2",
+				"correlationId": "EQ31uQ8dYd",
+				"logEnvId": "development"
+			}
+		}
+	},
+	"error": {},
+	"stack": "TypeError: Cannot read properties of undefined (reading 'toUpperCase')\n    at C:\\Users\\jakub\\AppData\\Roaming\\JetBrains\\WebStorm2022.2\\plugins\\LowgularJPlugin\\cli\\main.js:11779:55\n    at Array.filter (<anonymous>)\n    at filterLowgularTypes (C:\\Users\\jakub\\AppData\\Roaming\\JetBrains\\WebStorm2022.2\\plugins\\LowgularJPlugin\\cli\\main.js:11779:18)\n    at Imports.addByType (C:\\Users\\jakub\\AppData\\Roaming\\JetBrains\\WebStorm2022.2\\plugins\\LowgularJPlugin\\cli\\main.js:11847:52)\n    at importSourceService (C:\\Users\\jakub\\AppData\\Roaming\\JetBrains\\WebStorm2022.2\\plugins\\LowgularJPlugin\\cli\\main.js:11582:15)\n    at syncImports (C:\\Users\\jakub\\AppData\\Roaming\\JetBrains\\WebStorm2022.2\\plugins\\LowgularJPlugin\\cli\\main.js:11491:96)\n    at C:\\Users\\jakub\\AppData\\Roaming\\JetBrains\\WebStorm2022.2\\plugins\\LowgularJPlugin\\cli\\main.js:2102:45\n    at async TsMorphClassAdapter.write (C:\\Users\\jakub\\AppData\\Roaming\\JetBrains\\WebStorm2022.2\\plugins\\LowgularJPlugin\\cli\\main.js:10497:9)\n    at async injectServiceDependencyCommandHandler (C:\\Users\\jakub\\AppData\\Roaming\\JetBrains\\WebStorm2022.2\\plugins\\LowgularJPlugin\\cli\\main.js:12223:9)\n    at async dispatchCommand (C:\\Users\\jakub\\AppData\\Roaming\\JetBrains\\WebStorm2022.2\\plugins\\LowgularJPlugin\\cli\\main.js:10090:26)",
+	"level": "error",
+	"message": "[API]: Error Cannot read properties of undefined (reading 'toUpperCase')"
+}
+[info] [API] Request for entity/actions: {
+	"action": "entity/actions",
+	"params": {
+		"clickedPath": "F:/lowgular tutorial/lowgular-course-entry/src/app/ui/project-list/project-list.component.ts",
+		"position": 410
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "F:/lowgular tutorial/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "CFQOJrafPJXVQIF624zHxyGs0Mo2",
+			"correlationId": "1hJ8MQufK-",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for entity/actions"
+}
+[info] [CLI] Calling Query entity/actions: {
+	"funcParams": {
+		"clickedPath": "F:/lowgular tutorial/lowgular-course-entry/src/app/ui/project-list/project-list.component.ts",
+		"position": 410
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query entity/actions"
+}
+[info] [CLI] Called Query entity/actions: {
+	"result": [
+		{
+			"id": "INJECT",
+			"label": "Inject",
+			"context": {}
+		}
+	],
+	"level": "info",
+	"message": "[CLI] Called Query entity/actions"
+}
+[info] [API] Response ok: entity/actions: {
+	"result": [
+		{
+			"id": "INJECT",
+			"label": "Inject",
+			"context": {}
+		}
+	],
+	"level": "info",
+	"message": "[API] Response ok: entity/actions"
+}
+[info] [API] Request for injectable/list: {
+	"action": "injectable/list",
+	"params": {
+		"entityFilePath": "F:/lowgular tutorial/lowgular-course-entry/src/app/ui/project-list/project-list.component.ts"
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "F:/lowgular tutorial/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "CFQOJrafPJXVQIF624zHxyGs0Mo2",
+			"correlationId": "1hJ8MQufK-",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for injectable/list"
+}
+[info] [CLI] Calling Query injectable/list: {
+	"funcParams": {
+		"entityFilePath": "F:/lowgular tutorial/lowgular-course-entry/src/app/ui/project-list/project-list.component.ts"
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query injectable/list"
+}
+[info] [CLI] Called Query injectable/list: {
+	"result": [
+		{
+			"file": "F:/lowgular tutorial/lowgular-course-entry/src/app/services/employee.service.ts",
+			"name": "EmployeeService",
+			"type": "SERVICE",
+			"dataType": "Internal"
+		},
+		{
+			"file": "F:/lowgular tutorial/lowgular-course-entry/src/app/services/project.service.ts",
+			"name": "ProjectService",
+			"type": "SERVICE",
+			"dataType": "Internal"
+		},
+		{
+			"id": "httpClient",
+			"dataType": "External",
+			"name": "HttpClient",
+			"relatedTypes": {}
+		}
+	],
+	"level": "info",
+	"message": "[CLI] Called Query injectable/list"
+}
+[info] [API] Response ok: injectable/list: {
+	"result": [
+		{
+			"file": "F:/lowgular tutorial/lowgular-course-entry/src/app/services/employee.service.ts",
+			"name": "EmployeeService",
+			"type": "SERVICE",
+			"dataType": "Internal"
+		},
+		{
+			"file": "F:/lowgular tutorial/lowgular-course-entry/src/app/services/project.service.ts",
+			"name": "ProjectService",
+			"type": "SERVICE",
+			"dataType": "Internal"
+		},
+		{
+			"id": "httpClient",
+			"dataType": "External",
+			"name": "HttpClient",
+			"relatedTypes": {}
+		}
+	],
+	"level": "info",
+	"message": "[API] Response ok: injectable/list"
+}
+[info] [API] Request for injectable/inject: {
+	"action": "injectable/inject",
+	"params": {
+		"entityFilePath": "F:/lowgular tutorial/lowgular-course-entry/src/app/ui/project-list/project-list.component.ts",
+		"injectingPath": "F:/lowgular tutorial/lowgular-course-entry/src/app/services/employee.service.ts",
+		"type": "SERVICE"
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "F:/lowgular tutorial/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "CFQOJrafPJXVQIF624zHxyGs0Mo2",
+			"correlationId": "1hJ8MQufK-",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for injectable/inject"
+}
+[info] [CLI] Calling Command injectable/inject: {
+	"funcParams": {
+		"entityFilePath": "F:/lowgular tutorial/lowgular-course-entry/src/app/ui/project-list/project-list.component.ts",
+		"injectingPath": "F:/lowgular tutorial/lowgular-course-entry/src/app/services/employee.service.ts",
+		"type": "SERVICE"
+	},
+	"level": "info",
+	"message": "[CLI] Calling Command injectable/inject"
+}
+[info] [CommandBus]: Dispatching command INJECT_SERVICE_DEPENDENCY: {
+	"commandName": "INJECT_SERVICE_DEPENDENCY",
+	"payload": {
+		"entityFilePath": "F:/lowgular tutorial/lowgular-course-entry/src/app/ui/project-list/project-list.component.ts",
+		"injectingFilePath": "F:/lowgular tutorial/lowgular-course-entry/src/app/services/employee.service.ts"
+	},
+	"level": "info",
+	"message": "[CommandBus]: Dispatching command INJECT_SERVICE_DEPENDENCY"
+}
+[error] [CommandBus]: Error INJECT_SERVICE_DEPENDENCY: {
+	"commandName": "INJECT_SERVICE_DEPENDENCY",
+	"payload": {
+		"entityFilePath": "F:/lowgular tutorial/lowgular-course-entry/src/app/ui/project-list/project-list.component.ts",
+		"injectingFilePath": "F:/lowgular tutorial/lowgular-course-entry/src/app/services/employee.service.ts"
+	},
+	"error": {},
+	"level": "error",
+	"message": "[CommandBus]: Error INJECT_SERVICE_DEPENDENCY"
+}
+[error] [API]: Error Cannot read properties of undefined (reading 'toUpperCase'): {
+	"loggerData": {
+		"action": "injectable/inject",
+		"params": {
+			"entityFilePath": "F:/lowgular tutorial/lowgular-course-entry/src/app/ui/project-list/project-list.component.ts",
+			"injectingPath": "F:/lowgular tutorial/lowgular-course-entry/src/app/services/employee.service.ts",
+			"type": "SERVICE"
+		},
+		"context": {
+			"workspace": {
+				"rootPath": "F:/lowgular tutorial/lowgular-course-entry"
+			},
+			"userContext": {
+				"id": "CFQOJrafPJXVQIF624zHxyGs0Mo2",
+				"correlationId": "1hJ8MQufK-",
+				"logEnvId": "development"
+			}
+		}
+	},
+	"error": {},
+	"stack": "TypeError: Cannot read properties of undefined (reading 'toUpperCase')\n    at C:\\Users\\jakub\\AppData\\Roaming\\JetBrains\\WebStorm2022.2\\plugins\\LowgularJPlugin\\cli\\main.js:11779:55\n    at Array.filter (<anonymous>)\n    at filterLowgularTypes (C:\\Users\\jakub\\AppData\\Roaming\\JetBrains\\WebStorm2022.2\\plugins\\LowgularJPlugin\\cli\\main.js:11779:18)\n    at Imports.addByType (C:\\Users\\jakub\\AppData\\Roaming\\JetBrains\\WebStorm2022.2\\plugins\\LowgularJPlugin\\cli\\main.js:11847:52)\n    at importSourceService (C:\\Users\\jakub\\AppData\\Roaming\\JetBrains\\WebStorm2022.2\\plugins\\LowgularJPlugin\\cli\\main.js:11582:15)\n    at syncImports (C:\\Users\\jakub\\AppData\\Roaming\\JetBrains\\WebStorm2022.2\\plugins\\LowgularJPlugin\\cli\\main.js:11491:96)\n    at C:\\Users\\jakub\\AppData\\Roaming\\JetBrains\\WebStorm2022.2\\plugins\\LowgularJPlugin\\cli\\main.js:2102:45\n    at async TsMorphClassAdapter.write (C:\\Users\\jakub\\AppData\\Roaming\\JetBrains\\WebStorm2022.2\\plugins\\LowgularJPlugin\\cli\\main.js:10497:9)\n    at async injectServiceDependencyCommandHandler (C:\\Users\\jakub\\AppData\\Roaming\\JetBrains\\WebStorm2022.2\\plugins\\LowgularJPlugin\\cli\\main.js:12223:9)\n    at async dispatchCommand (C:\\Users\\jakub\\AppData\\Roaming\\JetBrains\\WebStorm2022.2\\plugins\\LowgularJPlugin\\cli\\main.js:10090:26)",
+	"level": "error",
+	"message": "[API]: Error Cannot read properties of undefined (reading 'toUpperCase')"
+}
+[info] [API] Request for entity/actions: {
+	"action": "entity/actions",
+	"params": {
+		"clickedPath": "F:/lowgular tutorial/lowgular-course-entry/src/app/ui/project-list/project-list.component.ts",
+		"position": 410
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "F:/lowgular tutorial/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "CFQOJrafPJXVQIF624zHxyGs0Mo2",
+			"correlationId": "IGzzcKVl91",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for entity/actions"
+}
+[info] [CLI] Calling Query entity/actions: {
+	"funcParams": {
+		"clickedPath": "F:/lowgular tutorial/lowgular-course-entry/src/app/ui/project-list/project-list.component.ts",
+		"position": 410
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query entity/actions"
+}
+[info] [CLI] Called Query entity/actions: {
+	"result": [
+		{
+			"id": "INJECT",
+			"label": "Inject",
+			"context": {}
+		}
+	],
+	"level": "info",
+	"message": "[CLI] Called Query entity/actions"
+}
+[info] [API] Response ok: entity/actions: {
+	"result": [
+		{
+			"id": "INJECT",
+			"label": "Inject",
+			"context": {}
+		}
+	],
+	"level": "info",
+	"message": "[API] Response ok: entity/actions"
+}
+[info] [API] Request for entity/actions: {
+	"action": "entity/actions",
+	"params": {
+		"clickedPath": "F:/lowgular tutorial/lowgular-course-entry/src/app/ui/project-list/project-list.component.ts",
+		"position": 375
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "F:/lowgular tutorial/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "CFQOJrafPJXVQIF624zHxyGs0Mo2",
+			"correlationId": "bP1H3WHrRM",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for entity/actions"
+}
+[info] [CLI] Calling Query entity/actions: {
+	"funcParams": {
+		"clickedPath": "F:/lowgular tutorial/lowgular-course-entry/src/app/ui/project-list/project-list.component.ts",
+		"position": 375
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query entity/actions"
+}
+[info] [CLI] Called Query entity/actions: {
+	"result": [
+		{
+			"id": "INJECT",
+			"label": "Inject",
+			"context": {}
+		}
+	],
+	"level": "info",
+	"message": "[CLI] Called Query entity/actions"
+}
+[info] [API] Response ok: entity/actions: {
+	"result": [
+		{
+			"id": "INJECT",
+			"label": "Inject",
+			"context": {}
+		}
+	],
+	"level": "info",
+	"message": "[API] Response ok: entity/actions"
+}
+[info] [API] Request for injectable/list: {
+	"action": "injectable/list",
+	"params": {
+		"entityFilePath": "F:/lowgular tutorial/lowgular-course-entry/src/app/ui/project-list/project-list.component.ts"
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "F:/lowgular tutorial/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "CFQOJrafPJXVQIF624zHxyGs0Mo2",
+			"correlationId": "bP1H3WHrRM",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for injectable/list"
+}
+[info] [CLI] Calling Query injectable/list: {
+	"funcParams": {
+		"entityFilePath": "F:/lowgular tutorial/lowgular-course-entry/src/app/ui/project-list/project-list.component.ts"
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query injectable/list"
+}
+[info] [CLI] Called Query injectable/list: {
+	"result": [
+		{
+			"file": "F:/lowgular tutorial/lowgular-course-entry/src/app/services/employee.service.ts",
+			"name": "EmployeeService",
+			"type": "SERVICE",
+			"dataType": "Internal"
+		},
+		{
+			"file": "F:/lowgular tutorial/lowgular-course-entry/src/app/services/project.service.ts",
+			"name": "ProjectService",
+			"type": "SERVICE",
+			"dataType": "Internal"
+		},
+		{
+			"id": "httpClient",
+			"dataType": "External",
+			"name": "HttpClient",
+			"relatedTypes": {}
+		}
+	],
+	"level": "info",
+	"message": "[CLI] Called Query injectable/list"
+}
+[info] [API] Response ok: injectable/list: {
+	"result": [
+		{
+			"file": "F:/lowgular tutorial/lowgular-course-entry/src/app/services/employee.service.ts",
+			"name": "EmployeeService",
+			"type": "SERVICE",
+			"dataType": "Internal"
+		},
+		{
+			"file": "F:/lowgular tutorial/lowgular-course-entry/src/app/services/project.service.ts",
+			"name": "ProjectService",
+			"type": "SERVICE",
+			"dataType": "Internal"
+		},
+		{
+			"id": "httpClient",
+			"dataType": "External",
+			"name": "HttpClient",
+			"relatedTypes": {}
+		}
+	],
+	"level": "info",
+	"message": "[API] Response ok: injectable/list"
+}
+[info] [API] Request for injectable/inject: {
+	"action": "injectable/inject",
+	"params": {
+		"entityFilePath": "F:/lowgular tutorial/lowgular-course-entry/src/app/ui/project-list/project-list.component.ts",
+		"injectingPath": "F:/lowgular tutorial/lowgular-course-entry/src/app/services/project.service.ts",
+		"type": "SERVICE"
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "F:/lowgular tutorial/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "CFQOJrafPJXVQIF624zHxyGs0Mo2",
+			"correlationId": "bP1H3WHrRM",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for injectable/inject"
+}
+[info] [CLI] Calling Command injectable/inject: {
+	"funcParams": {
+		"entityFilePath": "F:/lowgular tutorial/lowgular-course-entry/src/app/ui/project-list/project-list.component.ts",
+		"injectingPath": "F:/lowgular tutorial/lowgular-course-entry/src/app/services/project.service.ts",
+		"type": "SERVICE"
+	},
+	"level": "info",
+	"message": "[CLI] Calling Command injectable/inject"
+}
+[info] [CommandBus]: Dispatching command INJECT_SERVICE_DEPENDENCY: {
+	"commandName": "INJECT_SERVICE_DEPENDENCY",
+	"payload": {
+		"entityFilePath": "F:/lowgular tutorial/lowgular-course-entry/src/app/ui/project-list/project-list.component.ts",
+		"injectingFilePath": "F:/lowgular tutorial/lowgular-course-entry/src/app/services/project.service.ts"
+	},
+	"level": "info",
+	"message": "[CommandBus]: Dispatching command INJECT_SERVICE_DEPENDENCY"
+}
+[error] [CommandBus]: Error INJECT_SERVICE_DEPENDENCY: {
+	"commandName": "INJECT_SERVICE_DEPENDENCY",
+	"payload": {
+		"entityFilePath": "F:/lowgular tutorial/lowgular-course-entry/src/app/ui/project-list/project-list.component.ts",
+		"injectingFilePath": "F:/lowgular tutorial/lowgular-course-entry/src/app/services/project.service.ts"
+	},
+	"error": {},
+	"level": "error",
+	"message": "[CommandBus]: Error INJECT_SERVICE_DEPENDENCY"
+}
+[error] [API]: Error Cannot read properties of undefined (reading 'toUpperCase'): {
+	"loggerData": {
+		"action": "injectable/inject",
+		"params": {
+			"entityFilePath": "F:/lowgular tutorial/lowgular-course-entry/src/app/ui/project-list/project-list.component.ts",
+			"injectingPath": "F:/lowgular tutorial/lowgular-course-entry/src/app/services/project.service.ts",
+			"type": "SERVICE"
+		},
+		"context": {
+			"workspace": {
+				"rootPath": "F:/lowgular tutorial/lowgular-course-entry"
+			},
+			"userContext": {
+				"id": "CFQOJrafPJXVQIF624zHxyGs0Mo2",
+				"correlationId": "bP1H3WHrRM",
+				"logEnvId": "development"
+			}
+		}
+	},
+	"error": {},
+	"stack": "TypeError: Cannot read properties of undefined (reading 'toUpperCase')\n    at C:\\Users\\jakub\\AppData\\Roaming\\JetBrains\\WebStorm2022.2\\plugins\\LowgularJPlugin\\cli\\main.js:11779:55\n    at Array.filter (<anonymous>)\n    at filterLowgularTypes (C:\\Users\\jakub\\AppData\\Roaming\\JetBrains\\WebStorm2022.2\\plugins\\LowgularJPlugin\\cli\\main.js:11779:18)\n    at Imports.addByType (C:\\Users\\jakub\\AppData\\Roaming\\JetBrains\\WebStorm2022.2\\plugins\\LowgularJPlugin\\cli\\main.js:11847:52)\n    at importSourceService (C:\\Users\\jakub\\AppData\\Roaming\\JetBrains\\WebStorm2022.2\\plugins\\LowgularJPlugin\\cli\\main.js:11582:15)\n    at syncImports (C:\\Users\\jakub\\AppData\\Roaming\\JetBrains\\WebStorm2022.2\\plugins\\LowgularJPlugin\\cli\\main.js:11491:96)\n    at C:\\Users\\jakub\\AppData\\Roaming\\JetBrains\\WebStorm2022.2\\plugins\\LowgularJPlugin\\cli\\main.js:2102:45\n    at async TsMorphClassAdapter.write (C:\\Users\\jakub\\AppData\\Roaming\\JetBrains\\WebStorm2022.2\\plugins\\LowgularJPlugin\\cli\\main.js:10497:9)\n    at async injectServiceDependencyCommandHandler (C:\\Users\\jakub\\AppData\\Roaming\\JetBrains\\WebStorm2022.2\\plugins\\LowgularJPlugin\\cli\\main.js:12223:9)\n    at async dispatchCommand (C:\\Users\\jakub\\AppData\\Roaming\\JetBrains\\WebStorm2022.2\\plugins\\LowgularJPlugin\\cli\\main.js:10090:26)",
+	"level": "error",
+	"message": "[API]: Error Cannot read properties of undefined (reading 'toUpperCase')"
+}
+[info] [API] Request for entity/actions: {
+	"action": "entity/actions",
+	"params": {
+		"clickedPath": "F:/lowgular tutorial/lowgular-course-entry/src/app/ui/project-list/project-list.component.ts",
+		"position": 315
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "F:/lowgular tutorial/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "CFQOJrafPJXVQIF624zHxyGs0Mo2",
+			"correlationId": "uFOB3jKVtU",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for entity/actions"
+}
+[info] [CLI] Calling Query entity/actions: {
+	"funcParams": {
+		"clickedPath": "F:/lowgular tutorial/lowgular-course-entry/src/app/ui/project-list/project-list.component.ts",
+		"position": 315
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query entity/actions"
+}
+[info] [CLI] Called Query entity/actions: {
+	"result": [
+		{
+			"id": "INJECT",
+			"label": "Inject",
+			"context": {}
+		}
+	],
+	"level": "info",
+	"message": "[CLI] Called Query entity/actions"
+}
+[info] [API] Response ok: entity/actions: {
+	"result": [
+		{
+			"id": "INJECT",
+			"label": "Inject",
+			"context": {}
+		}
+	],
+	"level": "info",
+	"message": "[API] Response ok: entity/actions"
+}
+[info] [API] Request for injectable/list: {
+	"action": "injectable/list",
+	"params": {
+		"entityFilePath": "F:/lowgular tutorial/lowgular-course-entry/src/app/ui/project-list/project-list.component.ts"
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "F:/lowgular tutorial/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "CFQOJrafPJXVQIF624zHxyGs0Mo2",
+			"correlationId": "uFOB3jKVtU",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for injectable/list"
+}
+[info] [CLI] Calling Query injectable/list: {
+	"funcParams": {
+		"entityFilePath": "F:/lowgular tutorial/lowgular-course-entry/src/app/ui/project-list/project-list.component.ts"
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query injectable/list"
+}
+[info] [CLI] Called Query injectable/list: {
+	"result": [
+		{
+			"file": "F:/lowgular tutorial/lowgular-course-entry/src/app/services/employee.service.ts",
+			"name": "EmployeeService",
+			"type": "SERVICE",
+			"dataType": "Internal"
+		},
+		{
+			"file": "F:/lowgular tutorial/lowgular-course-entry/src/app/services/project.service.ts",
+			"name": "ProjectService",
+			"type": "SERVICE",
+			"dataType": "Internal"
+		},
+		{
+			"id": "httpClient",
+			"dataType": "External",
+			"name": "HttpClient",
+			"relatedTypes": {}
+		}
+	],
+	"level": "info",
+	"message": "[CLI] Called Query injectable/list"
+}
+[info] [API] Response ok: injectable/list: {
+	"result": [
+		{
+			"file": "F:/lowgular tutorial/lowgular-course-entry/src/app/services/employee.service.ts",
+			"name": "EmployeeService",
+			"type": "SERVICE",
+			"dataType": "Internal"
+		},
+		{
+			"file": "F:/lowgular tutorial/lowgular-course-entry/src/app/services/project.service.ts",
+			"name": "ProjectService",
+			"type": "SERVICE",
+			"dataType": "Internal"
+		},
+		{
+			"id": "httpClient",
+			"dataType": "External",
+			"name": "HttpClient",
+			"relatedTypes": {}
+		}
+	],
+	"level": "info",
+	"message": "[API] Response ok: injectable/list"
+}
+[info] [API] Request for injectable/inject: {
+	"action": "injectable/inject",
+	"params": {
+		"entityFilePath": "F:/lowgular tutorial/lowgular-course-entry/src/app/ui/project-list/project-list.component.ts",
+		"injectingPath": "F:/lowgular tutorial/lowgular-course-entry/src/app/services/project.service.ts",
+		"type": "SERVICE"
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "F:/lowgular tutorial/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "CFQOJrafPJXVQIF624zHxyGs0Mo2",
+			"correlationId": "uFOB3jKVtU",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for injectable/inject"
+}
+[info] [CLI] Calling Command injectable/inject: {
+	"funcParams": {
+		"entityFilePath": "F:/lowgular tutorial/lowgular-course-entry/src/app/ui/project-list/project-list.component.ts",
+		"injectingPath": "F:/lowgular tutorial/lowgular-course-entry/src/app/services/project.service.ts",
+		"type": "SERVICE"
+	},
+	"level": "info",
+	"message": "[CLI] Calling Command injectable/inject"
+}
+[info] [CommandBus]: Dispatching command INJECT_SERVICE_DEPENDENCY: {
+	"commandName": "INJECT_SERVICE_DEPENDENCY",
+	"payload": {
+		"entityFilePath": "F:/lowgular tutorial/lowgular-course-entry/src/app/ui/project-list/project-list.component.ts",
+		"injectingFilePath": "F:/lowgular tutorial/lowgular-course-entry/src/app/services/project.service.ts"
+	},
+	"level": "info",
+	"message": "[CommandBus]: Dispatching command INJECT_SERVICE_DEPENDENCY"
+}
+[error] [CommandBus]: Error INJECT_SERVICE_DEPENDENCY: {
+	"commandName": "INJECT_SERVICE_DEPENDENCY",
+	"payload": {
+		"entityFilePath": "F:/lowgular tutorial/lowgular-course-entry/src/app/ui/project-list/project-list.component.ts",
+		"injectingFilePath": "F:/lowgular tutorial/lowgular-course-entry/src/app/services/project.service.ts"
+	},
+	"error": {},
+	"level": "error",
+	"message": "[CommandBus]: Error INJECT_SERVICE_DEPENDENCY"
+}
+[error] [API]: Error Cannot read properties of undefined (reading 'toUpperCase'): {
+	"loggerData": {
+		"action": "injectable/inject",
+		"params": {
+			"entityFilePath": "F:/lowgular tutorial/lowgular-course-entry/src/app/ui/project-list/project-list.component.ts",
+			"injectingPath": "F:/lowgular tutorial/lowgular-course-entry/src/app/services/project.service.ts",
+			"type": "SERVICE"
+		},
+		"context": {
+			"workspace": {
+				"rootPath": "F:/lowgular tutorial/lowgular-course-entry"
+			},
+			"userContext": {
+				"id": "CFQOJrafPJXVQIF624zHxyGs0Mo2",
+				"correlationId": "uFOB3jKVtU",
+				"logEnvId": "development"
+			}
+		}
+	},
+	"error": {},
+	"stack": "TypeError: Cannot read properties of undefined (reading 'toUpperCase')\n    at C:\\Users\\jakub\\AppData\\Roaming\\JetBrains\\WebStorm2022.2\\plugins\\LowgularJPlugin\\cli\\main.js:11779:55\n    at Array.filter (<anonymous>)\n    at filterLowgularTypes (C:\\Users\\jakub\\AppData\\Roaming\\JetBrains\\WebStorm2022.2\\plugins\\LowgularJPlugin\\cli\\main.js:11779:18)\n    at Imports.addByType (C:\\Users\\jakub\\AppData\\Roaming\\JetBrains\\WebStorm2022.2\\plugins\\LowgularJPlugin\\cli\\main.js:11847:52)\n    at importSourceService (C:\\Users\\jakub\\AppData\\Roaming\\JetBrains\\WebStorm2022.2\\plugins\\LowgularJPlugin\\cli\\main.js:11582:15)\n    at syncImports (C:\\Users\\jakub\\AppData\\Roaming\\JetBrains\\WebStorm2022.2\\plugins\\LowgularJPlugin\\cli\\main.js:11491:96)\n    at C:\\Users\\jakub\\AppData\\Roaming\\JetBrains\\WebStorm2022.2\\plugins\\LowgularJPlugin\\cli\\main.js:2102:45\n    at async TsMorphClassAdapter.write (C:\\Users\\jakub\\AppData\\Roaming\\JetBrains\\WebStorm2022.2\\plugins\\LowgularJPlugin\\cli\\main.js:10497:9)\n    at async injectServiceDependencyCommandHandler (C:\\Users\\jakub\\AppData\\Roaming\\JetBrains\\WebStorm2022.2\\plugins\\LowgularJPlugin\\cli\\main.js:12223:9)\n    at async dispatchCommand (C:\\Users\\jakub\\AppData\\Roaming\\JetBrains\\WebStorm2022.2\\plugins\\LowgularJPlugin\\cli\\main.js:10090:26)",
+	"level": "error",
+	"message": "[API]: Error Cannot read properties of undefined (reading 'toUpperCase')"
+}
+[info] [API] Request for entity/actions: {
+	"action": "entity/actions",
+	"params": {
+		"clickedPath": "F:/lowgular tutorial/lowgular-course-entry/src/app/ui/employee-list/employee-list.component.ts",
+		"position": 686
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "F:/lowgular tutorial/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "CFQOJrafPJXVQIF624zHxyGs0Mo2",
+			"correlationId": "Bpbe7AsOPD",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for entity/actions"
+}
+[info] [CLI] Calling Query entity/actions: {
+	"funcParams": {
+		"clickedPath": "F:/lowgular tutorial/lowgular-course-entry/src/app/ui/employee-list/employee-list.component.ts",
+		"position": 686
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query entity/actions"
+}
+[info] [CLI] Called Query entity/actions: {
+	"result": [
+		{
+			"id": "INJECT",
+			"label": "Inject",
+			"context": {}
+		}
+	],
+	"level": "info",
+	"message": "[CLI] Called Query entity/actions"
+}
+[info] [API] Response ok: entity/actions: {
+	"result": [
+		{
+			"id": "INJECT",
+			"label": "Inject",
+			"context": {}
+		}
+	],
+	"level": "info",
+	"message": "[API] Response ok: entity/actions"
+}
+[info] [API] Request for injectable/list: {
+	"action": "injectable/list",
+	"params": {
+		"entityFilePath": "F:/lowgular tutorial/lowgular-course-entry/src/app/ui/employee-list/employee-list.component.ts"
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "F:/lowgular tutorial/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "CFQOJrafPJXVQIF624zHxyGs0Mo2",
+			"correlationId": "Bpbe7AsOPD",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for injectable/list"
+}
+[info] [CLI] Calling Query injectable/list: {
+	"funcParams": {
+		"entityFilePath": "F:/lowgular tutorial/lowgular-course-entry/src/app/ui/employee-list/employee-list.component.ts"
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query injectable/list"
+}
+[info] [CLI] Called Query injectable/list: {
+	"result": [
+		{
+			"file": "F:/lowgular tutorial/lowgular-course-entry/src/app/services/project.service.ts",
+			"name": "ProjectService",
+			"type": "SERVICE",
+			"dataType": "Internal"
+		},
+		{
+			"id": "httpClient",
+			"dataType": "External",
+			"name": "HttpClient",
+			"relatedTypes": {}
+		}
+	],
+	"level": "info",
+	"message": "[CLI] Called Query injectable/list"
+}
+[info] [API] Response ok: injectable/list: {
+	"result": [
+		{
+			"file": "F:/lowgular tutorial/lowgular-course-entry/src/app/services/project.service.ts",
+			"name": "ProjectService",
+			"type": "SERVICE",
+			"dataType": "Internal"
+		},
+		{
+			"id": "httpClient",
+			"dataType": "External",
+			"name": "HttpClient",
+			"relatedTypes": {}
+		}
+	],
+	"level": "info",
+	"message": "[API] Response ok: injectable/list"
+}
+[info] [API] Request for injectable/inject: {
+	"action": "injectable/inject",
+	"params": {
+		"entityFilePath": "F:/lowgular tutorial/lowgular-course-entry/src/app/ui/employee-list/employee-list.component.ts",
+		"injectingPath": "F:/lowgular tutorial/lowgular-course-entry/src/app/services/project.service.ts",
+		"type": "SERVICE"
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "F:/lowgular tutorial/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "CFQOJrafPJXVQIF624zHxyGs0Mo2",
+			"correlationId": "Bpbe7AsOPD",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for injectable/inject"
+}
+[info] [CLI] Calling Command injectable/inject: {
+	"funcParams": {
+		"entityFilePath": "F:/lowgular tutorial/lowgular-course-entry/src/app/ui/employee-list/employee-list.component.ts",
+		"injectingPath": "F:/lowgular tutorial/lowgular-course-entry/src/app/services/project.service.ts",
+		"type": "SERVICE"
+	},
+	"level": "info",
+	"message": "[CLI] Calling Command injectable/inject"
+}
+[info] [CommandBus]: Dispatching command INJECT_SERVICE_DEPENDENCY: {
+	"commandName": "INJECT_SERVICE_DEPENDENCY",
+	"payload": {
+		"entityFilePath": "F:/lowgular tutorial/lowgular-course-entry/src/app/ui/employee-list/employee-list.component.ts",
+		"injectingFilePath": "F:/lowgular tutorial/lowgular-course-entry/src/app/services/project.service.ts"
+	},
+	"level": "info",
+	"message": "[CommandBus]: Dispatching command INJECT_SERVICE_DEPENDENCY"
+}
+[info] [CommandBus]: Handled  INJECT_SERVICE_DEPENDENCY: {
+	"commandName": "INJECT_SERVICE_DEPENDENCY",
+	"payload": {
+		"entityFilePath": "F:/lowgular tutorial/lowgular-course-entry/src/app/ui/employee-list/employee-list.component.ts",
+		"injectingFilePath": "F:/lowgular tutorial/lowgular-course-entry/src/app/services/project.service.ts"
+	},
+	"level": "info",
+	"message": "[CommandBus]: Handled  INJECT_SERVICE_DEPENDENCY"
+}
+[info] [CLI] Called Command injectable/inject: {
+	"message": "[CLI] Called Command injectable/inject",
+	"level": "info"
+}
+[info] [API] Response ok: injectable/inject: {
+	"result": {
+		"filePath": "F:/lowgular tutorial/lowgular-course-entry/src/app/ui/employee-list/employee-list.component.ts"
+	},
+	"level": "info",
+	"message": "[API] Response ok: injectable/inject"
+}
+[info] [API] Request for entity/actions: {
+	"action": "entity/actions",
+	"params": {
+		"clickedPath": "F:/lowgular tutorial/lowgular-course-entry/src/app/ui/employee-list/employee-list.component.ts",
+		"position": 686
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "F:/lowgular tutorial/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "CFQOJrafPJXVQIF624zHxyGs0Mo2",
+			"correlationId": "2MgamdZODl",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for entity/actions"
+}
+[info] [CLI] Calling Query entity/actions: {
+	"funcParams": {
+		"clickedPath": "F:/lowgular tutorial/lowgular-course-entry/src/app/ui/employee-list/employee-list.component.ts",
+		"position": 686
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query entity/actions"
+}
+[info] [CLI] Called Query entity/actions: {
+	"result": [
+		{
+			"id": "INJECT",
+			"label": "Inject",
+			"context": {}
+		}
+	],
+	"level": "info",
+	"message": "[CLI] Called Query entity/actions"
+}
+[info] [API] Response ok: entity/actions: {
+	"result": [
+		{
+			"id": "INJECT",
+			"label": "Inject",
+			"context": {}
+		}
+	],
+	"level": "info",
+	"message": "[API] Response ok: entity/actions"
+}
+[info] [API] Request for entity/actions: {
+	"action": "entity/actions",
+	"params": {
+		"clickedPath": "F:/lowgular tutorial/lowgular-course-entry/src/app/ui/project-list/project-list.component.ts",
+		"position": 315
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "F:/lowgular tutorial/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "CFQOJrafPJXVQIF624zHxyGs0Mo2",
+			"correlationId": "aTKfZIX0sz",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for entity/actions"
+}
+[info] [CLI] Calling Query entity/actions: {
+	"funcParams": {
+		"clickedPath": "F:/lowgular tutorial/lowgular-course-entry/src/app/ui/project-list/project-list.component.ts",
+		"position": 315
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query entity/actions"
+}
+[info] [CLI] Called Query entity/actions: {
+	"result": [
+		{
+			"id": "INJECT",
+			"label": "Inject",
+			"context": {}
+		}
+	],
+	"level": "info",
+	"message": "[CLI] Called Query entity/actions"
+}
+[info] [API] Response ok: entity/actions: {
+	"result": [
+		{
+			"id": "INJECT",
+			"label": "Inject",
+			"context": {}
+		}
+	],
+	"level": "info",
+	"message": "[API] Response ok: entity/actions"
+}
+[info] [API] Request for injectable/list: {
+	"action": "injectable/list",
+	"params": {
+		"entityFilePath": "F:/lowgular tutorial/lowgular-course-entry/src/app/ui/project-list/project-list.component.ts"
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "F:/lowgular tutorial/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "CFQOJrafPJXVQIF624zHxyGs0Mo2",
+			"correlationId": "aTKfZIX0sz",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for injectable/list"
+}
+[info] [CLI] Calling Query injectable/list: {
+	"funcParams": {
+		"entityFilePath": "F:/lowgular tutorial/lowgular-course-entry/src/app/ui/project-list/project-list.component.ts"
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query injectable/list"
+}
+[info] [CLI] Called Query injectable/list: {
+	"result": [
+		{
+			"file": "F:/lowgular tutorial/lowgular-course-entry/src/app/services/employee.service.ts",
+			"name": "EmployeeService",
+			"type": "SERVICE",
+			"dataType": "Internal"
+		},
+		{
+			"file": "F:/lowgular tutorial/lowgular-course-entry/src/app/services/project.service.ts",
+			"name": "ProjectService",
+			"type": "SERVICE",
+			"dataType": "Internal"
+		},
+		{
+			"id": "httpClient",
+			"dataType": "External",
+			"name": "HttpClient",
+			"relatedTypes": {}
+		}
+	],
+	"level": "info",
+	"message": "[CLI] Called Query injectable/list"
+}
+[info] [API] Response ok: injectable/list: {
+	"result": [
+		{
+			"file": "F:/lowgular tutorial/lowgular-course-entry/src/app/services/employee.service.ts",
+			"name": "EmployeeService",
+			"type": "SERVICE",
+			"dataType": "Internal"
+		},
+		{
+			"file": "F:/lowgular tutorial/lowgular-course-entry/src/app/services/project.service.ts",
+			"name": "ProjectService",
+			"type": "SERVICE",
+			"dataType": "Internal"
+		},
+		{
+			"id": "httpClient",
+			"dataType": "External",
+			"name": "HttpClient",
+			"relatedTypes": {}
+		}
+	],
+	"level": "info",
+	"message": "[API] Response ok: injectable/list"
+}
+[info] [API] Request for injectable/inject: {
+	"action": "injectable/inject",
+	"params": {
+		"entityFilePath": "F:/lowgular tutorial/lowgular-course-entry/src/app/ui/project-list/project-list.component.ts",
+		"injectingPath": "F:/lowgular tutorial/lowgular-course-entry/src/app/services/project.service.ts",
+		"type": "SERVICE"
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "F:/lowgular tutorial/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "CFQOJrafPJXVQIF624zHxyGs0Mo2",
+			"correlationId": "aTKfZIX0sz",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for injectable/inject"
+}
+[info] [CLI] Calling Command injectable/inject: {
+	"funcParams": {
+		"entityFilePath": "F:/lowgular tutorial/lowgular-course-entry/src/app/ui/project-list/project-list.component.ts",
+		"injectingPath": "F:/lowgular tutorial/lowgular-course-entry/src/app/services/project.service.ts",
+		"type": "SERVICE"
+	},
+	"level": "info",
+	"message": "[CLI] Calling Command injectable/inject"
+}
+[info] [CommandBus]: Dispatching command INJECT_SERVICE_DEPENDENCY: {
+	"commandName": "INJECT_SERVICE_DEPENDENCY",
+	"payload": {
+		"entityFilePath": "F:/lowgular tutorial/lowgular-course-entry/src/app/ui/project-list/project-list.component.ts",
+		"injectingFilePath": "F:/lowgular tutorial/lowgular-course-entry/src/app/services/project.service.ts"
+	},
+	"level": "info",
+	"message": "[CommandBus]: Dispatching command INJECT_SERVICE_DEPENDENCY"
+}
+[error] [CommandBus]: Error INJECT_SERVICE_DEPENDENCY: {
+	"commandName": "INJECT_SERVICE_DEPENDENCY",
+	"payload": {
+		"entityFilePath": "F:/lowgular tutorial/lowgular-course-entry/src/app/ui/project-list/project-list.component.ts",
+		"injectingFilePath": "F:/lowgular tutorial/lowgular-course-entry/src/app/services/project.service.ts"
+	},
+	"error": {},
+	"level": "error",
+	"message": "[CommandBus]: Error INJECT_SERVICE_DEPENDENCY"
+}
+[error] [API]: Error Cannot read properties of undefined (reading 'toUpperCase'): {
+	"loggerData": {
+		"action": "injectable/inject",
+		"params": {
+			"entityFilePath": "F:/lowgular tutorial/lowgular-course-entry/src/app/ui/project-list/project-list.component.ts",
+			"injectingPath": "F:/lowgular tutorial/lowgular-course-entry/src/app/services/project.service.ts",
+			"type": "SERVICE"
+		},
+		"context": {
+			"workspace": {
+				"rootPath": "F:/lowgular tutorial/lowgular-course-entry"
+			},
+			"userContext": {
+				"id": "CFQOJrafPJXVQIF624zHxyGs0Mo2",
+				"correlationId": "aTKfZIX0sz",
+				"logEnvId": "development"
+			}
+		}
+	},
+	"error": {},
+	"stack": "TypeError: Cannot read properties of undefined (reading 'toUpperCase')\n    at C:\\Users\\jakub\\AppData\\Roaming\\JetBrains\\WebStorm2022.2\\plugins\\LowgularJPlugin\\cli\\main.js:11779:55\n    at Array.filter (<anonymous>)\n    at filterLowgularTypes (C:\\Users\\jakub\\AppData\\Roaming\\JetBrains\\WebStorm2022.2\\plugins\\LowgularJPlugin\\cli\\main.js:11779:18)\n    at Imports.addByType (C:\\Users\\jakub\\AppData\\Roaming\\JetBrains\\WebStorm2022.2\\plugins\\LowgularJPlugin\\cli\\main.js:11847:52)\n    at importSourceService (C:\\Users\\jakub\\AppData\\Roaming\\JetBrains\\WebStorm2022.2\\plugins\\LowgularJPlugin\\cli\\main.js:11582:15)\n    at syncImports (C:\\Users\\jakub\\AppData\\Roaming\\JetBrains\\WebStorm2022.2\\plugins\\LowgularJPlugin\\cli\\main.js:11491:96)\n    at C:\\Users\\jakub\\AppData\\Roaming\\JetBrains\\WebStorm2022.2\\plugins\\LowgularJPlugin\\cli\\main.js:2102:45\n    at async TsMorphClassAdapter.write (C:\\Users\\jakub\\AppData\\Roaming\\JetBrains\\WebStorm2022.2\\plugins\\LowgularJPlugin\\cli\\main.js:10497:9)\n    at async injectServiceDependencyCommandHandler (C:\\Users\\jakub\\AppData\\Roaming\\JetBrains\\WebStorm2022.2\\plugins\\LowgularJPlugin\\cli\\main.js:12223:9)\n    at async dispatchCommand (C:\\Users\\jakub\\AppData\\Roaming\\JetBrains\\WebStorm2022.2\\plugins\\LowgularJPlugin\\cli\\main.js:10090:26)",
+	"level": "error",
+	"message": "[API]: Error Cannot read properties of undefined (reading 'toUpperCase')"
+}
+[info] [API] Request for entity/actions: {
+	"action": "entity/actions",
+	"params": {
+		"clickedPath": "F:/lowgular tutorial/lowgular-course-entry/src/app/ui/employee-list/employee-list.component.ts",
+		"position": 469
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "F:/lowgular tutorial/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "CFQOJrafPJXVQIF624zHxyGs0Mo2",
+			"correlationId": "4MYzeJ0JAA",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for entity/actions"
+}
+[info] [CLI] Calling Query entity/actions: {
+	"funcParams": {
+		"clickedPath": "F:/lowgular tutorial/lowgular-course-entry/src/app/ui/employee-list/employee-list.component.ts",
+		"position": 469
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query entity/actions"
+}
+[info] [CLI] Called Query entity/actions: {
+	"result": [
+		{
+			"id": "INJECT",
+			"label": "Inject",
+			"context": {}
+		}
+	],
+	"level": "info",
+	"message": "[CLI] Called Query entity/actions"
+}
+[info] [API] Response ok: entity/actions: {
+	"result": [
+		{
+			"id": "INJECT",
+			"label": "Inject",
+			"context": {}
+		}
+	],
+	"level": "info",
+	"message": "[API] Response ok: entity/actions"
+}
+[info] [API] Request for injectable/list: {
+	"action": "injectable/list",
+	"params": {
+		"entityFilePath": "F:/lowgular tutorial/lowgular-course-entry/src/app/ui/employee-list/employee-list.component.ts"
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "F:/lowgular tutorial/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "CFQOJrafPJXVQIF624zHxyGs0Mo2",
+			"correlationId": "4MYzeJ0JAA",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for injectable/list"
+}
+[info] [CLI] Calling Query injectable/list: {
+	"funcParams": {
+		"entityFilePath": "F:/lowgular tutorial/lowgular-course-entry/src/app/ui/employee-list/employee-list.component.ts"
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query injectable/list"
+}
+[info] [CLI] Called Query injectable/list: {
+	"result": [
+		{
+			"file": "F:/lowgular tutorial/lowgular-course-entry/src/app/services/project.service.ts",
+			"name": "ProjectService",
+			"type": "SERVICE",
+			"dataType": "Internal"
+		},
+		{
+			"id": "httpClient",
+			"dataType": "External",
+			"name": "HttpClient",
+			"relatedTypes": {}
+		}
+	],
+	"level": "info",
+	"message": "[CLI] Called Query injectable/list"
+}
+[info] [API] Response ok: injectable/list: {
+	"result": [
+		{
+			"file": "F:/lowgular tutorial/lowgular-course-entry/src/app/services/project.service.ts",
+			"name": "ProjectService",
+			"type": "SERVICE",
+			"dataType": "Internal"
+		},
+		{
+			"id": "httpClient",
+			"dataType": "External",
+			"name": "HttpClient",
+			"relatedTypes": {}
+		}
+	],
+	"level": "info",
+	"message": "[API] Response ok: injectable/list"
+}
+[info] [API] Request for injectable/inject: {
+	"action": "injectable/inject",
+	"params": {
+		"entityFilePath": "F:/lowgular tutorial/lowgular-course-entry/src/app/ui/employee-list/employee-list.component.ts",
+		"injectingPath": "F:/lowgular tutorial/lowgular-course-entry/src/app/services/project.service.ts",
+		"type": "SERVICE"
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "F:/lowgular tutorial/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "CFQOJrafPJXVQIF624zHxyGs0Mo2",
+			"correlationId": "4MYzeJ0JAA",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for injectable/inject"
+}
+[info] [CLI] Calling Command injectable/inject: {
+	"funcParams": {
+		"entityFilePath": "F:/lowgular tutorial/lowgular-course-entry/src/app/ui/employee-list/employee-list.component.ts",
+		"injectingPath": "F:/lowgular tutorial/lowgular-course-entry/src/app/services/project.service.ts",
+		"type": "SERVICE"
+	},
+	"level": "info",
+	"message": "[CLI] Calling Command injectable/inject"
+}
+[info] [CommandBus]: Dispatching command INJECT_SERVICE_DEPENDENCY: {
+	"commandName": "INJECT_SERVICE_DEPENDENCY",
+	"payload": {
+		"entityFilePath": "F:/lowgular tutorial/lowgular-course-entry/src/app/ui/employee-list/employee-list.component.ts",
+		"injectingFilePath": "F:/lowgular tutorial/lowgular-course-entry/src/app/services/project.service.ts"
+	},
+	"level": "info",
+	"message": "[CommandBus]: Dispatching command INJECT_SERVICE_DEPENDENCY"
+}
+[info] [CommandBus]: Handled  INJECT_SERVICE_DEPENDENCY: {
+	"commandName": "INJECT_SERVICE_DEPENDENCY",
+	"payload": {
+		"entityFilePath": "F:/lowgular tutorial/lowgular-course-entry/src/app/ui/employee-list/employee-list.component.ts",
+		"injectingFilePath": "F:/lowgular tutorial/lowgular-course-entry/src/app/services/project.service.ts"
+	},
+	"level": "info",
+	"message": "[CommandBus]: Handled  INJECT_SERVICE_DEPENDENCY"
+}
+[info] [CLI] Called Command injectable/inject: {
+	"message": "[CLI] Called Command injectable/inject",
+	"level": "info"
+}
+[info] [API] Response ok: injectable/inject: {
+	"result": {
+		"filePath": "F:/lowgular tutorial/lowgular-course-entry/src/app/ui/employee-list/employee-list.component.ts"
+	},
+	"level": "info",
+	"message": "[API] Response ok: injectable/inject"
+}
+[info] [API] Request for entity/actions: {
+	"action": "entity/actions",
+	"params": {
+		"clickedPath": "F:/lowgular tutorial/lowgular-course-entry/src/app/ui/project-list/project-list.component.ts",
+		"position": 316
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "F:/lowgular tutorial/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "CFQOJrafPJXVQIF624zHxyGs0Mo2",
+			"correlationId": "KD9quPA-VZ",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for entity/actions"
+}
+[info] [CLI] Calling Query entity/actions: {
+	"funcParams": {
+		"clickedPath": "F:/lowgular tutorial/lowgular-course-entry/src/app/ui/project-list/project-list.component.ts",
+		"position": 316
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query entity/actions"
+}
+[info] [CLI] Called Query entity/actions: {
+	"result": [
+		{
+			"id": "INJECT",
+			"label": "Inject",
+			"context": {}
+		}
+	],
+	"level": "info",
+	"message": "[CLI] Called Query entity/actions"
+}
+[info] [API] Response ok: entity/actions: {
+	"result": [
+		{
+			"id": "INJECT",
+			"label": "Inject",
+			"context": {}
+		}
+	],
+	"level": "info",
+	"message": "[API] Response ok: entity/actions"
+}
+[info] [API] Request for injectable/list: {
+	"action": "injectable/list",
+	"params": {
+		"entityFilePath": "F:/lowgular tutorial/lowgular-course-entry/src/app/ui/project-list/project-list.component.ts"
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "F:/lowgular tutorial/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "CFQOJrafPJXVQIF624zHxyGs0Mo2",
+			"correlationId": "KD9quPA-VZ",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for injectable/list"
+}
+[info] [CLI] Calling Query injectable/list: {
+	"funcParams": {
+		"entityFilePath": "F:/lowgular tutorial/lowgular-course-entry/src/app/ui/project-list/project-list.component.ts"
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query injectable/list"
+}
+[info] [CLI] Called Query injectable/list: {
+	"result": [
+		{
+			"file": "F:/lowgular tutorial/lowgular-course-entry/src/app/services/employee.service.ts",
+			"name": "EmployeeService",
+			"type": "SERVICE",
+			"dataType": "Internal"
+		},
+		{
+			"file": "F:/lowgular tutorial/lowgular-course-entry/src/app/services/project.service.ts",
+			"name": "ProjectService",
+			"type": "SERVICE",
+			"dataType": "Internal"
+		},
+		{
+			"id": "httpClient",
+			"dataType": "External",
+			"name": "HttpClient",
+			"relatedTypes": {}
+		}
+	],
+	"level": "info",
+	"message": "[CLI] Called Query injectable/list"
+}
+[info] [API] Response ok: injectable/list: {
+	"result": [
+		{
+			"file": "F:/lowgular tutorial/lowgular-course-entry/src/app/services/employee.service.ts",
+			"name": "EmployeeService",
+			"type": "SERVICE",
+			"dataType": "Internal"
+		},
+		{
+			"file": "F:/lowgular tutorial/lowgular-course-entry/src/app/services/project.service.ts",
+			"name": "ProjectService",
+			"type": "SERVICE",
+			"dataType": "Internal"
+		},
+		{
+			"id": "httpClient",
+			"dataType": "External",
+			"name": "HttpClient",
+			"relatedTypes": {}
+		}
+	],
+	"level": "info",
+	"message": "[API] Response ok: injectable/list"
+}
+[info] [API] Request for injectable/inject: {
+	"action": "injectable/inject",
+	"params": {
+		"entityFilePath": "F:/lowgular tutorial/lowgular-course-entry/src/app/ui/project-list/project-list.component.ts",
+		"injectingPath": "F:/lowgular tutorial/lowgular-course-entry/src/app/services/project.service.ts",
+		"type": "SERVICE"
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "F:/lowgular tutorial/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "CFQOJrafPJXVQIF624zHxyGs0Mo2",
+			"correlationId": "KD9quPA-VZ",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for injectable/inject"
+}
+[info] [CLI] Calling Command injectable/inject: {
+	"funcParams": {
+		"entityFilePath": "F:/lowgular tutorial/lowgular-course-entry/src/app/ui/project-list/project-list.component.ts",
+		"injectingPath": "F:/lowgular tutorial/lowgular-course-entry/src/app/services/project.service.ts",
+		"type": "SERVICE"
+	},
+	"level": "info",
+	"message": "[CLI] Calling Command injectable/inject"
+}
+[info] [CommandBus]: Dispatching command INJECT_SERVICE_DEPENDENCY: {
+	"commandName": "INJECT_SERVICE_DEPENDENCY",
+	"payload": {
+		"entityFilePath": "F:/lowgular tutorial/lowgular-course-entry/src/app/ui/project-list/project-list.component.ts",
+		"injectingFilePath": "F:/lowgular tutorial/lowgular-course-entry/src/app/services/project.service.ts"
+	},
+	"level": "info",
+	"message": "[CommandBus]: Dispatching command INJECT_SERVICE_DEPENDENCY"
+}
+[info] [CommandBus]: Handled  INJECT_SERVICE_DEPENDENCY: {
+	"commandName": "INJECT_SERVICE_DEPENDENCY",
+	"payload": {
+		"entityFilePath": "F:/lowgular tutorial/lowgular-course-entry/src/app/ui/project-list/project-list.component.ts",
+		"injectingFilePath": "F:/lowgular tutorial/lowgular-course-entry/src/app/services/project.service.ts"
+	},
+	"level": "info",
+	"message": "[CommandBus]: Handled  INJECT_SERVICE_DEPENDENCY"
+}
+[info] [CLI] Called Command injectable/inject: {
+	"message": "[CLI] Called Command injectable/inject",
+	"level": "info"
+}
+[info] [API] Response ok: injectable/inject: {
+	"result": {
+		"filePath": "F:/lowgular tutorial/lowgular-course-entry/src/app/ui/project-list/project-list.component.ts"
+	},
+	"level": "info",
+	"message": "[API] Response ok: injectable/inject"
+}

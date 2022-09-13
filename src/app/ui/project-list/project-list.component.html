@@ -1,0 +1,8 @@
+<ul *ngIf="data |async as data;">
+  <li  *ngFor="let projects of data"> {{projects.id}}-<b>{{projects.name}}</b> {{projects.description}} by  <b><i>{{projects.owner}}</i> </b>
+
+  </li>
+
+
+
+</ul>

@@ -1,10 +1,9 @@
-
+<h2> Our faces:</h2>
 <ul *ngIf="data$ |async as data;">
   <li style="display: inline-block" *ngFor="let employee of data">
-
     <img [src]="employee.img" width="400" height="450" >
     <br>
-    {{employee.name}}
+    <b>{{employee.name}}</b>
 
   </li>
 </ul>
