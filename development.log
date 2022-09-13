@@ -8063,3 +8063,1057 @@
 	"level": "info",
 	"message": "[API] Response ok: injectable/inject"
 }
+[info] [API] Request for projects/list: {
+	"action": "projects/list",
+	"params": {
+		"clickedPath": "F:/lowgular tutorial/lowgular-course-entry/src/app/ui"
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "F:/lowgular tutorial/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "CFQOJrafPJXVQIF624zHxyGs0Mo2",
+			"correlationId": "OJGb2Qvrv2",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for projects/list"
+}
+[info] [CLI] Calling Query projects/list: {
+	"funcParams": {
+		"clickedPath": "F:/lowgular tutorial/lowgular-course-entry/src/app/ui"
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query projects/list"
+}
+[info] [CLI] Called Query projects/list: {
+	"result": {
+		"clickedProject": {
+			"name": "lowgular-course-entry",
+			"path": "F:/lowgular tutorial/lowgular-course-entry/src/app"
+		},
+		"otherProjects": [
+			{
+				"name": "project-model",
+				"path": "F:/lowgular tutorial/lowgular-course-entry/projects/project-model/src/lib"
+			}
+		]
+	},
+	"level": "info",
+	"message": "[CLI] Called Query projects/list"
+}
+[info] [API] Response ok: projects/list: {
+	"result": {
+		"clickedProject": {
+			"name": "lowgular-course-entry",
+			"path": "F:/lowgular tutorial/lowgular-course-entry/src/app"
+		},
+		"otherProjects": [
+			{
+				"name": "project-model",
+				"path": "F:/lowgular tutorial/lowgular-course-entry/projects/project-model/src/lib"
+			}
+		]
+	},
+	"level": "info",
+	"message": "[API] Response ok: projects/list"
+}
+[info] [API] Request for entity/list: {
+	"action": "entity/list",
+	"params": {
+		"clickedPath": "F:/lowgular tutorial/lowgular-course-entry/src/app"
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "F:/lowgular tutorial/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "CFQOJrafPJXVQIF624zHxyGs0Mo2",
+			"correlationId": "OJGb2Qvrv2",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for entity/list"
+}
+[info] [CLI] Calling Query entity/list: {
+	"funcParams": {
+		"clickedPath": "F:/lowgular tutorial/lowgular-course-entry/src/app"
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query entity/list"
+}
+[info] [CLI] Called Query entity/list: {
+	"result": [
+		{
+			"id": "component",
+			"type": "ANGULAR_COMPONENT",
+			"suffix": "Component",
+			"folder": "ui/$name$",
+			"insideOf": "App",
+			"config": {
+				"stylesExtension": "none",
+				"viewEncapsulation": "Emulated",
+				"selector": "generated",
+				"changeDetectionStrategy": "OnPush"
+			}
+		},
+		{
+			"id": "dataService",
+			"type": "SERVICE",
+			"suffix": "Service",
+			"folder": "services",
+			"insideOf": "App"
+		},
+		{
+			"id": "model",
+			"type": "DATA_STRUCTURE",
+			"suffix": "Model",
+			"folder": "model",
+			"insideOf": "App"
+		},
+		{
+			"id": "response",
+			"type": "DATA_STRUCTURE",
+			"suffix": "Response",
+			"folder": "services",
+			"insideOf": "App"
+		}
+	],
+	"level": "info",
+	"message": "[CLI] Called Query entity/list"
+}
+[info] [API] Response ok: entity/list: {
+	"result": [
+		{
+			"id": "component",
+			"type": "ANGULAR_COMPONENT",
+			"suffix": "Component",
+			"folder": "ui/$name$",
+			"insideOf": "App",
+			"config": {
+				"stylesExtension": "none",
+				"viewEncapsulation": "Emulated",
+				"selector": "generated",
+				"changeDetectionStrategy": "OnPush"
+			}
+		},
+		{
+			"id": "dataService",
+			"type": "SERVICE",
+			"suffix": "Service",
+			"folder": "services",
+			"insideOf": "App"
+		},
+		{
+			"id": "model",
+			"type": "DATA_STRUCTURE",
+			"suffix": "Model",
+			"folder": "model",
+			"insideOf": "App"
+		},
+		{
+			"id": "response",
+			"type": "DATA_STRUCTURE",
+			"suffix": "Response",
+			"folder": "services",
+			"insideOf": "App"
+		}
+	],
+	"level": "info",
+	"message": "[API] Response ok: entity/list"
+}
+[info] [API] Request for angular-component/create: {
+	"action": "angular-component/create",
+	"params": {
+		"name": "EmployeeForm",
+		"clickedPath": "F:/lowgular tutorial/lowgular-course-entry/src/app/ui",
+		"entityId": "component"
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "F:/lowgular tutorial/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "CFQOJrafPJXVQIF624zHxyGs0Mo2",
+			"correlationId": "OJGb2Qvrv2",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for angular-component/create"
+}
+[info] [CLI] Calling Command angular-component/create: {
+	"funcParams": {
+		"name": "EmployeeForm",
+		"clickedPath": "F:/lowgular tutorial/lowgular-course-entry/src/app/ui",
+		"entityId": "component"
+	},
+	"level": "info",
+	"message": "[CLI] Calling Command angular-component/create"
+}
+[info] [CommandBus]: Dispatching command COMPONENT_CREATE_SMART_COMPONENT: {
+	"commandName": "COMPONENT_CREATE_SMART_COMPONENT",
+	"payload": {
+		"name": "EmployeeForm",
+		"prefix": "app",
+		"suffix": "Component",
+		"absoluteFolderPath": "F:/lowgular tutorial/lowgular-course-entry/src/app/ui/employee-form",
+		"config": {
+			"stylesExtension": "none",
+			"viewEncapsulation": "Emulated",
+			"selector": "generated",
+			"changeDetectionStrategy": "OnPush"
+		}
+	},
+	"level": "info",
+	"message": "[CommandBus]: Dispatching command COMPONENT_CREATE_SMART_COMPONENT"
+}
+[warn] [TsMorphFileAdapter]: File Not Found, creating...: {
+	"filePath": "F:/lowgular tutorial/lowgular-course-entry/src/app/ui/employee-form/employee-form.component.html",
+	"level": "warn",
+	"message": "[TsMorphFileAdapter]: File Not Found, creating..."
+}
+[info] [EventBus]: Broadcasting event COMPONENT_SMART_COMPONENT_CREATED: {
+	"type": "COMPONENT_SMART_COMPONENT_CREATED",
+	"payload": {
+		"createdFile": "F:/lowgular tutorial/lowgular-course-entry/src/app/ui/employee-form/employee-form.component.ts"
+	},
+	"level": "info",
+	"message": "[EventBus]: Broadcasting event COMPONENT_SMART_COMPONENT_CREATED"
+}
+[info] [CommandBus]: Dispatching command CREATE_COMPONENT_MODULE: {
+	"commandName": "CREATE_COMPONENT_MODULE",
+	"payload": {
+		"moduleFilePath": "F:/lowgular tutorial/lowgular-course-entry/src/app/ui/employee-form/employee-form.component-module.ts"
+	},
+	"level": "info",
+	"message": "[CommandBus]: Dispatching command CREATE_COMPONENT_MODULE"
+}
+[info] [EventBus]: Broadcasted COMPONENT_SMART_COMPONENT_CREATED: {
+	"event": {
+		"createdFile": "F:/lowgular tutorial/lowgular-course-entry/src/app/ui/employee-form/employee-form.component.ts"
+	},
+	"level": "info",
+	"message": "[EventBus]: Broadcasted COMPONENT_SMART_COMPONENT_CREATED"
+}
+[info] [EventBus]: Broadcasting event MODULE_MODULE_CREATED: {
+	"type": "MODULE_MODULE_CREATED",
+	"payload": {
+		"moduleFile": "F:/lowgular tutorial/lowgular-course-entry/src/app/ui/employee-form/employee-form.component-module.ts"
+	},
+	"level": "info",
+	"message": "[EventBus]: Broadcasting event MODULE_MODULE_CREATED"
+}
+[info] [EventBus]: Broadcasted MODULE_MODULE_CREATED: {
+	"event": {
+		"moduleFile": "F:/lowgular tutorial/lowgular-course-entry/src/app/ui/employee-form/employee-form.component-module.ts"
+	},
+	"level": "info",
+	"message": "[EventBus]: Broadcasted MODULE_MODULE_CREATED"
+}
+[info] [CommandBus]: Handled  CREATE_COMPONENT_MODULE: {
+	"commandName": "CREATE_COMPONENT_MODULE",
+	"payload": {
+		"moduleFilePath": "F:/lowgular tutorial/lowgular-course-entry/src/app/ui/employee-form/employee-form.component-module.ts"
+	},
+	"level": "info",
+	"message": "[CommandBus]: Handled  CREATE_COMPONENT_MODULE"
+}
+[info] [CommandBus]: Handled  COMPONENT_CREATE_SMART_COMPONENT: {
+	"commandName": "COMPONENT_CREATE_SMART_COMPONENT",
+	"payload": {
+		"name": "EmployeeForm",
+		"prefix": "app",
+		"suffix": "Component",
+		"absoluteFolderPath": "F:/lowgular tutorial/lowgular-course-entry/src/app/ui/employee-form",
+		"config": {
+			"stylesExtension": "none",
+			"viewEncapsulation": "Emulated",
+			"selector": "generated",
+			"changeDetectionStrategy": "OnPush"
+		}
+	},
+	"level": "info",
+	"message": "[CommandBus]: Handled  COMPONENT_CREATE_SMART_COMPONENT"
+}
+[info] [CLI] Called Command angular-component/create: {
+	"message": "[CLI] Called Command angular-component/create",
+	"level": "info"
+}
+[info] [API] Response ok: angular-component/create: {
+	"result": {
+		"filePath": "F:/lowgular tutorial/lowgular-course-entry/src/app/ui/employee-form/employee-form.component.ts"
+	},
+	"level": "info",
+	"message": "[API] Response ok: angular-component/create"
+}
+[info] [API] Request for entity/actions: {
+	"action": "entity/actions",
+	"params": {
+		"clickedPath": "F:/lowgular tutorial/lowgular-course-entry/src/app/ui/employee-form/employee-form.component.ts",
+		"position": 319
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "F:/lowgular tutorial/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "CFQOJrafPJXVQIF624zHxyGs0Mo2",
+			"correlationId": "-0WSVcIyJN",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for entity/actions"
+}
+[info] [CLI] Calling Query entity/actions: {
+	"funcParams": {
+		"clickedPath": "F:/lowgular tutorial/lowgular-course-entry/src/app/ui/employee-form/employee-form.component.ts",
+		"position": 319
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query entity/actions"
+}
+[info] [CLI] Called Query entity/actions: {
+	"result": [
+		{
+			"id": "RXJS_PROPERTY",
+			"label": "RxJS Property",
+			"context": {}
+		},
+		{
+			"id": "ADD_FORM",
+			"label": "Form Property",
+			"context": {}
+		},
+		{
+			"id": "INJECT",
+			"label": "Inject",
+			"context": {}
+		}
+	],
+	"level": "info",
+	"message": "[CLI] Called Query entity/actions"
+}
+[info] [API] Response ok: entity/actions: {
+	"result": [
+		{
+			"id": "RXJS_PROPERTY",
+			"label": "RxJS Property",
+			"context": {}
+		},
+		{
+			"id": "ADD_FORM",
+			"label": "Form Property",
+			"context": {}
+		},
+		{
+			"id": "INJECT",
+			"label": "Inject",
+			"context": {}
+		}
+	],
+	"level": "info",
+	"message": "[API] Response ok: entity/actions"
+}
+[info] [API] Request for entity/actions: {
+	"action": "entity/actions",
+	"params": {
+		"clickedPath": "F:/lowgular tutorial/lowgular-course-entry/src/app/ui/employee-form/employee-form.component.ts",
+		"position": 317
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "F:/lowgular tutorial/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "CFQOJrafPJXVQIF624zHxyGs0Mo2",
+			"correlationId": "HdmQnVoZo6",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for entity/actions"
+}
+[info] [CLI] Calling Query entity/actions: {
+	"funcParams": {
+		"clickedPath": "F:/lowgular tutorial/lowgular-course-entry/src/app/ui/employee-form/employee-form.component.ts",
+		"position": 317
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query entity/actions"
+}
+[info] [CLI] Called Query entity/actions: {
+	"result": [
+		{
+			"id": "RXJS_PROPERTY",
+			"label": "RxJS Property",
+			"context": {
+				"parentClass": "EmployeeFormComponent"
+			}
+		},
+		{
+			"id": "ADD_FORM",
+			"label": "Form Property",
+			"context": {}
+		},
+		{
+			"id": "INJECT",
+			"label": "Inject",
+			"context": {}
+		}
+	],
+	"level": "info",
+	"message": "[CLI] Called Query entity/actions"
+}
+[info] [API] Response ok: entity/actions: {
+	"result": [
+		{
+			"id": "RXJS_PROPERTY",
+			"label": "RxJS Property",
+			"context": {
+				"parentClass": "EmployeeFormComponent"
+			}
+		},
+		{
+			"id": "ADD_FORM",
+			"label": "Form Property",
+			"context": {}
+		},
+		{
+			"id": "INJECT",
+			"label": "Inject",
+			"context": {}
+		}
+	],
+	"level": "info",
+	"message": "[API] Response ok: entity/actions"
+}
+[info] [API] Request for angular-component/form-properties/add: {
+	"action": "angular-component/form-properties/add",
+	"params": {
+		"propertyName": "EmployeeForm",
+		"componentFile": "F:/lowgular tutorial/lowgular-course-entry/src/app/ui/employee-form/employee-form.component.ts",
+		"fields": {
+			"Name": "text",
+			"Age": "text",
+			"Salary": "text"
+		}
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "F:/lowgular tutorial/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "CFQOJrafPJXVQIF624zHxyGs0Mo2",
+			"correlationId": "HdmQnVoZo6",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for angular-component/form-properties/add"
+}
+[info] [CLI] Calling Command angular-component/form-properties/add: {
+	"funcParams": {
+		"propertyName": "EmployeeForm",
+		"componentFile": "F:/lowgular tutorial/lowgular-course-entry/src/app/ui/employee-form/employee-form.component.ts",
+		"fields": {
+			"Name": "text",
+			"Age": "text",
+			"Salary": "text"
+		}
+	},
+	"level": "info",
+	"message": "[CLI] Calling Command angular-component/form-properties/add"
+}
+[info] [CommandBus]: Dispatching command SMART_COMPONENT_ADD_FORM_PROPERTY: {
+	"commandName": "SMART_COMPONENT_ADD_FORM_PROPERTY",
+	"payload": {
+		"componentTsFile": "F:/lowgular tutorial/lowgular-course-entry/src/app/ui/employee-form/employee-form.component.ts",
+		"propertyName": "EmployeeForm",
+		"fields": {
+			"Name": "text",
+			"Age": "text",
+			"Salary": "text"
+		}
+	},
+	"level": "info",
+	"message": "[CommandBus]: Dispatching command SMART_COMPONENT_ADD_FORM_PROPERTY"
+}
+[info] [EventBus]: Broadcasting event SMART_COMPONENT_FORM_ADDED: {
+	"type": "SMART_COMPONENT_FORM_ADDED",
+	"payload": {
+		"componentFile": "F:/lowgular tutorial/lowgular-course-entry/src/app/ui/employee-form/employee-form.component.ts"
+	},
+	"level": "info",
+	"message": "[EventBus]: Broadcasting event SMART_COMPONENT_FORM_ADDED"
+}
+[info] [EventBus]: Broadcasted SMART_COMPONENT_FORM_ADDED: {
+	"event": {
+		"componentFile": "F:/lowgular tutorial/lowgular-course-entry/src/app/ui/employee-form/employee-form.component.ts"
+	},
+	"level": "info",
+	"message": "[EventBus]: Broadcasted SMART_COMPONENT_FORM_ADDED"
+}
+[info] [CommandBus]: Dispatching command MODULE_IMPORT_REACTIVE_FORM: {
+	"commandName": "MODULE_IMPORT_REACTIVE_FORM",
+	"payload": {
+		"componentFile": "F:/lowgular tutorial/lowgular-course-entry/src/app/ui/employee-form/employee-form.component.ts",
+		"moduleName": "ReactiveFormsModule",
+		"declarationModules": [
+			{
+				"name": "EmployeeFormComponentModule",
+				"path": "F:/lowgular tutorial/lowgular-course-entry/src/app/ui/employee-form/employee-form.component-module.ts"
+			}
+		]
+	},
+	"level": "info",
+	"message": "[CommandBus]: Dispatching command MODULE_IMPORT_REACTIVE_FORM"
+}
+[info] [CommandBus]: Handled  MODULE_IMPORT_REACTIVE_FORM: {
+	"commandName": "MODULE_IMPORT_REACTIVE_FORM",
+	"payload": {
+		"componentFile": "F:/lowgular tutorial/lowgular-course-entry/src/app/ui/employee-form/employee-form.component.ts",
+		"moduleName": "ReactiveFormsModule",
+		"declarationModules": [
+			{
+				"name": "EmployeeFormComponentModule",
+				"path": "F:/lowgular tutorial/lowgular-course-entry/src/app/ui/employee-form/employee-form.component-module.ts"
+			}
+		]
+	},
+	"level": "info",
+	"message": "[CommandBus]: Handled  MODULE_IMPORT_REACTIVE_FORM"
+}
+[info] [CommandBus]: Handled  SMART_COMPONENT_ADD_FORM_PROPERTY: {
+	"commandName": "SMART_COMPONENT_ADD_FORM_PROPERTY",
+	"payload": {
+		"componentTsFile": "F:/lowgular tutorial/lowgular-course-entry/src/app/ui/employee-form/employee-form.component.ts",
+		"propertyName": "EmployeeForm",
+		"fields": {
+			"Name": "text",
+			"Age": "text",
+			"Salary": "text"
+		}
+	},
+	"level": "info",
+	"message": "[CommandBus]: Handled  SMART_COMPONENT_ADD_FORM_PROPERTY"
+}
+[info] [CLI] Called Command angular-component/form-properties/add: {
+	"message": "[CLI] Called Command angular-component/form-properties/add",
+	"level": "info"
+}
+[info] [API] Response ok: angular-component/form-properties/add: {
+	"result": {
+		"filePath": "F:/lowgular tutorial/lowgular-course-entry/src/app/ui/employee-form/employee-form.component.ts"
+	},
+	"level": "info",
+	"message": "[API] Response ok: angular-component/form-properties/add"
+}
+[info] [API] Request for entity/actions: {
+	"action": "entity/actions",
+	"params": {
+		"clickedPath": "F:/lowgular tutorial/lowgular-course-entry/src/app/ui/employee-form/employee-form.component.ts",
+		"position": 374
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "F:/lowgular tutorial/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "CFQOJrafPJXVQIF624zHxyGs0Mo2",
+			"correlationId": "QaTJB_Izwj",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for entity/actions"
+}
+[info] [CLI] Calling Query entity/actions: {
+	"funcParams": {
+		"clickedPath": "F:/lowgular tutorial/lowgular-course-entry/src/app/ui/employee-form/employee-form.component.ts",
+		"position": 374
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query entity/actions"
+}
+[info] [CLI] Called Query entity/actions: {
+	"result": [
+		{
+			"id": "RXJS_PROPERTY",
+			"label": "RxJS Property",
+			"context": {
+				"parentClass": "EmployeeFormComponent"
+			}
+		},
+		{
+			"id": "ADD_FORM",
+			"label": "Form Property",
+			"context": {}
+		},
+		{
+			"id": "INJECT",
+			"label": "Inject",
+			"context": {}
+		}
+	],
+	"level": "info",
+	"message": "[CLI] Called Query entity/actions"
+}
+[info] [API] Response ok: entity/actions: {
+	"result": [
+		{
+			"id": "RXJS_PROPERTY",
+			"label": "RxJS Property",
+			"context": {
+				"parentClass": "EmployeeFormComponent"
+			}
+		},
+		{
+			"id": "ADD_FORM",
+			"label": "Form Property",
+			"context": {}
+		},
+		{
+			"id": "INJECT",
+			"label": "Inject",
+			"context": {}
+		}
+	],
+	"level": "info",
+	"message": "[API] Response ok: entity/actions"
+}
+[info] [API] Request for entity/actions: {
+	"action": "entity/actions",
+	"params": {
+		"clickedPath": "F:/lowgular tutorial/lowgular-course-entry/src/app/ui/employee-form/employee-form.component.ts",
+		"position": 374
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "F:/lowgular tutorial/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "CFQOJrafPJXVQIF624zHxyGs0Mo2",
+			"correlationId": "fdcPigyYO7",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for entity/actions"
+}
+[info] [CLI] Calling Query entity/actions: {
+	"funcParams": {
+		"clickedPath": "F:/lowgular tutorial/lowgular-course-entry/src/app/ui/employee-form/employee-form.component.ts",
+		"position": 374
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query entity/actions"
+}
+[info] [CLI] Called Query entity/actions: {
+	"result": [
+		{
+			"id": "RXJS_PROPERTY",
+			"label": "RxJS Property",
+			"context": {
+				"parentClass": "EmployeeFormComponent"
+			}
+		},
+		{
+			"id": "ADD_FORM",
+			"label": "Form Property",
+			"context": {}
+		},
+		{
+			"id": "INJECT",
+			"label": "Inject",
+			"context": {}
+		}
+	],
+	"level": "info",
+	"message": "[CLI] Called Query entity/actions"
+}
+[info] [API] Response ok: entity/actions: {
+	"result": [
+		{
+			"id": "RXJS_PROPERTY",
+			"label": "RxJS Property",
+			"context": {
+				"parentClass": "EmployeeFormComponent"
+			}
+		},
+		{
+			"id": "ADD_FORM",
+			"label": "Form Property",
+			"context": {}
+		},
+		{
+			"id": "INJECT",
+			"label": "Inject",
+			"context": {}
+		}
+	],
+	"level": "info",
+	"message": "[API] Response ok: entity/actions"
+}
+[info] [API] Request for angular-component/form-properties/add: {
+	"action": "angular-component/form-properties/add",
+	"params": {
+		"propertyName": "EmployeeForm",
+		"componentFile": "F:/lowgular tutorial/lowgular-course-entry/src/app/ui/employee-form/employee-form.component.ts",
+		"fields": {
+			"Name": "text",
+			"Age": "text",
+			"Salary": "text"
+		}
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "F:/lowgular tutorial/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "CFQOJrafPJXVQIF624zHxyGs0Mo2",
+			"correlationId": "fdcPigyYO7",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for angular-component/form-properties/add"
+}
+[info] [CLI] Calling Command angular-component/form-properties/add: {
+	"funcParams": {
+		"propertyName": "EmployeeForm",
+		"componentFile": "F:/lowgular tutorial/lowgular-course-entry/src/app/ui/employee-form/employee-form.component.ts",
+		"fields": {
+			"Name": "text",
+			"Age": "text",
+			"Salary": "text"
+		}
+	},
+	"level": "info",
+	"message": "[CLI] Calling Command angular-component/form-properties/add"
+}
+[info] [CommandBus]: Dispatching command SMART_COMPONENT_ADD_FORM_PROPERTY: {
+	"commandName": "SMART_COMPONENT_ADD_FORM_PROPERTY",
+	"payload": {
+		"componentTsFile": "F:/lowgular tutorial/lowgular-course-entry/src/app/ui/employee-form/employee-form.component.ts",
+		"propertyName": "EmployeeForm",
+		"fields": {
+			"Name": "text",
+			"Age": "text",
+			"Salary": "text"
+		}
+	},
+	"level": "info",
+	"message": "[CommandBus]: Dispatching command SMART_COMPONENT_ADD_FORM_PROPERTY"
+}
+[info] [EventBus]: Broadcasting event SMART_COMPONENT_FORM_ADDED: {
+	"type": "SMART_COMPONENT_FORM_ADDED",
+	"payload": {
+		"componentFile": "F:/lowgular tutorial/lowgular-course-entry/src/app/ui/employee-form/employee-form.component.ts"
+	},
+	"level": "info",
+	"message": "[EventBus]: Broadcasting event SMART_COMPONENT_FORM_ADDED"
+}
+[info] [EventBus]: Broadcasted SMART_COMPONENT_FORM_ADDED: {
+	"event": {
+		"componentFile": "F:/lowgular tutorial/lowgular-course-entry/src/app/ui/employee-form/employee-form.component.ts"
+	},
+	"level": "info",
+	"message": "[EventBus]: Broadcasted SMART_COMPONENT_FORM_ADDED"
+}
+[info] [CommandBus]: Handled  SMART_COMPONENT_ADD_FORM_PROPERTY: {
+	"commandName": "SMART_COMPONENT_ADD_FORM_PROPERTY",
+	"payload": {
+		"componentTsFile": "F:/lowgular tutorial/lowgular-course-entry/src/app/ui/employee-form/employee-form.component.ts",
+		"propertyName": "EmployeeForm",
+		"fields": {
+			"Name": "text",
+			"Age": "text",
+			"Salary": "text"
+		}
+	},
+	"level": "info",
+	"message": "[CommandBus]: Handled  SMART_COMPONENT_ADD_FORM_PROPERTY"
+}
+[info] [CLI] Called Command angular-component/form-properties/add: {
+	"message": "[CLI] Called Command angular-component/form-properties/add",
+	"level": "info"
+}
+[info] [API] Response ok: angular-component/form-properties/add: {
+	"result": {
+		"filePath": "F:/lowgular tutorial/lowgular-course-entry/src/app/ui/employee-form/employee-form.component.ts"
+	},
+	"level": "info",
+	"message": "[API] Response ok: angular-component/form-properties/add"
+}
+[info] [CommandBus]: Dispatching command MODULE_IMPORT_REACTIVE_FORM: {
+	"commandName": "MODULE_IMPORT_REACTIVE_FORM",
+	"payload": {
+		"componentFile": "F:/lowgular tutorial/lowgular-course-entry/src/app/ui/employee-form/employee-form.component.ts",
+		"moduleName": "ReactiveFormsModule",
+		"declarationModules": [
+			{
+				"name": "EmployeeFormComponentModule",
+				"path": "F:/lowgular tutorial/lowgular-course-entry/src/app/ui/employee-form/employee-form.component-module.ts"
+			}
+		]
+	},
+	"level": "info",
+	"message": "[CommandBus]: Dispatching command MODULE_IMPORT_REACTIVE_FORM"
+}
+[info] [CommandBus]: Handled  MODULE_IMPORT_REACTIVE_FORM: {
+	"commandName": "MODULE_IMPORT_REACTIVE_FORM",
+	"payload": {
+		"componentFile": "F:/lowgular tutorial/lowgular-course-entry/src/app/ui/employee-form/employee-form.component.ts",
+		"moduleName": "ReactiveFormsModule",
+		"declarationModules": [
+			{
+				"name": "EmployeeFormComponentModule",
+				"path": "F:/lowgular tutorial/lowgular-course-entry/src/app/ui/employee-form/employee-form.component-module.ts"
+			}
+		]
+	},
+	"level": "info",
+	"message": "[CommandBus]: Handled  MODULE_IMPORT_REACTIVE_FORM"
+}
+[info] [API] Request for entity/actions: {
+	"action": "entity/actions",
+	"params": {
+		"clickedPath": "F:/lowgular tutorial/lowgular-course-entry/src/app/ui/employee-form/employee-form.component.html",
+		"position": 0
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "F:/lowgular tutorial/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "CFQOJrafPJXVQIF624zHxyGs0Mo2",
+			"correlationId": "FAKbPooQcz",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for entity/actions"
+}
+[info] [CLI] Calling Query entity/actions: {
+	"funcParams": {
+		"clickedPath": "F:/lowgular tutorial/lowgular-course-entry/src/app/ui/employee-form/employee-form.component.html",
+		"position": 0
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query entity/actions"
+}
+[info] [CLI] Called Query entity/actions: {
+	"result": [
+		{
+			"id": "ADD_TEMPLATE",
+			"label": "Add HTML",
+			"context": {
+				"parentClass": "EmployeeFormComponent",
+				"options": [
+					{
+						"type": "forms"
+					},
+					{
+						"type": "lists"
+					}
+				]
+			}
+		},
+		{
+			"id": "ADD_COMPONENT",
+			"label": "Add Component",
+			"context": {}
+		}
+	],
+	"level": "info",
+	"message": "[CLI] Called Query entity/actions"
+}
+[info] [API] Response ok: entity/actions: {
+	"result": [
+		{
+			"id": "ADD_TEMPLATE",
+			"label": "Add HTML",
+			"context": {
+				"parentClass": "EmployeeFormComponent",
+				"options": [
+					{
+						"type": "forms"
+					},
+					{
+						"type": "lists"
+					}
+				]
+			}
+		},
+		{
+			"id": "ADD_COMPONENT",
+			"label": "Add Component",
+			"context": {}
+		}
+	],
+	"level": "info",
+	"message": "[API] Response ok: entity/actions"
+}
+[info] [API] Request for angular-component/properties/list: {
+	"action": "angular-component/properties/list",
+	"params": {
+		"entityFilePath": "F:/lowgular tutorial/lowgular-course-entry/src/app/ui/employee-form/employee-form.component.ts"
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "F:/lowgular tutorial/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "CFQOJrafPJXVQIF624zHxyGs0Mo2",
+			"correlationId": "FAKbPooQcz",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for angular-component/properties/list"
+}
+[info] [API] Response ok: angular-component/properties/list: {
+	"result": [
+		{
+			"label": "employeeForm",
+			"templateType": "forms"
+		}
+	],
+	"level": "info",
+	"message": "[API] Response ok: angular-component/properties/list"
+}
+[info] [CLI] Calling Query angular-component/properties/list: {
+	"funcParams": {
+		"entityFilePath": "F:/lowgular tutorial/lowgular-course-entry/src/app/ui/employee-form/employee-form.component.ts"
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query angular-component/properties/list"
+}
+[info] [CLI] Called Query angular-component/properties/list: {
+	"result": [
+		{
+			"label": "employeeForm",
+			"templateType": "forms"
+		}
+	],
+	"level": "info",
+	"message": "[CLI] Called Query angular-component/properties/list"
+}
+[info] [API] Request for angular-component/templates/get: {
+	"action": "angular-component/templates/get",
+	"params": {
+		"name": "forms"
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "F:/lowgular tutorial/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "CFQOJrafPJXVQIF624zHxyGs0Mo2",
+			"correlationId": "FAKbPooQcz",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for angular-component/templates/get"
+}
+[info] [API] Response ok: angular-component/templates/get: {
+	"result": [
+		{
+			"label": "form"
+		}
+	],
+	"level": "info",
+	"message": "[API] Response ok: angular-component/templates/get"
+}
+[info] [CLI] Calling Query angular-component/templates/get: {
+	"funcParams": {
+		"name": "forms"
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query angular-component/templates/get"
+}
+[info] [CLI] Called Query angular-component/templates/get: {
+	"result": [
+		{
+			"label": "form"
+		}
+	],
+	"level": "info",
+	"message": "[CLI] Called Query angular-component/templates/get"
+}
+[info] [API] Request for angular-component/templates/add-form: {
+	"action": "angular-component/templates/add-form",
+	"params": {
+		"componentHtmlFilePath": "F:/lowgular tutorial/lowgular-course-entry/src/app/ui/employee-form/employee-form.component.html",
+		"position": 0,
+		"propertyName": "employeeForm",
+		"formTemplate": "form"
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "F:/lowgular tutorial/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "CFQOJrafPJXVQIF624zHxyGs0Mo2",
+			"correlationId": "FAKbPooQcz",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for angular-component/templates/add-form"
+}
+[info] [CLI] Calling Command angular-component/templates/add-form: {
+	"funcParams": {
+		"componentHtmlFilePath": "F:/lowgular tutorial/lowgular-course-entry/src/app/ui/employee-form/employee-form.component.html",
+		"position": 0,
+		"propertyName": "employeeForm",
+		"formTemplate": "form"
+	},
+	"level": "info",
+	"message": "[CLI] Calling Command angular-component/templates/add-form"
+}
+[info] [CommandBus]: Dispatching command AddFormToTemplateCommand: {
+	"commandName": "AddFormToTemplateCommand",
+	"payload": {
+		"workspaceRoot": "F:/lowgular tutorial/lowgular-course-entry",
+		"componentTs": "F:/lowgular tutorial/lowgular-course-entry/src/app/ui/employee-form/employee-form.component.ts",
+		"componentHtml": "F:/lowgular tutorial/lowgular-course-entry/src/app/ui/employee-form/employee-form.component.html",
+		"className": "EmployeeFormComponent",
+		"propertyName": "employeeForm",
+		"position": 0,
+		"formTemplate": "form"
+	},
+	"level": "info",
+	"message": "[CommandBus]: Dispatching command AddFormToTemplateCommand"
+}
+[info] [CommandBus]: Handled  AddFormToTemplateCommand: {
+	"commandName": "AddFormToTemplateCommand",
+	"payload": {
+		"workspaceRoot": "F:/lowgular tutorial/lowgular-course-entry",
+		"componentTs": "F:/lowgular tutorial/lowgular-course-entry/src/app/ui/employee-form/employee-form.component.ts",
+		"componentHtml": "F:/lowgular tutorial/lowgular-course-entry/src/app/ui/employee-form/employee-form.component.html",
+		"className": "EmployeeFormComponent",
+		"propertyName": "employeeForm",
+		"position": 0,
+		"formTemplate": "form"
+	},
+	"level": "info",
+	"message": "[CommandBus]: Handled  AddFormToTemplateCommand"
+}
+[info] [CLI] Called Command angular-component/templates/add-form: {
+	"message": "[CLI] Called Command angular-component/templates/add-form",
+	"level": "info"
+}
+[info] [API] Response ok: angular-component/templates/add-form: {
+	"result": {
+		"filePath": "F:/lowgular tutorial/lowgular-course-entry/src/app/ui/employee-form/employee-form.component.html"
+	},
+	"level": "info",
+	"message": "[API] Response ok: angular-component/templates/add-form"
+}
