@@ -9117,3 +9117,82 @@
 	"level": "info",
 	"message": "[API] Response ok: angular-component/templates/add-form"
 }
+[info] [API] Request for entity/actions: {
+	"action": "entity/actions",
+	"params": {
+		"clickedPath": "F:/lowgular tutorial/lowgular-course-entry/src/app/ui/employee-form/employee-form.component.html",
+		"position": 554
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "F:/lowgular tutorial/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "CFQOJrafPJXVQIF624zHxyGs0Mo2",
+			"correlationId": "U7Ge_faPzB",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for entity/actions"
+}
+[info] [CLI] Calling Query entity/actions: {
+	"funcParams": {
+		"clickedPath": "F:/lowgular tutorial/lowgular-course-entry/src/app/ui/employee-form/employee-form.component.html",
+		"position": 554
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query entity/actions"
+}
+[info] [CLI] Called Query entity/actions: {
+	"result": [
+		{
+			"id": "ADD_TEMPLATE",
+			"label": "Add HTML",
+			"context": {
+				"parentClass": "EmployeeFormComponent",
+				"options": [
+					{
+						"type": "forms"
+					},
+					{
+						"type": "lists"
+					}
+				]
+			}
+		},
+		{
+			"id": "ADD_COMPONENT",
+			"label": "Add Component",
+			"context": {}
+		}
+	],
+	"level": "info",
+	"message": "[CLI] Called Query entity/actions"
+}
+[info] [API] Response ok: entity/actions: {
+	"result": [
+		{
+			"id": "ADD_TEMPLATE",
+			"label": "Add HTML",
+			"context": {
+				"parentClass": "EmployeeFormComponent",
+				"options": [
+					{
+						"type": "forms"
+					},
+					{
+						"type": "lists"
+					}
+				]
+			}
+		},
+		{
+			"id": "ADD_COMPONENT",
+			"label": "Add Component",
+			"context": {}
+		}
+	],
+	"level": "info",
+	"message": "[API] Response ok: entity/actions"
+}
