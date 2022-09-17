@@ -1,7 +1,7 @@
 import { ChangeDetectionStrategy, Component, ViewEncapsulation } from '@angular/core';
 import { Observable } from 'rxjs';
+import { PersonModel } from '../../model/person.model';
 import { EmployeeService } from '../../services/employee.service';
-import {PersonModel} from "../../model/person.model";
 
 @Component({
   selector: 'employee-list',
@@ -14,5 +14,11 @@ export class EmployeeListComponent {
   data$: Observable<PersonModel[] | null> = this._employeeService.getAll()
   data = [{ name: 'Pablito ' }, { name: 'Michał' }];
   constructor(private _employeeService: EmployeeService) {
+  }
+  remove(id: string) {
+    this._employeeService.delete(id).subscribe({
+      complete(){alert('User was successfully removed')}
+    });
+
   }
 }
