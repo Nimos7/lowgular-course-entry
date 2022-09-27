@@ -12,7 +12,6 @@ import { EmployeeService } from '../../services/employee.service';
 export class EmployeeListComponent {
   title: string = 'Pracownicy ';
   data$: Observable<PersonModel[] | null> = this._employeeService.getAll()
-  data = [{ name: 'Pablito ' }, { name: 'Michał' }];
   constructor(private _employeeService: EmployeeService) {
   }
   remove(id: string) {
