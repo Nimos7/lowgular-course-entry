@@ -1,0 +1,6 @@
+<h1>Employee List</h1>
+<h2>123</h2>
+<ul *ngIf="data$ |async as data">
+  <li *ngFor="let employee of data"> <b>{{employee.id}}</b>. <i>{{employee.name}}</i>  <b> Age:</b> {{employee.age}}  {{employee.mail}}
+    <button (click)="remove(employee.id)"> Remove </button></li>
+</ul>

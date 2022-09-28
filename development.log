@@ -17886,3 +17886,2982 @@
 	"level": "info",
 	"message": "[API] Response ok: rxjs/add-call"
 }
+[info] [API] Request for projects/list: {
+	"action": "projects/list",
+	"params": {
+		"clickedPath": "F:/lowgular tutorial/lowgular-course-entry/src/app/ui"
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "F:/lowgular tutorial/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "CFQOJrafPJXVQIF624zHxyGs0Mo2",
+			"correlationId": "cSGO57Jylw",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for projects/list"
+}
+[info] [CLI] Calling Query projects/list: {
+	"funcParams": {
+		"clickedPath": "F:/lowgular tutorial/lowgular-course-entry/src/app/ui"
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query projects/list"
+}
+[info] [CLI] Called Query projects/list: {
+	"result": {
+		"clickedProject": {
+			"name": "lowgular-course-entry",
+			"path": "F:/lowgular tutorial/lowgular-course-entry/src/app"
+		},
+		"otherProjects": [
+			{
+				"name": "project-model",
+				"path": "F:/lowgular tutorial/lowgular-course-entry/projects/project-model/src/lib"
+			}
+		]
+	},
+	"level": "info",
+	"message": "[CLI] Called Query projects/list"
+}
+[info] [API] Response ok: projects/list: {
+	"result": {
+		"clickedProject": {
+			"name": "lowgular-course-entry",
+			"path": "F:/lowgular tutorial/lowgular-course-entry/src/app"
+		},
+		"otherProjects": [
+			{
+				"name": "project-model",
+				"path": "F:/lowgular tutorial/lowgular-course-entry/projects/project-model/src/lib"
+			}
+		]
+	},
+	"level": "info",
+	"message": "[API] Response ok: projects/list"
+}
+[info] [API] Request for entity/list: {
+	"action": "entity/list",
+	"params": {
+		"clickedPath": "F:/lowgular tutorial/lowgular-course-entry/src/app"
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "F:/lowgular tutorial/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "CFQOJrafPJXVQIF624zHxyGs0Mo2",
+			"correlationId": "cSGO57Jylw",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for entity/list"
+}
+[info] [CLI] Calling Query entity/list: {
+	"funcParams": {
+		"clickedPath": "F:/lowgular tutorial/lowgular-course-entry/src/app"
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query entity/list"
+}
+[info] [CLI] Called Query entity/list: {
+	"result": [
+		{
+			"id": "component",
+			"type": "ANGULAR_COMPONENT",
+			"suffix": "Component",
+			"folder": "ui/$name$",
+			"insideOf": "App",
+			"config": {
+				"stylesExtension": "none",
+				"viewEncapsulation": "Emulated",
+				"selector": "generated",
+				"changeDetectionStrategy": "OnPush"
+			}
+		},
+		{
+			"id": "dataService",
+			"type": "SERVICE",
+			"suffix": "Service",
+			"folder": "services",
+			"insideOf": "App"
+		},
+		{
+			"id": "model",
+			"type": "DATA_STRUCTURE",
+			"suffix": "Model",
+			"folder": "model",
+			"insideOf": "App"
+		},
+		{
+			"id": "response",
+			"type": "DATA_STRUCTURE",
+			"suffix": "Response",
+			"folder": "services",
+			"insideOf": "App"
+		}
+	],
+	"level": "info",
+	"message": "[CLI] Called Query entity/list"
+}
+[info] [API] Response ok: entity/list: {
+	"result": [
+		{
+			"id": "component",
+			"type": "ANGULAR_COMPONENT",
+			"suffix": "Component",
+			"folder": "ui/$name$",
+			"insideOf": "App",
+			"config": {
+				"stylesExtension": "none",
+				"viewEncapsulation": "Emulated",
+				"selector": "generated",
+				"changeDetectionStrategy": "OnPush"
+			}
+		},
+		{
+			"id": "dataService",
+			"type": "SERVICE",
+			"suffix": "Service",
+			"folder": "services",
+			"insideOf": "App"
+		},
+		{
+			"id": "model",
+			"type": "DATA_STRUCTURE",
+			"suffix": "Model",
+			"folder": "model",
+			"insideOf": "App"
+		},
+		{
+			"id": "response",
+			"type": "DATA_STRUCTURE",
+			"suffix": "Response",
+			"folder": "services",
+			"insideOf": "App"
+		}
+	],
+	"level": "info",
+	"message": "[API] Response ok: entity/list"
+}
+[info] [API] Request for angular-component/create: {
+	"action": "angular-component/create",
+	"params": {
+		"name": "EmployeeList",
+		"clickedPath": "F:/lowgular tutorial/lowgular-course-entry/src/app/ui",
+		"entityId": "component"
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "F:/lowgular tutorial/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "CFQOJrafPJXVQIF624zHxyGs0Mo2",
+			"correlationId": "cSGO57Jylw",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for angular-component/create"
+}
+[info] [CLI] Calling Command angular-component/create: {
+	"funcParams": {
+		"name": "EmployeeList",
+		"clickedPath": "F:/lowgular tutorial/lowgular-course-entry/src/app/ui",
+		"entityId": "component"
+	},
+	"level": "info",
+	"message": "[CLI] Calling Command angular-component/create"
+}
+[info] [CommandBus]: Dispatching command COMPONENT_CREATE_SMART_COMPONENT: {
+	"commandName": "COMPONENT_CREATE_SMART_COMPONENT",
+	"payload": {
+		"name": "EmployeeList",
+		"prefix": "app",
+		"suffix": "Component",
+		"absoluteFolderPath": "F:/lowgular tutorial/lowgular-course-entry/src/app/ui/employee-list",
+		"config": {
+			"stylesExtension": "none",
+			"viewEncapsulation": "Emulated",
+			"selector": "generated",
+			"changeDetectionStrategy": "OnPush"
+		}
+	},
+	"level": "info",
+	"message": "[CommandBus]: Dispatching command COMPONENT_CREATE_SMART_COMPONENT"
+}
+[warn] [TsMorphFileAdapter]: File Not Found, creating...: {
+	"filePath": "F:/lowgular tutorial/lowgular-course-entry/src/app/ui/employee-list/employee-list.component.html",
+	"level": "warn",
+	"message": "[TsMorphFileAdapter]: File Not Found, creating..."
+}
+[info] [EventBus]: Broadcasting event COMPONENT_SMART_COMPONENT_CREATED: {
+	"type": "COMPONENT_SMART_COMPONENT_CREATED",
+	"payload": {
+		"createdFile": "F:/lowgular tutorial/lowgular-course-entry/src/app/ui/employee-list/employee-list.component.ts"
+	},
+	"level": "info",
+	"message": "[EventBus]: Broadcasting event COMPONENT_SMART_COMPONENT_CREATED"
+}
+[info] [CommandBus]: Dispatching command CREATE_COMPONENT_MODULE: {
+	"commandName": "CREATE_COMPONENT_MODULE",
+	"payload": {
+		"moduleFilePath": "F:/lowgular tutorial/lowgular-course-entry/src/app/ui/employee-list/employee-list.component-module.ts"
+	},
+	"level": "info",
+	"message": "[CommandBus]: Dispatching command CREATE_COMPONENT_MODULE"
+}
+[info] [EventBus]: Broadcasted COMPONENT_SMART_COMPONENT_CREATED: {
+	"event": {
+		"createdFile": "F:/lowgular tutorial/lowgular-course-entry/src/app/ui/employee-list/employee-list.component.ts"
+	},
+	"level": "info",
+	"message": "[EventBus]: Broadcasted COMPONENT_SMART_COMPONENT_CREATED"
+}
+[info] [EventBus]: Broadcasting event MODULE_MODULE_CREATED: {
+	"type": "MODULE_MODULE_CREATED",
+	"payload": {
+		"moduleFile": "F:/lowgular tutorial/lowgular-course-entry/src/app/ui/employee-list/employee-list.component-module.ts"
+	},
+	"level": "info",
+	"message": "[EventBus]: Broadcasting event MODULE_MODULE_CREATED"
+}
+[info] [EventBus]: Broadcasted MODULE_MODULE_CREATED: {
+	"event": {
+		"moduleFile": "F:/lowgular tutorial/lowgular-course-entry/src/app/ui/employee-list/employee-list.component-module.ts"
+	},
+	"level": "info",
+	"message": "[EventBus]: Broadcasted MODULE_MODULE_CREATED"
+}
+[info] [CommandBus]: Handled  CREATE_COMPONENT_MODULE: {
+	"commandName": "CREATE_COMPONENT_MODULE",
+	"payload": {
+		"moduleFilePath": "F:/lowgular tutorial/lowgular-course-entry/src/app/ui/employee-list/employee-list.component-module.ts"
+	},
+	"level": "info",
+	"message": "[CommandBus]: Handled  CREATE_COMPONENT_MODULE"
+}
+[info] [CommandBus]: Handled  COMPONENT_CREATE_SMART_COMPONENT: {
+	"commandName": "COMPONENT_CREATE_SMART_COMPONENT",
+	"payload": {
+		"name": "EmployeeList",
+		"prefix": "app",
+		"suffix": "Component",
+		"absoluteFolderPath": "F:/lowgular tutorial/lowgular-course-entry/src/app/ui/employee-list",
+		"config": {
+			"stylesExtension": "none",
+			"viewEncapsulation": "Emulated",
+			"selector": "generated",
+			"changeDetectionStrategy": "OnPush"
+		}
+	},
+	"level": "info",
+	"message": "[CommandBus]: Handled  COMPONENT_CREATE_SMART_COMPONENT"
+}
+[info] [CLI] Called Command angular-component/create: {
+	"message": "[CLI] Called Command angular-component/create",
+	"level": "info"
+}
+[info] [API] Response ok: angular-component/create: {
+	"result": {
+		"filePath": "F:/lowgular tutorial/lowgular-course-entry/src/app/ui/employee-list/employee-list.component.ts"
+	},
+	"level": "info",
+	"message": "[API] Response ok: angular-component/create"
+}
+[info] [API] Request for entity/actions: {
+	"action": "entity/actions",
+	"params": {
+		"clickedPath": "F:/lowgular tutorial/lowgular-course-entry/src/app/ui/employee-list/employee-list.component.ts",
+		"position": 317
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "F:/lowgular tutorial/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "CFQOJrafPJXVQIF624zHxyGs0Mo2",
+			"correlationId": "4Lx36_XDON",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for entity/actions"
+}
+[info] [CLI] Calling Query entity/actions: {
+	"funcParams": {
+		"clickedPath": "F:/lowgular tutorial/lowgular-course-entry/src/app/ui/employee-list/employee-list.component.ts",
+		"position": 317
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query entity/actions"
+}
+[info] [CLI] Called Query entity/actions: {
+	"result": [
+		{
+			"id": "RXJS_PROPERTY",
+			"label": "RxJS Property",
+			"context": {
+				"parentClass": "EmployeeListComponent"
+			}
+		},
+		{
+			"id": "ADD_FORM",
+			"label": "Form Property",
+			"context": {}
+		},
+		{
+			"id": "INJECT",
+			"label": "Inject",
+			"context": {}
+		}
+	],
+	"level": "info",
+	"message": "[CLI] Called Query entity/actions"
+}
+[info] [API] Response ok: entity/actions: {
+	"result": [
+		{
+			"id": "RXJS_PROPERTY",
+			"label": "RxJS Property",
+			"context": {
+				"parentClass": "EmployeeListComponent"
+			}
+		},
+		{
+			"id": "ADD_FORM",
+			"label": "Form Property",
+			"context": {}
+		},
+		{
+			"id": "INJECT",
+			"label": "Inject",
+			"context": {}
+		}
+	],
+	"level": "info",
+	"message": "[API] Response ok: entity/actions"
+}
+[info] [API] Request for injectable/list: {
+	"action": "injectable/list",
+	"params": {
+		"entityFilePath": "F:/lowgular tutorial/lowgular-course-entry/src/app/ui/employee-list/employee-list.component.ts"
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "F:/lowgular tutorial/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "CFQOJrafPJXVQIF624zHxyGs0Mo2",
+			"correlationId": "4Lx36_XDON",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for injectable/list"
+}
+[info] [CLI] Calling Query injectable/list: {
+	"funcParams": {
+		"entityFilePath": "F:/lowgular tutorial/lowgular-course-entry/src/app/ui/employee-list/employee-list.component.ts"
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query injectable/list"
+}
+[info] [CLI] Called Query injectable/list: {
+	"result": [
+		{
+			"file": "F:/lowgular tutorial/lowgular-course-entry/src/app/services/employee.service.ts",
+			"name": "EmployeeService",
+			"type": "SERVICE",
+			"dataType": "Internal"
+		},
+		{
+			"id": "httpClient",
+			"dataType": "External",
+			"name": "HttpClient",
+			"relatedTypes": {}
+		}
+	],
+	"level": "info",
+	"message": "[CLI] Called Query injectable/list"
+}
+[info] [API] Response ok: injectable/list: {
+	"result": [
+		{
+			"file": "F:/lowgular tutorial/lowgular-course-entry/src/app/services/employee.service.ts",
+			"name": "EmployeeService",
+			"type": "SERVICE",
+			"dataType": "Internal"
+		},
+		{
+			"id": "httpClient",
+			"dataType": "External",
+			"name": "HttpClient",
+			"relatedTypes": {}
+		}
+	],
+	"level": "info",
+	"message": "[API] Response ok: injectable/list"
+}
+[info] [API] Request for injectable/inject: {
+	"action": "injectable/inject",
+	"params": {
+		"entityFilePath": "F:/lowgular tutorial/lowgular-course-entry/src/app/ui/employee-list/employee-list.component.ts",
+		"injectingPath": "F:/lowgular tutorial/lowgular-course-entry/src/app/services/employee.service.ts",
+		"type": "SERVICE"
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "F:/lowgular tutorial/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "CFQOJrafPJXVQIF624zHxyGs0Mo2",
+			"correlationId": "4Lx36_XDON",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for injectable/inject"
+}
+[info] [CLI] Calling Command injectable/inject: {
+	"funcParams": {
+		"entityFilePath": "F:/lowgular tutorial/lowgular-course-entry/src/app/ui/employee-list/employee-list.component.ts",
+		"injectingPath": "F:/lowgular tutorial/lowgular-course-entry/src/app/services/employee.service.ts",
+		"type": "SERVICE"
+	},
+	"level": "info",
+	"message": "[CLI] Calling Command injectable/inject"
+}
+[info] [CommandBus]: Dispatching command INJECT_SERVICE_DEPENDENCY: {
+	"commandName": "INJECT_SERVICE_DEPENDENCY",
+	"payload": {
+		"entityFilePath": "F:/lowgular tutorial/lowgular-course-entry/src/app/ui/employee-list/employee-list.component.ts",
+		"injectingFilePath": "F:/lowgular tutorial/lowgular-course-entry/src/app/services/employee.service.ts"
+	},
+	"level": "info",
+	"message": "[CommandBus]: Dispatching command INJECT_SERVICE_DEPENDENCY"
+}
+[info] [CommandBus]: Handled  INJECT_SERVICE_DEPENDENCY: {
+	"commandName": "INJECT_SERVICE_DEPENDENCY",
+	"payload": {
+		"entityFilePath": "F:/lowgular tutorial/lowgular-course-entry/src/app/ui/employee-list/employee-list.component.ts",
+		"injectingFilePath": "F:/lowgular tutorial/lowgular-course-entry/src/app/services/employee.service.ts"
+	},
+	"level": "info",
+	"message": "[CommandBus]: Handled  INJECT_SERVICE_DEPENDENCY"
+}
+[info] [CLI] Called Command injectable/inject: {
+	"message": "[CLI] Called Command injectable/inject",
+	"level": "info"
+}
+[info] [API] Response ok: injectable/inject: {
+	"result": {
+		"filePath": "F:/lowgular tutorial/lowgular-course-entry/src/app/ui/employee-list/employee-list.component.ts"
+	},
+	"level": "info",
+	"message": "[API] Response ok: injectable/inject"
+}
+[info] [API] Request for projects/list: {
+	"action": "projects/list",
+	"params": {
+		"clickedPath": "F:/lowgular tutorial/lowgular-course-entry/src/app/ui"
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "F:/lowgular tutorial/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "CFQOJrafPJXVQIF624zHxyGs0Mo2",
+			"correlationId": "i96XYFSXcN",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for projects/list"
+}
+[info] [CLI] Calling Query projects/list: {
+	"funcParams": {
+		"clickedPath": "F:/lowgular tutorial/lowgular-course-entry/src/app/ui"
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query projects/list"
+}
+[info] [CLI] Called Query projects/list: {
+	"result": {
+		"clickedProject": {
+			"name": "lowgular-course-entry",
+			"path": "F:/lowgular tutorial/lowgular-course-entry/src/app"
+		},
+		"otherProjects": [
+			{
+				"name": "project-model",
+				"path": "F:/lowgular tutorial/lowgular-course-entry/projects/project-model/src/lib"
+			}
+		]
+	},
+	"level": "info",
+	"message": "[CLI] Called Query projects/list"
+}
+[info] [API] Response ok: projects/list: {
+	"result": {
+		"clickedProject": {
+			"name": "lowgular-course-entry",
+			"path": "F:/lowgular tutorial/lowgular-course-entry/src/app"
+		},
+		"otherProjects": [
+			{
+				"name": "project-model",
+				"path": "F:/lowgular tutorial/lowgular-course-entry/projects/project-model/src/lib"
+			}
+		]
+	},
+	"level": "info",
+	"message": "[API] Response ok: projects/list"
+}
+[info] [API] Request for entity/list: {
+	"action": "entity/list",
+	"params": {
+		"clickedPath": "F:/lowgular tutorial/lowgular-course-entry/src/app"
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "F:/lowgular tutorial/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "CFQOJrafPJXVQIF624zHxyGs0Mo2",
+			"correlationId": "i96XYFSXcN",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for entity/list"
+}
+[info] [CLI] Calling Query entity/list: {
+	"funcParams": {
+		"clickedPath": "F:/lowgular tutorial/lowgular-course-entry/src/app"
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query entity/list"
+}
+[info] [CLI] Called Query entity/list: {
+	"result": [
+		{
+			"id": "component",
+			"type": "ANGULAR_COMPONENT",
+			"suffix": "Component",
+			"folder": "ui/$name$",
+			"insideOf": "App",
+			"config": {
+				"stylesExtension": "none",
+				"viewEncapsulation": "Emulated",
+				"selector": "generated",
+				"changeDetectionStrategy": "OnPush"
+			}
+		},
+		{
+			"id": "dataService",
+			"type": "SERVICE",
+			"suffix": "Service",
+			"folder": "services",
+			"insideOf": "App"
+		},
+		{
+			"id": "model",
+			"type": "DATA_STRUCTURE",
+			"suffix": "Model",
+			"folder": "model",
+			"insideOf": "App"
+		},
+		{
+			"id": "response",
+			"type": "DATA_STRUCTURE",
+			"suffix": "Response",
+			"folder": "services",
+			"insideOf": "App"
+		}
+	],
+	"level": "info",
+	"message": "[CLI] Called Query entity/list"
+}
+[info] [API] Response ok: entity/list: {
+	"result": [
+		{
+			"id": "component",
+			"type": "ANGULAR_COMPONENT",
+			"suffix": "Component",
+			"folder": "ui/$name$",
+			"insideOf": "App",
+			"config": {
+				"stylesExtension": "none",
+				"viewEncapsulation": "Emulated",
+				"selector": "generated",
+				"changeDetectionStrategy": "OnPush"
+			}
+		},
+		{
+			"id": "dataService",
+			"type": "SERVICE",
+			"suffix": "Service",
+			"folder": "services",
+			"insideOf": "App"
+		},
+		{
+			"id": "model",
+			"type": "DATA_STRUCTURE",
+			"suffix": "Model",
+			"folder": "model",
+			"insideOf": "App"
+		},
+		{
+			"id": "response",
+			"type": "DATA_STRUCTURE",
+			"suffix": "Response",
+			"folder": "services",
+			"insideOf": "App"
+		}
+	],
+	"level": "info",
+	"message": "[API] Response ok: entity/list"
+}
+[info] [API] Request for angular-component/create: {
+	"action": "angular-component/create",
+	"params": {
+		"name": "EmployeeForm",
+		"clickedPath": "F:/lowgular tutorial/lowgular-course-entry/src/app/ui",
+		"entityId": "component"
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "F:/lowgular tutorial/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "CFQOJrafPJXVQIF624zHxyGs0Mo2",
+			"correlationId": "i96XYFSXcN",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for angular-component/create"
+}
+[info] [CLI] Calling Command angular-component/create: {
+	"funcParams": {
+		"name": "EmployeeForm",
+		"clickedPath": "F:/lowgular tutorial/lowgular-course-entry/src/app/ui",
+		"entityId": "component"
+	},
+	"level": "info",
+	"message": "[CLI] Calling Command angular-component/create"
+}
+[info] [CommandBus]: Dispatching command COMPONENT_CREATE_SMART_COMPONENT: {
+	"commandName": "COMPONENT_CREATE_SMART_COMPONENT",
+	"payload": {
+		"name": "EmployeeForm",
+		"prefix": "app",
+		"suffix": "Component",
+		"absoluteFolderPath": "F:/lowgular tutorial/lowgular-course-entry/src/app/ui/employee-form",
+		"config": {
+			"stylesExtension": "none",
+			"viewEncapsulation": "Emulated",
+			"selector": "generated",
+			"changeDetectionStrategy": "OnPush"
+		}
+	},
+	"level": "info",
+	"message": "[CommandBus]: Dispatching command COMPONENT_CREATE_SMART_COMPONENT"
+}
+[warn] [TsMorphFileAdapter]: File Not Found, creating...: {
+	"filePath": "F:/lowgular tutorial/lowgular-course-entry/src/app/ui/employee-form/employee-form.component.html",
+	"level": "warn",
+	"message": "[TsMorphFileAdapter]: File Not Found, creating..."
+}
+[info] [EventBus]: Broadcasting event COMPONENT_SMART_COMPONENT_CREATED: {
+	"type": "COMPONENT_SMART_COMPONENT_CREATED",
+	"payload": {
+		"createdFile": "F:/lowgular tutorial/lowgular-course-entry/src/app/ui/employee-form/employee-form.component.ts"
+	},
+	"level": "info",
+	"message": "[EventBus]: Broadcasting event COMPONENT_SMART_COMPONENT_CREATED"
+}
+[info] [CommandBus]: Dispatching command CREATE_COMPONENT_MODULE: {
+	"commandName": "CREATE_COMPONENT_MODULE",
+	"payload": {
+		"moduleFilePath": "F:/lowgular tutorial/lowgular-course-entry/src/app/ui/employee-form/employee-form.component-module.ts"
+	},
+	"level": "info",
+	"message": "[CommandBus]: Dispatching command CREATE_COMPONENT_MODULE"
+}
+[info] [EventBus]: Broadcasted COMPONENT_SMART_COMPONENT_CREATED: {
+	"event": {
+		"createdFile": "F:/lowgular tutorial/lowgular-course-entry/src/app/ui/employee-form/employee-form.component.ts"
+	},
+	"level": "info",
+	"message": "[EventBus]: Broadcasted COMPONENT_SMART_COMPONENT_CREATED"
+}
+[info] [EventBus]: Broadcasting event MODULE_MODULE_CREATED: {
+	"type": "MODULE_MODULE_CREATED",
+	"payload": {
+		"moduleFile": "F:/lowgular tutorial/lowgular-course-entry/src/app/ui/employee-form/employee-form.component-module.ts"
+	},
+	"level": "info",
+	"message": "[EventBus]: Broadcasting event MODULE_MODULE_CREATED"
+}
+[info] [EventBus]: Broadcasted MODULE_MODULE_CREATED: {
+	"event": {
+		"moduleFile": "F:/lowgular tutorial/lowgular-course-entry/src/app/ui/employee-form/employee-form.component-module.ts"
+	},
+	"level": "info",
+	"message": "[EventBus]: Broadcasted MODULE_MODULE_CREATED"
+}
+[info] [CommandBus]: Handled  CREATE_COMPONENT_MODULE: {
+	"commandName": "CREATE_COMPONENT_MODULE",
+	"payload": {
+		"moduleFilePath": "F:/lowgular tutorial/lowgular-course-entry/src/app/ui/employee-form/employee-form.component-module.ts"
+	},
+	"level": "info",
+	"message": "[CommandBus]: Handled  CREATE_COMPONENT_MODULE"
+}
+[info] [CommandBus]: Handled  COMPONENT_CREATE_SMART_COMPONENT: {
+	"commandName": "COMPONENT_CREATE_SMART_COMPONENT",
+	"payload": {
+		"name": "EmployeeForm",
+		"prefix": "app",
+		"suffix": "Component",
+		"absoluteFolderPath": "F:/lowgular tutorial/lowgular-course-entry/src/app/ui/employee-form",
+		"config": {
+			"stylesExtension": "none",
+			"viewEncapsulation": "Emulated",
+			"selector": "generated",
+			"changeDetectionStrategy": "OnPush"
+		}
+	},
+	"level": "info",
+	"message": "[CommandBus]: Handled  COMPONENT_CREATE_SMART_COMPONENT"
+}
+[info] [CLI] Called Command angular-component/create: {
+	"message": "[CLI] Called Command angular-component/create",
+	"level": "info"
+}
+[info] [API] Response ok: angular-component/create: {
+	"result": {
+		"filePath": "F:/lowgular tutorial/lowgular-course-entry/src/app/ui/employee-form/employee-form.component.ts"
+	},
+	"level": "info",
+	"message": "[API] Response ok: angular-component/create"
+}
+[info] [API] Request for entity/actions: {
+	"action": "entity/actions",
+	"params": {
+		"clickedPath": "F:/lowgular tutorial/lowgular-course-entry/src/app/ui/employee-form/employee-form.component.ts",
+		"position": 317
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "F:/lowgular tutorial/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "CFQOJrafPJXVQIF624zHxyGs0Mo2",
+			"correlationId": "qPd7plGAUP",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for entity/actions"
+}
+[info] [CLI] Calling Query entity/actions: {
+	"funcParams": {
+		"clickedPath": "F:/lowgular tutorial/lowgular-course-entry/src/app/ui/employee-form/employee-form.component.ts",
+		"position": 317
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query entity/actions"
+}
+[info] [CLI] Called Query entity/actions: {
+	"result": [
+		{
+			"id": "RXJS_PROPERTY",
+			"label": "RxJS Property",
+			"context": {
+				"parentClass": "EmployeeFormComponent"
+			}
+		},
+		{
+			"id": "ADD_FORM",
+			"label": "Form Property",
+			"context": {}
+		},
+		{
+			"id": "INJECT",
+			"label": "Inject",
+			"context": {}
+		}
+	],
+	"level": "info",
+	"message": "[CLI] Called Query entity/actions"
+}
+[info] [API] Response ok: entity/actions: {
+	"result": [
+		{
+			"id": "RXJS_PROPERTY",
+			"label": "RxJS Property",
+			"context": {
+				"parentClass": "EmployeeFormComponent"
+			}
+		},
+		{
+			"id": "ADD_FORM",
+			"label": "Form Property",
+			"context": {}
+		},
+		{
+			"id": "INJECT",
+			"label": "Inject",
+			"context": {}
+		}
+	],
+	"level": "info",
+	"message": "[API] Response ok: entity/actions"
+}
+[info] [API] Request for entity/actions: {
+	"action": "entity/actions",
+	"params": {
+		"clickedPath": "F:/lowgular tutorial/lowgular-course-entry/src/app/ui/employee-form/employee-form.component.ts",
+		"position": 317
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "F:/lowgular tutorial/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "CFQOJrafPJXVQIF624zHxyGs0Mo2",
+			"correlationId": "B-1RcGvmFM",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for entity/actions"
+}
+[info] [CLI] Calling Query entity/actions: {
+	"funcParams": {
+		"clickedPath": "F:/lowgular tutorial/lowgular-course-entry/src/app/ui/employee-form/employee-form.component.ts",
+		"position": 317
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query entity/actions"
+}
+[info] [CLI] Called Query entity/actions: {
+	"result": [
+		{
+			"id": "RXJS_PROPERTY",
+			"label": "RxJS Property",
+			"context": {
+				"parentClass": "EmployeeFormComponent"
+			}
+		},
+		{
+			"id": "ADD_FORM",
+			"label": "Form Property",
+			"context": {}
+		},
+		{
+			"id": "INJECT",
+			"label": "Inject",
+			"context": {}
+		}
+	],
+	"level": "info",
+	"message": "[CLI] Called Query entity/actions"
+}
+[info] [API] Response ok: entity/actions: {
+	"result": [
+		{
+			"id": "RXJS_PROPERTY",
+			"label": "RxJS Property",
+			"context": {
+				"parentClass": "EmployeeFormComponent"
+			}
+		},
+		{
+			"id": "ADD_FORM",
+			"label": "Form Property",
+			"context": {}
+		},
+		{
+			"id": "INJECT",
+			"label": "Inject",
+			"context": {}
+		}
+	],
+	"level": "info",
+	"message": "[API] Response ok: entity/actions"
+}
+[info] [API] Request for entity/actions: {
+	"action": "entity/actions",
+	"params": {
+		"clickedPath": "F:/lowgular tutorial/lowgular-course-entry/src/app/services/employee.service.ts",
+		"position": 1101
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "F:/lowgular tutorial/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "CFQOJrafPJXVQIF624zHxyGs0Mo2",
+			"correlationId": "RsdEnPyM2N",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for entity/actions"
+}
+[info] [CLI] Calling Query entity/actions: {
+	"funcParams": {
+		"clickedPath": "F:/lowgular tutorial/lowgular-course-entry/src/app/services/employee.service.ts",
+		"position": 1101
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query entity/actions"
+}
+[info] [CLI] Called Query entity/actions: {
+	"result": [
+		{
+			"id": "RXJS_PROPERTY",
+			"label": "RxJS Property",
+			"context": {
+				"parentClass": "EmployeeService"
+			}
+		},
+		{
+			"id": "ADD_METHOD",
+			"label": "Add method",
+			"context": {
+				"parentClass": "EmployeeService"
+			}
+		},
+		{
+			"id": "INJECT",
+			"label": "Inject",
+			"context": {}
+		}
+	],
+	"level": "info",
+	"message": "[CLI] Called Query entity/actions"
+}
+[info] [API] Response ok: entity/actions: {
+	"result": [
+		{
+			"id": "RXJS_PROPERTY",
+			"label": "RxJS Property",
+			"context": {
+				"parentClass": "EmployeeService"
+			}
+		},
+		{
+			"id": "ADD_METHOD",
+			"label": "Add method",
+			"context": {
+				"parentClass": "EmployeeService"
+			}
+		},
+		{
+			"id": "INJECT",
+			"label": "Inject",
+			"context": {}
+		}
+	],
+	"level": "info",
+	"message": "[API] Response ok: entity/actions"
+}
+[info] [API] Request for entity/return-types: {
+	"action": "entity/return-types",
+	"params": {
+		"clickedPath": "F:/lowgular tutorial/lowgular-course-entry/src/app/services/employee.service.ts"
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "F:/lowgular tutorial/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "CFQOJrafPJXVQIF624zHxyGs0Mo2",
+			"correlationId": "RsdEnPyM2N",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for entity/return-types"
+}
+[info] [CLI] Calling Query entity/return-types: {
+	"funcParams": {
+		"clickedPath": "F:/lowgular tutorial/lowgular-course-entry/src/app/services/employee.service.ts"
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query entity/return-types"
+}
+[info] [CLI] Called Query entity/return-types: {
+	"result": [
+		{
+			"name": "Observable<EmployeeModel>",
+			"path": "F:/lowgular tutorial/lowgular-course-entry/src/app/model/employee.model.ts"
+		},
+		{
+			"name": "Observable<EmployeeModel[]>",
+			"path": "F:/lowgular tutorial/lowgular-course-entry/src/app/model/employee.model.ts"
+		},
+		{
+			"name": "Observable<ApiResponse>",
+			"path": "F:/lowgular tutorial/lowgular-course-entry/src/app/services/api.response.ts"
+		},
+		{
+			"name": "Observable<ApiResponse[]>",
+			"path": "F:/lowgular tutorial/lowgular-course-entry/src/app/services/api.response.ts"
+		},
+		{
+			"name": "Observable<EmployeeResponse>",
+			"path": "F:/lowgular tutorial/lowgular-course-entry/src/app/services/employee.response.ts"
+		},
+		{
+			"name": "Observable<EmployeeResponse[]>",
+			"path": "F:/lowgular tutorial/lowgular-course-entry/src/app/services/employee.response.ts"
+		},
+		{
+			"name": "Observable<string>"
+		},
+		{
+			"name": "Observable<string[]>"
+		},
+		{
+			"name": "Observable<number>"
+		},
+		{
+			"name": "Observable<number[]>"
+		},
+		{
+			"name": "Observable<boolean>"
+		},
+		{
+			"name": "Observable<boolean[]>"
+		},
+		{
+			"name": "Observable<void>"
+		}
+	],
+	"level": "info",
+	"message": "[CLI] Called Query entity/return-types"
+}
+[info] [API] Response ok: entity/return-types: {
+	"result": [
+		{
+			"name": "Observable<EmployeeModel>",
+			"path": "F:/lowgular tutorial/lowgular-course-entry/src/app/model/employee.model.ts"
+		},
+		{
+			"name": "Observable<EmployeeModel[]>",
+			"path": "F:/lowgular tutorial/lowgular-course-entry/src/app/model/employee.model.ts"
+		},
+		{
+			"name": "Observable<ApiResponse>",
+			"path": "F:/lowgular tutorial/lowgular-course-entry/src/app/services/api.response.ts"
+		},
+		{
+			"name": "Observable<ApiResponse[]>",
+			"path": "F:/lowgular tutorial/lowgular-course-entry/src/app/services/api.response.ts"
+		},
+		{
+			"name": "Observable<EmployeeResponse>",
+			"path": "F:/lowgular tutorial/lowgular-course-entry/src/app/services/employee.response.ts"
+		},
+		{
+			"name": "Observable<EmployeeResponse[]>",
+			"path": "F:/lowgular tutorial/lowgular-course-entry/src/app/services/employee.response.ts"
+		},
+		{
+			"name": "Observable<string>"
+		},
+		{
+			"name": "Observable<string[]>"
+		},
+		{
+			"name": "Observable<number>"
+		},
+		{
+			"name": "Observable<number[]>"
+		},
+		{
+			"name": "Observable<boolean>"
+		},
+		{
+			"name": "Observable<boolean[]>"
+		},
+		{
+			"name": "Observable<void>"
+		}
+	],
+	"level": "info",
+	"message": "[API] Response ok: entity/return-types"
+}
+[info] [API] Request for method-signature/create: {
+	"action": "method-signature/create",
+	"params": {
+		"entityFilePath": "F:/lowgular tutorial/lowgular-course-entry/src/app/services/employee.service.ts",
+		"name": "delete",
+		"params": {
+			"id": "string"
+		},
+		"returnType": "Observable<void>"
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "F:/lowgular tutorial/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "CFQOJrafPJXVQIF624zHxyGs0Mo2",
+			"correlationId": "RsdEnPyM2N",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for method-signature/create"
+}
+[info] [CLI] Calling Command method-signature/create: {
+	"funcParams": {
+		"entityFilePath": "F:/lowgular tutorial/lowgular-course-entry/src/app/services/employee.service.ts",
+		"name": "delete",
+		"params": {
+			"id": "string"
+		},
+		"returnType": "Observable<void>"
+	},
+	"level": "info",
+	"message": "[CLI] Calling Command method-signature/create"
+}
+[info] [CommandBus]: Dispatching command ADD_READ_METHOD_SIGNATURE: {
+	"commandName": "ADD_READ_METHOD_SIGNATURE",
+	"payload": {
+		"entityFilePath": "F:/lowgular tutorial/lowgular-course-entry/src/app/services/employee.service.ts",
+		"name": "delete",
+		"params": {
+			"id": "string"
+		},
+		"returnType": "Observable<void>"
+	},
+	"level": "info",
+	"message": "[CommandBus]: Dispatching command ADD_READ_METHOD_SIGNATURE"
+}
+[info] [CommandBus]: Handled  ADD_READ_METHOD_SIGNATURE: {
+	"commandName": "ADD_READ_METHOD_SIGNATURE",
+	"payload": {
+		"entityFilePath": "F:/lowgular tutorial/lowgular-course-entry/src/app/services/employee.service.ts",
+		"name": "delete",
+		"params": {
+			"id": "string"
+		},
+		"returnType": "Observable<void>"
+	},
+	"level": "info",
+	"message": "[CommandBus]: Handled  ADD_READ_METHOD_SIGNATURE"
+}
+[info] [CLI] Called Command method-signature/create: {
+	"message": "[CLI] Called Command method-signature/create",
+	"level": "info"
+}
+[info] [API] Response ok: method-signature/create: {
+	"result": {
+		"filePath": "F:/lowgular tutorial/lowgular-course-entry/src/app/services/employee.service.ts"
+	},
+	"level": "info",
+	"message": "[API] Response ok: method-signature/create"
+}
+[info] [API] Request for entity/actions: {
+	"action": "entity/actions",
+	"params": {
+		"clickedPath": "F:/lowgular tutorial/lowgular-course-entry/src/app/services/employee.service.ts",
+		"position": 1101
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "F:/lowgular tutorial/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "CFQOJrafPJXVQIF624zHxyGs0Mo2",
+			"correlationId": "DdcrElKCzz",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for entity/actions"
+}
+[info] [CLI] Calling Query entity/actions: {
+	"funcParams": {
+		"clickedPath": "F:/lowgular tutorial/lowgular-course-entry/src/app/services/employee.service.ts",
+		"position": 1101
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query entity/actions"
+}
+[info] [CLI] Called Query entity/actions: {
+	"result": [
+		{
+			"id": "RXJS_PROPERTY",
+			"label": "RxJS Property",
+			"context": {
+				"parentClass": "EmployeeService"
+			}
+		},
+		{
+			"id": "ADD_METHOD",
+			"label": "Add method",
+			"context": {
+				"parentClass": "EmployeeService"
+			}
+		},
+		{
+			"id": "INJECT",
+			"label": "Inject",
+			"context": {}
+		}
+	],
+	"level": "info",
+	"message": "[CLI] Called Query entity/actions"
+}
+[info] [API] Response ok: entity/actions: {
+	"result": [
+		{
+			"id": "RXJS_PROPERTY",
+			"label": "RxJS Property",
+			"context": {
+				"parentClass": "EmployeeService"
+			}
+		},
+		{
+			"id": "ADD_METHOD",
+			"label": "Add method",
+			"context": {
+				"parentClass": "EmployeeService"
+			}
+		},
+		{
+			"id": "INJECT",
+			"label": "Inject",
+			"context": {}
+		}
+	],
+	"level": "info",
+	"message": "[API] Response ok: entity/actions"
+}
+[info] [API] Request for entity/return-types: {
+	"action": "entity/return-types",
+	"params": {
+		"clickedPath": "F:/lowgular tutorial/lowgular-course-entry/src/app/services/employee.service.ts"
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "F:/lowgular tutorial/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "CFQOJrafPJXVQIF624zHxyGs0Mo2",
+			"correlationId": "DdcrElKCzz",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for entity/return-types"
+}
+[info] [CLI] Calling Query entity/return-types: {
+	"funcParams": {
+		"clickedPath": "F:/lowgular tutorial/lowgular-course-entry/src/app/services/employee.service.ts"
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query entity/return-types"
+}
+[info] [CLI] Called Query entity/return-types: {
+	"result": [
+		{
+			"name": "Observable<EmployeeModel>",
+			"path": "F:/lowgular tutorial/lowgular-course-entry/src/app/model/employee.model.ts"
+		},
+		{
+			"name": "Observable<EmployeeModel[]>",
+			"path": "F:/lowgular tutorial/lowgular-course-entry/src/app/model/employee.model.ts"
+		},
+		{
+			"name": "Observable<ApiResponse>",
+			"path": "F:/lowgular tutorial/lowgular-course-entry/src/app/services/api.response.ts"
+		},
+		{
+			"name": "Observable<ApiResponse[]>",
+			"path": "F:/lowgular tutorial/lowgular-course-entry/src/app/services/api.response.ts"
+		},
+		{
+			"name": "Observable<EmployeeResponse>",
+			"path": "F:/lowgular tutorial/lowgular-course-entry/src/app/services/employee.response.ts"
+		},
+		{
+			"name": "Observable<EmployeeResponse[]>",
+			"path": "F:/lowgular tutorial/lowgular-course-entry/src/app/services/employee.response.ts"
+		},
+		{
+			"name": "Observable<string>"
+		},
+		{
+			"name": "Observable<string[]>"
+		},
+		{
+			"name": "Observable<number>"
+		},
+		{
+			"name": "Observable<number[]>"
+		},
+		{
+			"name": "Observable<boolean>"
+		},
+		{
+			"name": "Observable<boolean[]>"
+		},
+		{
+			"name": "Observable<void>"
+		}
+	],
+	"level": "info",
+	"message": "[CLI] Called Query entity/return-types"
+}
+[info] [API] Response ok: entity/return-types: {
+	"result": [
+		{
+			"name": "Observable<EmployeeModel>",
+			"path": "F:/lowgular tutorial/lowgular-course-entry/src/app/model/employee.model.ts"
+		},
+		{
+			"name": "Observable<EmployeeModel[]>",
+			"path": "F:/lowgular tutorial/lowgular-course-entry/src/app/model/employee.model.ts"
+		},
+		{
+			"name": "Observable<ApiResponse>",
+			"path": "F:/lowgular tutorial/lowgular-course-entry/src/app/services/api.response.ts"
+		},
+		{
+			"name": "Observable<ApiResponse[]>",
+			"path": "F:/lowgular tutorial/lowgular-course-entry/src/app/services/api.response.ts"
+		},
+		{
+			"name": "Observable<EmployeeResponse>",
+			"path": "F:/lowgular tutorial/lowgular-course-entry/src/app/services/employee.response.ts"
+		},
+		{
+			"name": "Observable<EmployeeResponse[]>",
+			"path": "F:/lowgular tutorial/lowgular-course-entry/src/app/services/employee.response.ts"
+		},
+		{
+			"name": "Observable<string>"
+		},
+		{
+			"name": "Observable<string[]>"
+		},
+		{
+			"name": "Observable<number>"
+		},
+		{
+			"name": "Observable<number[]>"
+		},
+		{
+			"name": "Observable<boolean>"
+		},
+		{
+			"name": "Observable<boolean[]>"
+		},
+		{
+			"name": "Observable<void>"
+		}
+	],
+	"level": "info",
+	"message": "[API] Response ok: entity/return-types"
+}
+[info] [API] Request for method-signature/create: {
+	"action": "method-signature/create",
+	"params": {
+		"entityFilePath": "F:/lowgular tutorial/lowgular-course-entry/src/app/services/employee.service.ts",
+		"name": "delete",
+		"params": {
+			"id": "string"
+		},
+		"returnType": "Observable<void>"
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "F:/lowgular tutorial/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "CFQOJrafPJXVQIF624zHxyGs0Mo2",
+			"correlationId": "DdcrElKCzz",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for method-signature/create"
+}
+[info] [CLI] Calling Command method-signature/create: {
+	"funcParams": {
+		"entityFilePath": "F:/lowgular tutorial/lowgular-course-entry/src/app/services/employee.service.ts",
+		"name": "delete",
+		"params": {
+			"id": "string"
+		},
+		"returnType": "Observable<void>"
+	},
+	"level": "info",
+	"message": "[CLI] Calling Command method-signature/create"
+}
+[info] [CommandBus]: Dispatching command ADD_READ_METHOD_SIGNATURE: {
+	"commandName": "ADD_READ_METHOD_SIGNATURE",
+	"payload": {
+		"entityFilePath": "F:/lowgular tutorial/lowgular-course-entry/src/app/services/employee.service.ts",
+		"name": "delete",
+		"params": {
+			"id": "string"
+		},
+		"returnType": "Observable<void>"
+	},
+	"level": "info",
+	"message": "[CommandBus]: Dispatching command ADD_READ_METHOD_SIGNATURE"
+}
+[info] [CommandBus]: Handled  ADD_READ_METHOD_SIGNATURE: {
+	"commandName": "ADD_READ_METHOD_SIGNATURE",
+	"payload": {
+		"entityFilePath": "F:/lowgular tutorial/lowgular-course-entry/src/app/services/employee.service.ts",
+		"name": "delete",
+		"params": {
+			"id": "string"
+		},
+		"returnType": "Observable<void>"
+	},
+	"level": "info",
+	"message": "[CommandBus]: Handled  ADD_READ_METHOD_SIGNATURE"
+}
+[info] [CLI] Called Command method-signature/create: {
+	"message": "[CLI] Called Command method-signature/create",
+	"level": "info"
+}
+[info] [API] Response ok: method-signature/create: {
+	"result": {
+		"filePath": "F:/lowgular tutorial/lowgular-course-entry/src/app/services/employee.service.ts"
+	},
+	"level": "info",
+	"message": "[API] Response ok: method-signature/create"
+}
+[info] [API] Request for entity/actions: {
+	"action": "entity/actions",
+	"params": {
+		"clickedPath": "F:/lowgular tutorial/lowgular-course-entry/src/app/services/employee.service.ts",
+		"position": 1153
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "F:/lowgular tutorial/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "CFQOJrafPJXVQIF624zHxyGs0Mo2",
+			"correlationId": "RfIeWUqkrw",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for entity/actions"
+}
+[info] [CLI] Calling Query entity/actions: {
+	"funcParams": {
+		"clickedPath": "F:/lowgular tutorial/lowgular-course-entry/src/app/services/employee.service.ts",
+		"position": 1153
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query entity/actions"
+}
+[info] [CLI] Called Query entity/actions: {
+	"result": [
+		{
+			"id": "RXJS_CALL",
+			"label": "RxJS Call",
+			"context": {
+				"parentClass": "EmployeeService",
+				"parentMethod": "delete"
+			}
+		},
+		{
+			"id": "RXJS_PROPERTY",
+			"label": "RxJS Property",
+			"context": {
+				"parentClass": "EmployeeService",
+				"parentMethod": "delete"
+			}
+		},
+		{
+			"id": "ADD_METHOD",
+			"label": "Add method",
+			"context": {
+				"parentClass": "EmployeeService",
+				"parentMethod": "delete"
+			}
+		},
+		{
+			"id": "INJECT",
+			"label": "Inject",
+			"context": {}
+		}
+	],
+	"level": "info",
+	"message": "[CLI] Called Query entity/actions"
+}
+[info] [API] Response ok: entity/actions: {
+	"result": [
+		{
+			"id": "RXJS_CALL",
+			"label": "RxJS Call",
+			"context": {
+				"parentClass": "EmployeeService",
+				"parentMethod": "delete"
+			}
+		},
+		{
+			"id": "RXJS_PROPERTY",
+			"label": "RxJS Property",
+			"context": {
+				"parentClass": "EmployeeService",
+				"parentMethod": "delete"
+			}
+		},
+		{
+			"id": "ADD_METHOD",
+			"label": "Add method",
+			"context": {
+				"parentClass": "EmployeeService",
+				"parentMethod": "delete"
+			}
+		},
+		{
+			"id": "INJECT",
+			"label": "Inject",
+			"context": {}
+		}
+	],
+	"level": "info",
+	"message": "[API] Response ok: entity/actions"
+}
+[info] [API] Request for constructor/parameters: {
+	"action": "constructor/parameters",
+	"params": {
+		"entityFilePath": "F:/lowgular tutorial/lowgular-course-entry/src/app/services/employee.service.ts"
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "F:/lowgular tutorial/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "CFQOJrafPJXVQIF624zHxyGs0Mo2",
+			"correlationId": "RfIeWUqkrw",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for constructor/parameters"
+}
+[info] [CLI] Calling Query constructor/parameters: {
+	"funcParams": {
+		"entityFilePath": "F:/lowgular tutorial/lowgular-course-entry/src/app/services/employee.service.ts"
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query constructor/parameters"
+}
+[info] [CLI] Called Query constructor/parameters: {
+	"result": [
+		{
+			"name": "_httpClient",
+			"type": "HttpClient",
+			"isReadonly": false,
+			"scope": "private",
+			"path": "F:/lowgular tutorial/lowgular-course-entry/node_modules/@angular/common/http/http.d.ts"
+		}
+	],
+	"level": "info",
+	"message": "[CLI] Called Query constructor/parameters"
+}
+[info] [API] Response ok: constructor/parameters: {
+	"result": [
+		{
+			"name": "_httpClient",
+			"type": "HttpClient",
+			"isReadonly": false,
+			"scope": "private",
+			"path": "F:/lowgular tutorial/lowgular-course-entry/node_modules/@angular/common/http/http.d.ts"
+		}
+	],
+	"level": "info",
+	"message": "[API] Response ok: constructor/parameters"
+}
+[info] [API] Request for rxjs/observable-list: {
+	"action": "rxjs/observable-list",
+	"params": {
+		"entityPath": "F:/lowgular tutorial/lowgular-course-entry/node_modules/@angular/common/http/http.d.ts",
+		"entityType": "HttpClient"
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "F:/lowgular tutorial/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "CFQOJrafPJXVQIF624zHxyGs0Mo2",
+			"correlationId": "RfIeWUqkrw",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for rxjs/observable-list"
+}
+[info] [API] Response ok: rxjs/observable-list: {
+	"result": [
+		{
+			"name": "request",
+			"label": "request()",
+			"type": "method"
+		},
+		{
+			"name": "delete",
+			"label": "delete()",
+			"type": "method"
+		},
+		{
+			"name": "get",
+			"label": "get()",
+			"type": "method"
+		},
+		{
+			"name": "head",
+			"label": "head()",
+			"type": "method"
+		},
+		{
+			"name": "jsonp",
+			"label": "jsonp()",
+			"type": "method"
+		},
+		{
+			"name": "options",
+			"label": "options()",
+			"type": "method"
+		},
+		{
+			"name": "patch",
+			"label": "patch()",
+			"type": "method"
+		},
+		{
+			"name": "post",
+			"label": "post()",
+			"type": "method"
+		},
+		{
+			"name": "put",
+			"label": "put()",
+			"type": "method"
+		}
+	],
+	"level": "info",
+	"message": "[API] Response ok: rxjs/observable-list"
+}
+[info] [CLI] Calling Query rxjs/observable-list: {
+	"funcParams": {
+		"entityPath": "F:/lowgular tutorial/lowgular-course-entry/node_modules/@angular/common/http/http.d.ts",
+		"entityType": "HttpClient"
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query rxjs/observable-list"
+}
+[info] [CLI] Called Query rxjs/observable-list: {
+	"result": [
+		{
+			"name": "request",
+			"label": "request()",
+			"type": "method"
+		},
+		{
+			"name": "delete",
+			"label": "delete()",
+			"type": "method"
+		},
+		{
+			"name": "get",
+			"label": "get()",
+			"type": "method"
+		},
+		{
+			"name": "head",
+			"label": "head()",
+			"type": "method"
+		},
+		{
+			"name": "jsonp",
+			"label": "jsonp()",
+			"type": "method"
+		},
+		{
+			"name": "options",
+			"label": "options()",
+			"type": "method"
+		},
+		{
+			"name": "patch",
+			"label": "patch()",
+			"type": "method"
+		},
+		{
+			"name": "post",
+			"label": "post()",
+			"type": "method"
+		},
+		{
+			"name": "put",
+			"label": "put()",
+			"type": "method"
+		}
+	],
+	"level": "info",
+	"message": "[CLI] Called Query rxjs/observable-list"
+}
+[info] [API] Request for rxjs/add-call: {
+	"action": "rxjs/add-call",
+	"params": {
+		"entityFilePath": "F:/lowgular tutorial/lowgular-course-entry/src/app/services/employee.service.ts",
+		"parentMethod": "delete",
+		"dependencyPath": "F:/lowgular tutorial/lowgular-course-entry/node_modules/@angular/common/http/http.d.ts",
+		"dependencyType": "HttpClient",
+		"observableName": "delete",
+		"observableType": "method"
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "F:/lowgular tutorial/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "CFQOJrafPJXVQIF624zHxyGs0Mo2",
+			"correlationId": "RfIeWUqkrw",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for rxjs/add-call"
+}
+[info] [CLI] Calling Command rxjs/add-call: {
+	"funcParams": {
+		"entityFilePath": "F:/lowgular tutorial/lowgular-course-entry/src/app/services/employee.service.ts",
+		"parentMethod": "delete",
+		"dependencyPath": "F:/lowgular tutorial/lowgular-course-entry/node_modules/@angular/common/http/http.d.ts",
+		"dependencyType": "HttpClient",
+		"observableName": "delete",
+		"observableType": "method"
+	},
+	"level": "info",
+	"message": "[CLI] Calling Command rxjs/add-call"
+}
+[info] [CommandBus]: Dispatching command AddCallCommand: {
+	"commandName": "AddCallCommand",
+	"payload": {
+		"rootPath": "F:/lowgular tutorial/lowgular-course-entry/src/app",
+		"classFilePath": "F:/lowgular tutorial/lowgular-course-entry/src/app/services/employee.service.ts",
+		"parentMethod": "delete",
+		"dependencyFilePath": "F:/lowgular tutorial/lowgular-course-entry/node_modules/@angular/common/http/http.d.ts",
+		"dependencyType": "HttpClient",
+		"observableName": "delete",
+		"observableType": "method",
+		"allowedParamSuffixes": []
+	},
+	"level": "info",
+	"message": "[CommandBus]: Dispatching command AddCallCommand"
+}
+[info] [CommandBus]: Handled  AddCallCommand: {
+	"commandName": "AddCallCommand",
+	"payload": {
+		"rootPath": "F:/lowgular tutorial/lowgular-course-entry/src/app",
+		"classFilePath": "F:/lowgular tutorial/lowgular-course-entry/src/app/services/employee.service.ts",
+		"parentMethod": "delete",
+		"dependencyFilePath": "F:/lowgular tutorial/lowgular-course-entry/node_modules/@angular/common/http/http.d.ts",
+		"dependencyType": "HttpClient",
+		"observableName": "delete",
+		"observableType": "method",
+		"allowedParamSuffixes": []
+	},
+	"level": "info",
+	"message": "[CommandBus]: Handled  AddCallCommand"
+}
+[info] [CLI] Called Command rxjs/add-call: {
+	"message": "[CLI] Called Command rxjs/add-call",
+	"level": "info"
+}
+[info] [API] Response ok: rxjs/add-call: {
+	"result": {
+		"filePath": "F:/lowgular tutorial/lowgular-course-entry/src/app/services/employee.service.ts"
+	},
+	"level": "info",
+	"message": "[API] Response ok: rxjs/add-call"
+}
+[info] [API] Request for entity/actions: {
+	"action": "entity/actions",
+	"params": {
+		"clickedPath": "F:/lowgular tutorial/lowgular-course-entry/src/app/ui/employee-list/employee-list.component.ts",
+		"position": 646
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "F:/lowgular tutorial/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "CFQOJrafPJXVQIF624zHxyGs0Mo2",
+			"correlationId": "Z_Etonxu_g",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for entity/actions"
+}
+[info] [CLI] Calling Query entity/actions: {
+	"funcParams": {
+		"clickedPath": "F:/lowgular tutorial/lowgular-course-entry/src/app/ui/employee-list/employee-list.component.ts",
+		"position": 646
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query entity/actions"
+}
+[info] [API] Response ok: entity/actions: {
+	"result": [
+		{
+			"id": "RXJS_PROPERTY",
+			"label": "RxJS Property",
+			"context": {}
+		},
+		{
+			"id": "ADD_FORM",
+			"label": "Form Property",
+			"context": {}
+		},
+		{
+			"id": "INJECT",
+			"label": "Inject",
+			"context": {}
+		}
+	],
+	"level": "info",
+	"message": "[API] Response ok: entity/actions"
+}
+[info] [CLI] Called Query entity/actions: {
+	"result": [
+		{
+			"id": "RXJS_PROPERTY",
+			"label": "RxJS Property",
+			"context": {}
+		},
+		{
+			"id": "ADD_FORM",
+			"label": "Form Property",
+			"context": {}
+		},
+		{
+			"id": "INJECT",
+			"label": "Inject",
+			"context": {}
+		}
+	],
+	"level": "info",
+	"message": "[CLI] Called Query entity/actions"
+}
+[info] [API] Request for entity/actions: {
+	"action": "entity/actions",
+	"params": {
+		"clickedPath": "F:/lowgular tutorial/lowgular-course-entry/src/app/ui/employee-list/employee-list.component.ts",
+		"position": 641
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "F:/lowgular tutorial/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "CFQOJrafPJXVQIF624zHxyGs0Mo2",
+			"correlationId": "MyIyqUg_4O",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for entity/actions"
+}
+[info] [CLI] Calling Query entity/actions: {
+	"funcParams": {
+		"clickedPath": "F:/lowgular tutorial/lowgular-course-entry/src/app/ui/employee-list/employee-list.component.ts",
+		"position": 641
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query entity/actions"
+}
+[info] [CLI] Called Query entity/actions: {
+	"result": [
+		{
+			"id": "RXJS_PROPERTY",
+			"label": "RxJS Property",
+			"context": {}
+		},
+		{
+			"id": "ADD_FORM",
+			"label": "Form Property",
+			"context": {}
+		},
+		{
+			"id": "INJECT",
+			"label": "Inject",
+			"context": {}
+		}
+	],
+	"level": "info",
+	"message": "[CLI] Called Query entity/actions"
+}
+[info] [API] Response ok: entity/actions: {
+	"result": [
+		{
+			"id": "RXJS_PROPERTY",
+			"label": "RxJS Property",
+			"context": {}
+		},
+		{
+			"id": "ADD_FORM",
+			"label": "Form Property",
+			"context": {}
+		},
+		{
+			"id": "INJECT",
+			"label": "Inject",
+			"context": {}
+		}
+	],
+	"level": "info",
+	"message": "[API] Response ok: entity/actions"
+}
+[info] [API] Request for injectable/list: {
+	"action": "injectable/list",
+	"params": {
+		"entityFilePath": "F:/lowgular tutorial/lowgular-course-entry/src/app/ui/employee-list/employee-list.component.ts"
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "F:/lowgular tutorial/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "CFQOJrafPJXVQIF624zHxyGs0Mo2",
+			"correlationId": "MyIyqUg_4O",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for injectable/list"
+}
+[info] [CLI] Calling Query injectable/list: {
+	"funcParams": {
+		"entityFilePath": "F:/lowgular tutorial/lowgular-course-entry/src/app/ui/employee-list/employee-list.component.ts"
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query injectable/list"
+}
+[info] [CLI] Called Query injectable/list: {
+	"result": [
+		{
+			"id": "httpClient",
+			"dataType": "External",
+			"name": "HttpClient",
+			"relatedTypes": {}
+		}
+	],
+	"level": "info",
+	"message": "[CLI] Called Query injectable/list"
+}
+[info] [API] Response ok: injectable/list: {
+	"result": [
+		{
+			"id": "httpClient",
+			"dataType": "External",
+			"name": "HttpClient",
+			"relatedTypes": {}
+		}
+	],
+	"level": "info",
+	"message": "[API] Response ok: injectable/list"
+}
+[info] [API] Request for entity/actions: {
+	"action": "entity/actions",
+	"params": {
+		"clickedPath": "F:/lowgular tutorial/lowgular-course-entry/src/app/ui/employee-list/employee-list.component.ts",
+		"position": 641
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "F:/lowgular tutorial/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "CFQOJrafPJXVQIF624zHxyGs0Mo2",
+			"correlationId": "QZ8GMSDQwu",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for entity/actions"
+}
+[info] [CLI] Calling Query entity/actions: {
+	"funcParams": {
+		"clickedPath": "F:/lowgular tutorial/lowgular-course-entry/src/app/ui/employee-list/employee-list.component.ts",
+		"position": 641
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query entity/actions"
+}
+[info] [API] Response ok: entity/actions: {
+	"result": [
+		{
+			"id": "RXJS_PROPERTY",
+			"label": "RxJS Property",
+			"context": {}
+		},
+		{
+			"id": "ADD_FORM",
+			"label": "Form Property",
+			"context": {}
+		},
+		{
+			"id": "INJECT",
+			"label": "Inject",
+			"context": {}
+		}
+	],
+	"level": "info",
+	"message": "[API] Response ok: entity/actions"
+}
+[info] [CLI] Called Query entity/actions: {
+	"result": [
+		{
+			"id": "RXJS_PROPERTY",
+			"label": "RxJS Property",
+			"context": {}
+		},
+		{
+			"id": "ADD_FORM",
+			"label": "Form Property",
+			"context": {}
+		},
+		{
+			"id": "INJECT",
+			"label": "Inject",
+			"context": {}
+		}
+	],
+	"level": "info",
+	"message": "[CLI] Called Query entity/actions"
+}
+[info] [API] Request for entity/actions: {
+	"action": "entity/actions",
+	"params": {
+		"clickedPath": "F:/lowgular tutorial/lowgular-course-entry/src/app/ui/employee-list/employee-list.component.ts",
+		"position": 639
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "F:/lowgular tutorial/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "CFQOJrafPJXVQIF624zHxyGs0Mo2",
+			"correlationId": "5Txq0EeYk_",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for entity/actions"
+}
+[info] [CLI] Calling Query entity/actions: {
+	"funcParams": {
+		"clickedPath": "F:/lowgular tutorial/lowgular-course-entry/src/app/ui/employee-list/employee-list.component.ts",
+		"position": 639
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query entity/actions"
+}
+[info] [CLI] Called Query entity/actions: {
+	"result": [
+		{
+			"id": "RXJS_CALL",
+			"label": "RxJS Call",
+			"context": {
+				"parentClass": "EmployeeListComponent",
+				"parentMethod": "remove"
+			}
+		},
+		{
+			"id": "RXJS_PROPERTY",
+			"label": "RxJS Property",
+			"context": {
+				"parentClass": "EmployeeListComponent",
+				"parentMethod": "remove"
+			}
+		},
+		{
+			"id": "ADD_FORM",
+			"label": "Form Property",
+			"context": {}
+		},
+		{
+			"id": "INJECT",
+			"label": "Inject",
+			"context": {}
+		}
+	],
+	"level": "info",
+	"message": "[CLI] Called Query entity/actions"
+}
+[info] [API] Response ok: entity/actions: {
+	"result": [
+		{
+			"id": "RXJS_CALL",
+			"label": "RxJS Call",
+			"context": {
+				"parentClass": "EmployeeListComponent",
+				"parentMethod": "remove"
+			}
+		},
+		{
+			"id": "RXJS_PROPERTY",
+			"label": "RxJS Property",
+			"context": {
+				"parentClass": "EmployeeListComponent",
+				"parentMethod": "remove"
+			}
+		},
+		{
+			"id": "ADD_FORM",
+			"label": "Form Property",
+			"context": {}
+		},
+		{
+			"id": "INJECT",
+			"label": "Inject",
+			"context": {}
+		}
+	],
+	"level": "info",
+	"message": "[API] Response ok: entity/actions"
+}
+[info] [API] Request for constructor/parameters: {
+	"action": "constructor/parameters",
+	"params": {
+		"entityFilePath": "F:/lowgular tutorial/lowgular-course-entry/src/app/ui/employee-list/employee-list.component.ts"
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "F:/lowgular tutorial/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "CFQOJrafPJXVQIF624zHxyGs0Mo2",
+			"correlationId": "5Txq0EeYk_",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for constructor/parameters"
+}
+[info] [CLI] Calling Query constructor/parameters: {
+	"funcParams": {
+		"entityFilePath": "F:/lowgular tutorial/lowgular-course-entry/src/app/ui/employee-list/employee-list.component.ts"
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query constructor/parameters"
+}
+[info] [CLI] Called Query constructor/parameters: {
+	"result": [
+		{
+			"name": "_employeeService",
+			"type": "EmployeeService",
+			"isReadonly": false,
+			"scope": "private",
+			"path": "F:/lowgular tutorial/lowgular-course-entry/src/app/services/employee.service.ts"
+		}
+	],
+	"level": "info",
+	"message": "[CLI] Called Query constructor/parameters"
+}
+[info] [API] Response ok: constructor/parameters: {
+	"result": [
+		{
+			"name": "_employeeService",
+			"type": "EmployeeService",
+			"isReadonly": false,
+			"scope": "private",
+			"path": "F:/lowgular tutorial/lowgular-course-entry/src/app/services/employee.service.ts"
+		}
+	],
+	"level": "info",
+	"message": "[API] Response ok: constructor/parameters"
+}
+[info] [API] Request for rxjs/observable-list: {
+	"action": "rxjs/observable-list",
+	"params": {
+		"entityPath": "F:/lowgular tutorial/lowgular-course-entry/src/app/services/employee.service.ts",
+		"entityType": "EmployeeService"
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "F:/lowgular tutorial/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "CFQOJrafPJXVQIF624zHxyGs0Mo2",
+			"correlationId": "5Txq0EeYk_",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for rxjs/observable-list"
+}
+[info] [API] Response ok: rxjs/observable-list: {
+	"result": [
+		{
+			"name": "getAll",
+			"label": "getAll()",
+			"type": "method"
+		},
+		{
+			"name": "delete",
+			"label": "delete()",
+			"type": "method"
+		}
+	],
+	"level": "info",
+	"message": "[API] Response ok: rxjs/observable-list"
+}
+[info] [CLI] Calling Query rxjs/observable-list: {
+	"funcParams": {
+		"entityPath": "F:/lowgular tutorial/lowgular-course-entry/src/app/services/employee.service.ts",
+		"entityType": "EmployeeService"
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query rxjs/observable-list"
+}
+[info] [CLI] Called Query rxjs/observable-list: {
+	"result": [
+		{
+			"name": "getAll",
+			"label": "getAll()",
+			"type": "method"
+		},
+		{
+			"name": "delete",
+			"label": "delete()",
+			"type": "method"
+		}
+	],
+	"level": "info",
+	"message": "[CLI] Called Query rxjs/observable-list"
+}
+[info] [API] Request for rxjs/add-call: {
+	"action": "rxjs/add-call",
+	"params": {
+		"entityFilePath": "F:/lowgular tutorial/lowgular-course-entry/src/app/ui/employee-list/employee-list.component.ts",
+		"parentMethod": "remove",
+		"dependencyPath": "F:/lowgular tutorial/lowgular-course-entry/src/app/services/employee.service.ts",
+		"dependencyType": "EmployeeService",
+		"observableName": "delete",
+		"observableType": "method"
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "F:/lowgular tutorial/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "CFQOJrafPJXVQIF624zHxyGs0Mo2",
+			"correlationId": "5Txq0EeYk_",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for rxjs/add-call"
+}
+[info] [CLI] Calling Command rxjs/add-call: {
+	"funcParams": {
+		"entityFilePath": "F:/lowgular tutorial/lowgular-course-entry/src/app/ui/employee-list/employee-list.component.ts",
+		"parentMethod": "remove",
+		"dependencyPath": "F:/lowgular tutorial/lowgular-course-entry/src/app/services/employee.service.ts",
+		"dependencyType": "EmployeeService",
+		"observableName": "delete",
+		"observableType": "method"
+	},
+	"level": "info",
+	"message": "[CLI] Calling Command rxjs/add-call"
+}
+[info] [CommandBus]: Dispatching command AddCallCommand: {
+	"commandName": "AddCallCommand",
+	"payload": {
+		"rootPath": "F:/lowgular tutorial/lowgular-course-entry/src/app",
+		"classFilePath": "F:/lowgular tutorial/lowgular-course-entry/src/app/ui/employee-list/employee-list.component.ts",
+		"parentMethod": "remove",
+		"dependencyFilePath": "F:/lowgular tutorial/lowgular-course-entry/src/app/services/employee.service.ts",
+		"dependencyType": "EmployeeService",
+		"observableName": "delete",
+		"observableType": "method",
+		"allowedParamSuffixes": [
+			"Model",
+			"Response"
+		]
+	},
+	"level": "info",
+	"message": "[CommandBus]: Dispatching command AddCallCommand"
+}
+[info] [CommandBus]: Handled  AddCallCommand: {
+	"commandName": "AddCallCommand",
+	"payload": {
+		"rootPath": "F:/lowgular tutorial/lowgular-course-entry/src/app",
+		"classFilePath": "F:/lowgular tutorial/lowgular-course-entry/src/app/ui/employee-list/employee-list.component.ts",
+		"parentMethod": "remove",
+		"dependencyFilePath": "F:/lowgular tutorial/lowgular-course-entry/src/app/services/employee.service.ts",
+		"dependencyType": "EmployeeService",
+		"observableName": "delete",
+		"observableType": "method",
+		"allowedParamSuffixes": [
+			"Model",
+			"Response"
+		]
+	},
+	"level": "info",
+	"message": "[CommandBus]: Handled  AddCallCommand"
+}
+[info] [CLI] Called Command rxjs/add-call: {
+	"message": "[CLI] Called Command rxjs/add-call",
+	"level": "info"
+}
+[info] [API] Response ok: rxjs/add-call: {
+	"result": {
+		"filePath": "F:/lowgular tutorial/lowgular-course-entry/src/app/ui/employee-list/employee-list.component.ts"
+	},
+	"level": "info",
+	"message": "[API] Response ok: rxjs/add-call"
+}
+[info] [API] Request for entity/actions: {
+	"action": "entity/actions",
+	"params": {
+		"clickedPath": "F:/lowgular tutorial/lowgular-course-entry/src/app/ui/employee-form/employee-form.component.ts",
+		"position": 317
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "F:/lowgular tutorial/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "CFQOJrafPJXVQIF624zHxyGs0Mo2",
+			"correlationId": "kbfadBI0e9",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for entity/actions"
+}
+[info] [CLI] Calling Query entity/actions: {
+	"funcParams": {
+		"clickedPath": "F:/lowgular tutorial/lowgular-course-entry/src/app/ui/employee-form/employee-form.component.ts",
+		"position": 317
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query entity/actions"
+}
+[info] [CLI] Called Query entity/actions: {
+	"result": [
+		{
+			"id": "RXJS_PROPERTY",
+			"label": "RxJS Property",
+			"context": {
+				"parentClass": "EmployeeFormComponent"
+			}
+		},
+		{
+			"id": "ADD_FORM",
+			"label": "Form Property",
+			"context": {}
+		},
+		{
+			"id": "INJECT",
+			"label": "Inject",
+			"context": {}
+		}
+	],
+	"level": "info",
+	"message": "[CLI] Called Query entity/actions"
+}
+[info] [API] Response ok: entity/actions: {
+	"result": [
+		{
+			"id": "RXJS_PROPERTY",
+			"label": "RxJS Property",
+			"context": {
+				"parentClass": "EmployeeFormComponent"
+			}
+		},
+		{
+			"id": "ADD_FORM",
+			"label": "Form Property",
+			"context": {}
+		},
+		{
+			"id": "INJECT",
+			"label": "Inject",
+			"context": {}
+		}
+	],
+	"level": "info",
+	"message": "[API] Response ok: entity/actions"
+}
+[info] [API] Request for injectable/list: {
+	"action": "injectable/list",
+	"params": {
+		"entityFilePath": "F:/lowgular tutorial/lowgular-course-entry/src/app/ui/employee-form/employee-form.component.ts"
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "F:/lowgular tutorial/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "CFQOJrafPJXVQIF624zHxyGs0Mo2",
+			"correlationId": "kbfadBI0e9",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for injectable/list"
+}
+[info] [CLI] Calling Query injectable/list: {
+	"funcParams": {
+		"entityFilePath": "F:/lowgular tutorial/lowgular-course-entry/src/app/ui/employee-form/employee-form.component.ts"
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query injectable/list"
+}
+[info] [CLI] Called Query injectable/list: {
+	"result": [
+		{
+			"file": "F:/lowgular tutorial/lowgular-course-entry/src/app/services/employee.service.ts",
+			"name": "EmployeeService",
+			"type": "SERVICE",
+			"dataType": "Internal"
+		},
+		{
+			"id": "httpClient",
+			"dataType": "External",
+			"name": "HttpClient",
+			"relatedTypes": {}
+		}
+	],
+	"level": "info",
+	"message": "[CLI] Called Query injectable/list"
+}
+[info] [API] Response ok: injectable/list: {
+	"result": [
+		{
+			"file": "F:/lowgular tutorial/lowgular-course-entry/src/app/services/employee.service.ts",
+			"name": "EmployeeService",
+			"type": "SERVICE",
+			"dataType": "Internal"
+		},
+		{
+			"id": "httpClient",
+			"dataType": "External",
+			"name": "HttpClient",
+			"relatedTypes": {}
+		}
+	],
+	"level": "info",
+	"message": "[API] Response ok: injectable/list"
+}
+[info] [API] Request for injectable/inject: {
+	"action": "injectable/inject",
+	"params": {
+		"entityFilePath": "F:/lowgular tutorial/lowgular-course-entry/src/app/ui/employee-form/employee-form.component.ts",
+		"injectingPath": "F:/lowgular tutorial/lowgular-course-entry/src/app/services/employee.service.ts",
+		"type": "SERVICE"
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "F:/lowgular tutorial/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "CFQOJrafPJXVQIF624zHxyGs0Mo2",
+			"correlationId": "kbfadBI0e9",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for injectable/inject"
+}
+[info] [CLI] Calling Command injectable/inject: {
+	"funcParams": {
+		"entityFilePath": "F:/lowgular tutorial/lowgular-course-entry/src/app/ui/employee-form/employee-form.component.ts",
+		"injectingPath": "F:/lowgular tutorial/lowgular-course-entry/src/app/services/employee.service.ts",
+		"type": "SERVICE"
+	},
+	"level": "info",
+	"message": "[CLI] Calling Command injectable/inject"
+}
+[info] [CommandBus]: Dispatching command INJECT_SERVICE_DEPENDENCY: {
+	"commandName": "INJECT_SERVICE_DEPENDENCY",
+	"payload": {
+		"entityFilePath": "F:/lowgular tutorial/lowgular-course-entry/src/app/ui/employee-form/employee-form.component.ts",
+		"injectingFilePath": "F:/lowgular tutorial/lowgular-course-entry/src/app/services/employee.service.ts"
+	},
+	"level": "info",
+	"message": "[CommandBus]: Dispatching command INJECT_SERVICE_DEPENDENCY"
+}
+[info] [CommandBus]: Handled  INJECT_SERVICE_DEPENDENCY: {
+	"commandName": "INJECT_SERVICE_DEPENDENCY",
+	"payload": {
+		"entityFilePath": "F:/lowgular tutorial/lowgular-course-entry/src/app/ui/employee-form/employee-form.component.ts",
+		"injectingFilePath": "F:/lowgular tutorial/lowgular-course-entry/src/app/services/employee.service.ts"
+	},
+	"level": "info",
+	"message": "[CommandBus]: Handled  INJECT_SERVICE_DEPENDENCY"
+}
+[info] [CLI] Called Command injectable/inject: {
+	"message": "[CLI] Called Command injectable/inject",
+	"level": "info"
+}
+[info] [API] Response ok: injectable/inject: {
+	"result": {
+		"filePath": "F:/lowgular tutorial/lowgular-course-entry/src/app/ui/employee-form/employee-form.component.ts"
+	},
+	"level": "info",
+	"message": "[API] Response ok: injectable/inject"
+}
+[info] [API] Request for entity/actions: {
+	"action": "entity/actions",
+	"params": {
+		"clickedPath": "F:/lowgular tutorial/lowgular-course-entry/src/app/ui/employee-form/employee-form.component.ts",
+		"position": 387
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "F:/lowgular tutorial/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "CFQOJrafPJXVQIF624zHxyGs0Mo2",
+			"correlationId": "BcFMthYDu_",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for entity/actions"
+}
+[info] [CLI] Calling Query entity/actions: {
+	"funcParams": {
+		"clickedPath": "F:/lowgular tutorial/lowgular-course-entry/src/app/ui/employee-form/employee-form.component.ts",
+		"position": 387
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query entity/actions"
+}
+[info] [CLI] Called Query entity/actions: {
+	"result": [
+		{
+			"id": "RXJS_PROPERTY",
+			"label": "RxJS Property",
+			"context": {
+				"parentClass": "EmployeeFormComponent"
+			}
+		},
+		{
+			"id": "ADD_FORM",
+			"label": "Form Property",
+			"context": {}
+		},
+		{
+			"id": "INJECT",
+			"label": "Inject",
+			"context": {}
+		}
+	],
+	"level": "info",
+	"message": "[CLI] Called Query entity/actions"
+}
+[info] [API] Response ok: entity/actions: {
+	"result": [
+		{
+			"id": "RXJS_PROPERTY",
+			"label": "RxJS Property",
+			"context": {
+				"parentClass": "EmployeeFormComponent"
+			}
+		},
+		{
+			"id": "ADD_FORM",
+			"label": "Form Property",
+			"context": {}
+		},
+		{
+			"id": "INJECT",
+			"label": "Inject",
+			"context": {}
+		}
+	],
+	"level": "info",
+	"message": "[API] Response ok: entity/actions"
+}
+[info] [API] Request for angular-component/form-properties/add: {
+	"action": "angular-component/form-properties/add",
+	"params": {
+		"propertyName": "employeeForm",
+		"componentFile": "F:/lowgular tutorial/lowgular-course-entry/src/app/ui/employee-form/employee-form.component.ts",
+		"fields": {
+			"name:string": "text",
+			"age:number": "text",
+			"salary:number": "text"
+		}
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "F:/lowgular tutorial/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "CFQOJrafPJXVQIF624zHxyGs0Mo2",
+			"correlationId": "BcFMthYDu_",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for angular-component/form-properties/add"
+}
+[info] [CLI] Calling Command angular-component/form-properties/add: {
+	"funcParams": {
+		"propertyName": "employeeForm",
+		"componentFile": "F:/lowgular tutorial/lowgular-course-entry/src/app/ui/employee-form/employee-form.component.ts",
+		"fields": {
+			"name:string": "text",
+			"age:number": "text",
+			"salary:number": "text"
+		}
+	},
+	"level": "info",
+	"message": "[CLI] Calling Command angular-component/form-properties/add"
+}
+[info] [CommandBus]: Dispatching command SMART_COMPONENT_ADD_FORM_PROPERTY: {
+	"commandName": "SMART_COMPONENT_ADD_FORM_PROPERTY",
+	"payload": {
+		"componentTsFile": "F:/lowgular tutorial/lowgular-course-entry/src/app/ui/employee-form/employee-form.component.ts",
+		"propertyName": "employeeForm",
+		"fields": {
+			"name:string": "text",
+			"age:number": "text",
+			"salary:number": "text"
+		}
+	},
+	"level": "info",
+	"message": "[CommandBus]: Dispatching command SMART_COMPONENT_ADD_FORM_PROPERTY"
+}
+[info] [EventBus]: Broadcasting event SMART_COMPONENT_FORM_ADDED: {
+	"type": "SMART_COMPONENT_FORM_ADDED",
+	"payload": {
+		"componentFile": "F:/lowgular tutorial/lowgular-course-entry/src/app/ui/employee-form/employee-form.component.ts"
+	},
+	"level": "info",
+	"message": "[EventBus]: Broadcasting event SMART_COMPONENT_FORM_ADDED"
+}
+[info] [EventBus]: Broadcasted SMART_COMPONENT_FORM_ADDED: {
+	"event": {
+		"componentFile": "F:/lowgular tutorial/lowgular-course-entry/src/app/ui/employee-form/employee-form.component.ts"
+	},
+	"level": "info",
+	"message": "[EventBus]: Broadcasted SMART_COMPONENT_FORM_ADDED"
+}
+[info] [CommandBus]: Dispatching command MODULE_IMPORT_REACTIVE_FORM: {
+	"commandName": "MODULE_IMPORT_REACTIVE_FORM",
+	"payload": {
+		"componentFile": "F:/lowgular tutorial/lowgular-course-entry/src/app/ui/employee-form/employee-form.component.ts",
+		"moduleName": "ReactiveFormsModule",
+		"declarationModules": [
+			{
+				"name": "EmployeeFormComponentModule",
+				"path": "F:/lowgular tutorial/lowgular-course-entry/src/app/ui/employee-form/employee-form.component-module.ts"
+			}
+		]
+	},
+	"level": "info",
+	"message": "[CommandBus]: Dispatching command MODULE_IMPORT_REACTIVE_FORM"
+}
+[info] [CommandBus]: Handled  MODULE_IMPORT_REACTIVE_FORM: {
+	"commandName": "MODULE_IMPORT_REACTIVE_FORM",
+	"payload": {
+		"componentFile": "F:/lowgular tutorial/lowgular-course-entry/src/app/ui/employee-form/employee-form.component.ts",
+		"moduleName": "ReactiveFormsModule",
+		"declarationModules": [
+			{
+				"name": "EmployeeFormComponentModule",
+				"path": "F:/lowgular tutorial/lowgular-course-entry/src/app/ui/employee-form/employee-form.component-module.ts"
+			}
+		]
+	},
+	"level": "info",
+	"message": "[CommandBus]: Handled  MODULE_IMPORT_REACTIVE_FORM"
+}
+[info] [CommandBus]: Handled  SMART_COMPONENT_ADD_FORM_PROPERTY: {
+	"commandName": "SMART_COMPONENT_ADD_FORM_PROPERTY",
+	"payload": {
+		"componentTsFile": "F:/lowgular tutorial/lowgular-course-entry/src/app/ui/employee-form/employee-form.component.ts",
+		"propertyName": "employeeForm",
+		"fields": {
+			"name:string": "text",
+			"age:number": "text",
+			"salary:number": "text"
+		}
+	},
+	"level": "info",
+	"message": "[CommandBus]: Handled  SMART_COMPONENT_ADD_FORM_PROPERTY"
+}
+[info] [CLI] Called Command angular-component/form-properties/add: {
+	"message": "[CLI] Called Command angular-component/form-properties/add",
+	"level": "info"
+}
+[info] [API] Response ok: angular-component/form-properties/add: {
+	"result": {
+		"filePath": "F:/lowgular tutorial/lowgular-course-entry/src/app/ui/employee-form/employee-form.component.ts"
+	},
+	"level": "info",
+	"message": "[API] Response ok: angular-component/form-properties/add"
+}
+[info] [API] Request for entity/actions: {
+	"action": "entity/actions",
+	"params": {
+		"clickedPath": "F:/lowgular tutorial/lowgular-course-entry/src/app/ui/employee-form/employee-form.component.html",
+		"position": 0
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "F:/lowgular tutorial/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "CFQOJrafPJXVQIF624zHxyGs0Mo2",
+			"correlationId": "l8Ur45gt74",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for entity/actions"
+}
+[info] [CLI] Calling Query entity/actions: {
+	"funcParams": {
+		"clickedPath": "F:/lowgular tutorial/lowgular-course-entry/src/app/ui/employee-form/employee-form.component.html",
+		"position": 0
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query entity/actions"
+}
+[info] [CLI] Called Query entity/actions: {
+	"result": [
+		{
+			"id": "ADD_TEMPLATE",
+			"label": "Add HTML",
+			"context": {
+				"parentClass": "EmployeeFormComponent",
+				"options": [
+					{
+						"type": "forms"
+					},
+					{
+						"type": "lists"
+					}
+				]
+			}
+		},
+		{
+			"id": "ADD_COMPONENT",
+			"label": "Add Component",
+			"context": {}
+		}
+	],
+	"level": "info",
+	"message": "[CLI] Called Query entity/actions"
+}
+[info] [API] Response ok: entity/actions: {
+	"result": [
+		{
+			"id": "ADD_TEMPLATE",
+			"label": "Add HTML",
+			"context": {
+				"parentClass": "EmployeeFormComponent",
+				"options": [
+					{
+						"type": "forms"
+					},
+					{
+						"type": "lists"
+					}
+				]
+			}
+		},
+		{
+			"id": "ADD_COMPONENT",
+			"label": "Add Component",
+			"context": {}
+		}
+	],
+	"level": "info",
+	"message": "[API] Response ok: entity/actions"
+}
+[info] [API] Request for angular-component/properties/list: {
+	"action": "angular-component/properties/list",
+	"params": {
+		"entityFilePath": "F:/lowgular tutorial/lowgular-course-entry/src/app/ui/employee-form/employee-form.component.ts"
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "F:/lowgular tutorial/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "CFQOJrafPJXVQIF624zHxyGs0Mo2",
+			"correlationId": "l8Ur45gt74",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for angular-component/properties/list"
+}
+[info] [API] Response ok: angular-component/properties/list: {
+	"result": [
+		{
+			"label": "employeeForm",
+			"templateType": "forms"
+		}
+	],
+	"level": "info",
+	"message": "[API] Response ok: angular-component/properties/list"
+}
+[info] [CLI] Calling Query angular-component/properties/list: {
+	"funcParams": {
+		"entityFilePath": "F:/lowgular tutorial/lowgular-course-entry/src/app/ui/employee-form/employee-form.component.ts"
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query angular-component/properties/list"
+}
+[info] [CLI] Called Query angular-component/properties/list: {
+	"result": [
+		{
+			"label": "employeeForm",
+			"templateType": "forms"
+		}
+	],
+	"level": "info",
+	"message": "[CLI] Called Query angular-component/properties/list"
+}
+[info] [API] Request for angular-component/templates/get: {
+	"action": "angular-component/templates/get",
+	"params": {
+		"name": "forms"
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "F:/lowgular tutorial/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "CFQOJrafPJXVQIF624zHxyGs0Mo2",
+			"correlationId": "l8Ur45gt74",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for angular-component/templates/get"
+}
+[info] [API] Response ok: angular-component/templates/get: {
+	"result": [
+		{
+			"label": "form"
+		}
+	],
+	"level": "info",
+	"message": "[API] Response ok: angular-component/templates/get"
+}
+[info] [CLI] Calling Query angular-component/templates/get: {
+	"funcParams": {
+		"name": "forms"
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query angular-component/templates/get"
+}
+[info] [CLI] Called Query angular-component/templates/get: {
+	"result": [
+		{
+			"label": "form"
+		}
+	],
+	"level": "info",
+	"message": "[CLI] Called Query angular-component/templates/get"
+}
+[info] [API] Request for angular-component/templates/add-form: {
+	"action": "angular-component/templates/add-form",
+	"params": {
+		"componentHtmlFilePath": "F:/lowgular tutorial/lowgular-course-entry/src/app/ui/employee-form/employee-form.component.html",
+		"position": 0,
+		"propertyName": "employeeForm",
+		"formTemplate": "form"
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "F:/lowgular tutorial/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "CFQOJrafPJXVQIF624zHxyGs0Mo2",
+			"correlationId": "l8Ur45gt74",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for angular-component/templates/add-form"
+}
+[info] [CLI] Calling Command angular-component/templates/add-form: {
+	"funcParams": {
+		"componentHtmlFilePath": "F:/lowgular tutorial/lowgular-course-entry/src/app/ui/employee-form/employee-form.component.html",
+		"position": 0,
+		"propertyName": "employeeForm",
+		"formTemplate": "form"
+	},
+	"level": "info",
+	"message": "[CLI] Calling Command angular-component/templates/add-form"
+}
+[info] [CommandBus]: Dispatching command AddFormToTemplateCommand: {
+	"commandName": "AddFormToTemplateCommand",
+	"payload": {
+		"workspaceRoot": "F:/lowgular tutorial/lowgular-course-entry",
+		"componentTs": "F:/lowgular tutorial/lowgular-course-entry/src/app/ui/employee-form/employee-form.component.ts",
+		"componentHtml": "F:/lowgular tutorial/lowgular-course-entry/src/app/ui/employee-form/employee-form.component.html",
+		"className": "EmployeeFormComponent",
+		"propertyName": "employeeForm",
+		"position": 0,
+		"formTemplate": "form"
+	},
+	"level": "info",
+	"message": "[CommandBus]: Dispatching command AddFormToTemplateCommand"
+}
+[info] [CommandBus]: Handled  AddFormToTemplateCommand: {
+	"commandName": "AddFormToTemplateCommand",
+	"payload": {
+		"workspaceRoot": "F:/lowgular tutorial/lowgular-course-entry",
+		"componentTs": "F:/lowgular tutorial/lowgular-course-entry/src/app/ui/employee-form/employee-form.component.ts",
+		"componentHtml": "F:/lowgular tutorial/lowgular-course-entry/src/app/ui/employee-form/employee-form.component.html",
+		"className": "EmployeeFormComponent",
+		"propertyName": "employeeForm",
+		"position": 0,
+		"formTemplate": "form"
+	},
+	"level": "info",
+	"message": "[CommandBus]: Handled  AddFormToTemplateCommand"
+}
+[info] [CLI] Called Command angular-component/templates/add-form: {
+	"message": "[CLI] Called Command angular-component/templates/add-form",
+	"level": "info"
+}
+[info] [API] Response ok: angular-component/templates/add-form: {
+	"result": {
+		"filePath": "F:/lowgular tutorial/lowgular-course-entry/src/app/ui/employee-form/employee-form.component.html"
+	},
+	"level": "info",
+	"message": "[API] Response ok: angular-component/templates/add-form"
+}
