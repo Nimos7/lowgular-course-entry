@@ -5,6 +5,7 @@ import { map } from 'rxjs/operators';
 import { EmployeeModel } from '../model/employee.model';
 import { ApiResponse } from './api.response';
 import { EmployeeResponse } from './employee.response';
+import { CreateEmployeeModel } from '../model/create-employee.model';
 
 @Injectable()
 export class EmployeeService {
@@ -22,7 +23,7 @@ export class EmployeeService {
             age: employeeResponse.employee_age,
             img: employeeResponse.profile_image,
             id: employeeResponse.id,
-            mail: employeeResponse.employee_name + "lowgular.io"
+            mail: employeeResponse.employee_name+"lowgular.io"
           }
         });
       }));
@@ -31,6 +32,11 @@ export class EmployeeService {
 
   delete(id: string): Observable<void> {
     return this._httpClient.delete('https://dummy.restapiexample.com/api/v1/delete/' + id).pipe(map(_ => void 0));
+
+  }
+
+  create(employee: CreateEmployeeModel): Observable<void> {
+    return this._httpClient.post('https://dummy.restapiexample.com/api/v1/create', employee).pipe(map(_ => void 0));
 
   }
 }
