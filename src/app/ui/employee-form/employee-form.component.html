@@ -1,6 +1,6 @@
-<form [formGroup]="employeeForm" (ngSubmit)="buttonClicked(employeeForm.value)">
+<form class="text-center" [formGroup]="employeeForm" (ngSubmit)="buttonClicked(employeeForm.value)">
   <input type="text" formControlName="name" placeholder="Name">
   <input type="number" formControlName="age" placeholder="Age">
   <input type="number" formControlName="salary" placeholder="Salary">
-  <input type="submit" [disabled]="employeeForm.invalid" value="Submit"></form>
-<div *ngIf="employeeForm.valid"> Add new employee:{{employeeForm.value.name}},age:{{employeeForm.value.age}} with salary {{employeeForm.value.salary}}$ to database</div>
+  <input  type="submit" [disabled]="employeeForm.invalid" value="Submit"></form>
+<div  *ngIf="employeeForm.valid" class="text-white  text-center" > Add new employee:{{employeeForm.value.name}},age:{{employeeForm.value.age}} with salary {{employeeForm.value.salary}}$ to database</div>

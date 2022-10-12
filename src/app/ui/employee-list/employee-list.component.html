@@ -1,7 +1,15 @@
 
 <ul *ngIf="data$ |async as data">
- <table> <li *ngFor="let employee of data"> <b>{{employee.id}}</b>. <i>{{employee.name}}</i>  <b> Age:</b> {{employee.age}}  {{employee.mail}}  <b>Salary:</b> {{employee.salary}}$
-    <button (click)="remove(employee.id)"> Remove </button></li>
+ <table> <div class="lista text-white "  *ngFor="let employee of data">
+   <b>{{employee.id}}</b>.
+   <i>{{employee.name}}</i>
+   <b> Age:</b> {{employee.age}}
+   {{employee.mail}}
+   <b>Salary:</b> {{employee.salary}}$
+    <button class="btn btn-primary button "  (click)="remove(employee.id)"> Remove </button></div>
  </table>
 </ul>
-<h2> Add new employee to the database</h2>
+<div class="bg-primary bg-gradient bg-opacity-75 text-white mb-0 tytul rounded-5 text-md-center"> <h2> Add new employee to the database</h2>
+</div>
+
+

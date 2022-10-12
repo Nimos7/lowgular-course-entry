@@ -8,6 +8,7 @@ import {EmployeeListComponentModule} from "./ui/employee-list/employee-list.comp
 import {EmployeeService} from "./services/employee.service";
 import {EmployeeListComponent} from "./ui/employee-list/employee-list.component";
 import {EmployeeFormComponentModule} from "./ui/employee-form/employee-form.component-module";
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 
 @NgModule({
@@ -19,6 +20,7 @@ import {EmployeeFormComponentModule} from "./ui/employee-form/employee-form.comp
     EmployeeServiceModule,
     EmployeeListComponentModule,
     EmployeeFormComponentModule,
+    NgbModule,
 
 
   ],

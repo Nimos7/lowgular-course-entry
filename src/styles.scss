@@ -1,1 +1,21 @@
 /* You can add global styles to this file, and also import other style files */
+
+/* Importing Bootstrap SCSS file. */
+@import '~bootstrap/scss/bootstrap';
+
+
+b-hover:hover {
+  color:orangered;
+}
+
+.tytul{
+  font-size: 35px;
+}
+
+.lista{
+  font-size: 14px;
+}
+
+.button{
+  font-size: 10px
+}
