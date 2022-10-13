@@ -1,6 +1,11 @@
+<div class="bg-primary bg-gradient bg-opacity-75 text-white mb-0 tytul rounded-5 text-md-center">
+  <h2> Lowgular employee list</h2>
 
+</div>
+<a href="http://localhost:4200/"><span>	&#11164; </span><b>BACK</b></a>
+<img  class="d-flex justify-content-between" src="https://plugins.jetbrains.com/files/19740/230572/icon/pluginIcon.png" style="float:right" />
 <ul *ngIf="data$ |async as data">
- <table> <div class="lista text-white "  *ngFor="let employee of data">
+ <table> <div class="lista text-black "  *ngFor="let employee of data">
    <b>{{employee.id}}</b>.
    <i>{{employee.name}}</i>
    <b> Age:</b> {{employee.age}}
@@ -9,7 +14,7 @@
     <button class="btn btn-primary button "  (click)="remove(employee.id)"> Remove </button></div>
  </table>
 </ul>
-<div class="bg-primary bg-gradient bg-opacity-75 text-white mb-0 tytul rounded-5 text-md-center"> <h2> Add new employee to the database</h2>
-</div>
+
+
 
 

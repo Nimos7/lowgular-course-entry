@@ -1,6 +1,12 @@
-<form class="text-center" [formGroup]="employeeForm" (ngSubmit)="buttonClicked(employeeForm.value)">
+
+<div class="bg-primary bg-gradient bg-opacity-75 text-white mb-0 tytul rounded-5 text-md-center">
+  <h2> Add new employee to the database</h2>
+</div>
+<a href="http://localhost:4200/"><span>	&#11164; </span><b>BACK</b></a>
+<img  class="d-flex justify-content-between" src="https://plugins.jetbrains.com/files/19740/230572/icon/pluginIcon.png" style="float:right" />
+<form  [formGroup]="employeeForm" (ngSubmit)="buttonClicked(employeeForm.value)">
   <input type="text" formControlName="name" placeholder="Name">
   <input type="number" formControlName="age" placeholder="Age">
   <input type="number" formControlName="salary" placeholder="Salary">
   <input  type="submit" [disabled]="employeeForm.invalid" value="Submit"></form>
-<div  *ngIf="employeeForm.valid" class="text-white  text-center" > Add new employee:{{employeeForm.value.name}},age:{{employeeForm.value.age}} with salary {{employeeForm.value.salary}}$ to database</div>
+<div  *ngIf="employeeForm.valid" class="text-black  text-center" > Add new employee:{{employeeForm.value.name}},age:{{employeeForm.value.age}} with salary {{employeeForm.value.salary}}$ to database</div>
