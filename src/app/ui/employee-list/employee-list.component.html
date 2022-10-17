@@ -4,7 +4,7 @@
 <ul *ngIf="data$ |async as data">
  <table> <div class="lista text-black "  *ngFor="let employee of data">
    <b>{{employee.id}}</b>.
-   <i>{{employee.name}}</i>
+  <a href="http://localhost:4200/employee-details/{{employee.id}}/{{employee.name}}"> <i>{{employee.name}}</i> </a>
    <b> Age:</b> {{employee.age}}
    {{employee.mail}}
    <b>Salary:</b> {{employee.salary}}$
