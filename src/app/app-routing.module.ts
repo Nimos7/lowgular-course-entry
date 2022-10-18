@@ -10,6 +10,7 @@ import { EmployeeFormComponentModule } from './ui/employee-form/employee-form.co
 import { EmployeeDetailsComponentModule } from './ui/employee-details/employee-details.component-module';
 import { HomePageComponentModule } from './ui/home-page/home-page.component-module';
 
+
 const routes: Routes = [{ path: 'employee-list', component: EmployeeListComponent },
   { path: 'employee-create', component: EmployeeFormComponent },
   { path: 'employee-details/:id/:name', component: EmployeeDetailsComponent },

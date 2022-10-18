@@ -13,8 +13,8 @@ import { CreateEmployeeModel } from '../../model/create-employee.model';
 
 export class EmployeeFormComponent {
   readonly employeeForm: FormGroup = new FormGroup({
-    name: new FormControl(null),
-    age: new FormControl(null, [Validators.min(18), Validators.required]),
+    name: new FormControl(null, [Validators.required]),
+    age: new FormControl(null, [Validators.min(18),Validators.max(120), Validators.required]),
     salary: new FormControl(),
   });
 

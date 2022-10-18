@@ -1,6 +1,11 @@
 <h1>Employee</h1>
-<div *ngIf="params$ | async as params" >
-  <h1> Name:{{params.name}}</h1>
-<h2> id: {{params.id}} </h2>
+<div *ngIf="details$ | async as params" >
+  <b> Name:{{params.name}}</b> <br>
+<b> Id:</b> {{params.id}} <br>
+  <b> Age: </b>{{params.age}} <br>
+    <b> Salary:</b> <span style="color: green" >{{params.salary}}$  <br></span>
+      <b> E-mail:</b> {{params.mail}} <br>
+         <b>Photo:</b> {{params.img}}
+
 
 </div>

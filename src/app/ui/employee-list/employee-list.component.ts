@@ -3,6 +3,7 @@ import { Observable } from 'rxjs';
 import { EmployeeModel } from '../../model/employee.model';
 import { EmployeeService } from '../../services/employee.service';
 
+
 @Component({
   selector: 'app-employee-list',
   templateUrl: './employee-list.component.html',

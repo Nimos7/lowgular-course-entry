@@ -2,13 +2,13 @@
 
 
 <ul *ngIf="data$ |async as data">
- <table> <div class="lista text-black "  *ngFor="let employee of data">
-   <b>{{employee.id}}</b>.
-  <a href="http://localhost:4200/employee-details/{{employee.id}}/{{employee.name}}"> <i>{{employee.name}}</i> </a>
-   <b> Age:</b> {{employee.age}}
-   {{employee.mail}}
-   <b>Salary:</b> {{employee.salary}}$
-    <button class="btn btn-primary button "  (click)="remove(employee.id)"> Remove </button></div>
+ <table> <div class="list-group lista "  *ngFor="let employee of data">
+ <li class="list-group-item"> <b>{{employee.id}}</b>.
+   <i>{{employee.name}}</i>
+   <b> Mail:</b> {{employee.mail}}
+   <button  [routerLink]="'/employee-details/'+employee.id+'/'+employee.name" class="btn btn-primary button float-end" > Details</button>
+    <button class="btn btn-danger button float-end "  (click)="remove(employee.id)"> Remove </button>  </li>
+ </div>
  </table>
 </ul>
 

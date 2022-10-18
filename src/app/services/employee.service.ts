@@ -14,7 +14,8 @@ export class EmployeeService {
   }
 
   getAll(): Observable<EmployeeModel[]> {
-    return this._httpClient.get<ApiResponse<EmployeeResponse[]>>('https://dummy.restapiexample.com/api/v1/employees').pipe(
+    return this._httpClient.get<ApiResponse<EmployeeResponse[]>>
+    ('https://dummy.restapiexample.com/api/v1/employees').pipe(
       map((response: ApiResponse<EmployeeResponse[]>): EmployeeModel[] => {
         return response.data.map((employeeResponse: EmployeeResponse) => {
           return {
@@ -23,7 +24,7 @@ export class EmployeeService {
             age: employeeResponse.employee_age,
             img: employeeResponse.profile_image,
             id: employeeResponse.id,
-            mail: employeeResponse.employee_name+"lowgular.io"
+            mail: employeeResponse.employee_name + "@lowgular.io"
           }
         });
       }));
@@ -39,5 +40,22 @@ export class EmployeeService {
     return this._httpClient.post('https://dummy.restapiexample.com/api/v1/create', employee).pipe(map(_ => void 0));
 
   }
+
+  getOne(id: string): Observable<EmployeeModel> {
+    return this._httpClient.get<ApiResponse<EmployeeResponse>>('https://dummy.restapiexample.com/api/v1/employee/'+id).pipe(
+      map((response:ApiResponse<EmployeeResponse>): EmployeeModel  => ({
+        id: response.data.id,
+        mail: response.data.employee_name+"@lowgular.io",
+        img: response.data.profile_image,
+        salary: response.data.employee_salary,
+        name: response.data.employee_name,
+        age: response.data.employee_age,
+        }))
+    );
+
+
+  }
+
 }
+
 
